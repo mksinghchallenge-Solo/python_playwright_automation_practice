@@ -1,0 +1,3 @@
+id,email,password,expected_error
+wrong_password,demo.user@example.com,WrongPassword!1,Invalid email or password
+unknown_user,nobody_autotest@example.com,Whatever!123,Invalid email or password

@@ -1,0 +1,28 @@
+# ===========================================================================
+# API DEPENDENCY MAP - which calls must happen before which.
+# Rendered as a diagram in docs/api_automation.md. Machine-readable so
+# scripts/generate_api_inventory.py can print the chain.
+# ===========================================================================
+flows:
+  profile_update_flow:
+    description: Login -> token -> read profile -> update -> re-read -> verify
+    steps:
+      - {step: 1, call: login,          produces: [access_token, refresh_token]}
+      - {step: 2, call: get_profile,    requires: [access_token], produces: [profile_baseline]}
+      - {step: 3, call: update_profile, requires: [access_token], produces: [profile_updated]}
+      - {step: 4, call: get_profile,    requires: [access_token], verifies: [profile_updated]}
+
+  user_lifecycle_flow:
+    description: Signup -> login as new user -> profile -> delete (cleanup)
+    steps:
+      - {step: 1, call: signup,      produces: [user_id, email]}
+      - {step: 2, call: login,       requires: [email, password], produces: [access_token]}
+      - {step: 3, call: get_profile, requires: [access_token]}
+      - {step: 4, call: delete_user, requires: [access_token, user_id]}
+
+  token_refresh_flow:
+    description: Login -> wait for expiry -> refresh -> continue
+    steps:
+      - {step: 1, call: login,       produces: [access_token, refresh_token]}
+      - {step: 2, call: refresh,     requires: [refresh_token], produces: [access_token]}
+      - {step: 3, call: get_profile, requires: [access_token]}

@@ -1,0 +1,36 @@
+# ---- secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ---- test artifacts (each execution is unique; never commit them)
+reports/*
+!reports/.gitkeep
+test-results/
+allure-results/
+allure-report/
+*.webm
+*.zip
+!coca_cola_automation.zip
+
+# ---- IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- node (getting_started app)
+node_modules/
+getting_started/dist/

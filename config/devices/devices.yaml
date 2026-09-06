@@ -1,0 +1,53 @@
+# ===========================================================================
+# Mobile / tablet device emulation profiles
+# ---------------------------------------------------------------------------
+# Playwright emulates the *browser* of these devices (viewport, user agent,
+# touch, device scale factor). It does NOT control a physical phone.
+#
+# Devices with `playwright_name` are taken from Playwright's built-in device
+# registry (playwright.devices). Devices with an explicit `descriptor` are
+# custom definitions used when Playwright has no built-in entry.
+#
+# Usage:  pytest --device="Pixel 7"
+# ===========================================================================
+devices:
+  "Pixel 5":
+    playwright_name: "Pixel 5"
+    engine: chromium
+    category: android
+
+  "Pixel 7":
+    playwright_name: "Pixel 7"
+    engine: chromium
+    category: android
+
+  "Galaxy S23":
+    # Not in Playwright's registry -> custom descriptor.
+    engine: chromium
+    category: android
+    descriptor:
+      user_agent: "Mozilla/5.0 (Linux; Android 13; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+      viewport: {width: 360, height: 780}
+      device_scale_factor: 3
+      is_mobile: true
+      has_touch: true
+
+  "iPhone 13":
+    playwright_name: "iPhone 13"
+    engine: webkit
+    category: ios
+
+  "iPhone 14":
+    playwright_name: "iPhone 14"
+    engine: webkit
+    category: ios
+
+  "iPhone 15":
+    playwright_name: "iPhone 15"
+    engine: webkit
+    category: ios
+
+  "iPad Pro 11":
+    playwright_name: "iPad Pro 11"
+    engine: webkit
+    category: tablet

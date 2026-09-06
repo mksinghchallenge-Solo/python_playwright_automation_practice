@@ -1,0 +1,28 @@
+# Optional developer tooling configuration (ruff / black / mypy).
+# Install with: pip install -r requirements-dev.txt
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv", "reports", "getting_started", "discovered"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "N"]
+ignore = ["E501"]  # line length handled by black
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["N802", "N803"]
+"sandbox_app/**" = ["N802"]
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
+extend-exclude = "(.venv|reports|getting_started|discovered)"
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_defs = false
+exclude = ["reports", ".venv", "getting_started", "discovered", "sandbox_app"]

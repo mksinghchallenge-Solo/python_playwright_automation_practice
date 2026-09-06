@@ -1,0 +1,35 @@
+# ===========================================================================
+# LOCAL environment - the bundled practice app (sandbox_app/server.py)
+# ---------------------------------------------------------------------------
+# Start it with:  python sandbox_app/server.py
+# Then run:       ENV=local pytest
+#
+# This is NOT Coca-Cola. It is a tiny local app with the same *shape* as a
+# typical account flow so the API / UI / E2E samples can run end-to-end.
+# The endpoints below are real for the practice app only.
+# ===========================================================================
+name: local
+
+ui:
+  base_url: "http://127.0.0.1:8765"
+
+api:
+  base_url: "http://127.0.0.1:8765"
+  example_base_url: "https://httpbin.org"
+  verify_ssl: false
+  timeout_seconds: 15
+  endpoints:
+    login: "/api/auth/login"
+    refresh: "/api/auth/refresh"
+    logout: "/api/auth/logout"
+    signup: "/api/users"
+    profile: "/api/users/me"
+    update_profile: "/api/users/me"
+    delete_user: "/api/users"
+    content: "/api/content/pages"
+
+safety:
+  allow_read_only: true
+  allow_data_creating: true
+  allow_data_modifying: true
+  allow_destructive: true

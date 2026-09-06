@@ -1,0 +1,127 @@
+# ===========================================================================
+# API INVENTORY - single source of truth for every endpoint under test.
+# ---------------------------------------------------------------------------
+# * `endpoint` values in angle brackets are PLACEHOLDERS: the real Coca-Cola
+#   endpoint has NOT been discovered/authorized yet. Replace them together
+#   with config/environments/<env>.yaml -> api.endpoints.
+# * `test_status`: automated | partial | not_automated
+# * `risk`: low | medium | high  (business + data impact)
+# * Regenerate coverage with:  python scripts/generate_api_inventory.py
+# ===========================================================================
+endpoints:
+  - name: login
+    endpoint: "<AUTH_ENDPOINT>"
+    method: POST
+    purpose: Exchange credentials for an access token
+    authentication: none (credentials in body)
+    request_schema: null
+    response_schema: schemas/api/auth_token_schema.json
+    contract: schemas/api/contracts/auth_login_contract.yaml
+    test_status: automated
+    test_file: tests/api/auth/test_login_api.py
+    negative_tests: tests/api/negative/test_login_negative_api.py
+    environment: [local, qa, staging, prod]
+    safety: read_only
+    risk: high
+    depends_on: []
+
+  - name: refresh
+    endpoint: "<REFRESH_ENDPOINT>"
+    method: POST
+    purpose: Refresh an expired access token
+    authentication: refresh token in body
+    request_schema: null
+    response_schema: schemas/api/auth_token_schema.json
+    test_status: partial
+    test_file: api/clients/auth_client.py (TokenManager)
+    environment: [local, qa, staging]
+    safety: read_only
+    risk: medium
+    depends_on: [login]
+
+  - name: logout
+    endpoint: "<LOGOUT_ENDPOINT>"
+    method: POST
+    purpose: Invalidate the current token
+    authentication: bearer
+    request_schema: null
+    response_schema: null
+    test_status: not_automated
+    test_file: null
+    environment: [local, qa, staging]
+    safety: read_only
+    risk: low
+    depends_on: [login]
+
+  - name: signup
+    endpoint: "<SIGNUP_ENDPOINT>"
+    method: POST
+    purpose: Create a new user account
+    authentication: none
+    request_schema: null
+    response_schema: schemas/api/profile_schema.json
+    test_status: automated
+    test_file: fixtures/api_fixtures.py (api_created_user) + tests/e2e/**
+    environment: [local, qa, staging]
+    safety: data_creating
+    risk: high
+    depends_on: []
+
+  - name: get_profile
+    endpoint: "<PROFILE_ENDPOINT>"
+    method: GET
+    purpose: Read the authenticated user's profile
+    authentication: bearer
+    request_schema: null
+    response_schema: schemas/api/profile_schema.json
+    contract: schemas/api/contracts/profile_contract.yaml
+    test_status: automated
+    test_file: tests/api/profile/test_profile_api.py
+    negative_tests: tests/api/negative/test_profile_auth_negative_api.py
+    environment: [local, qa, staging, prod]
+    safety: read_only
+    risk: medium
+    depends_on: [login]
+
+  - name: update_profile
+    endpoint: "<UPDATE_PROFILE_ENDPOINT>"
+    method: PUT
+    purpose: Update profile fields
+    authentication: bearer
+    request_schema: null
+    response_schema: schemas/api/profile_schema.json
+    test_status: automated
+    test_file: tests/api/profile/test_profile_api.py
+    boundary_tests: tests/api/profile/test_profile_boundary_api.py
+    environment: [local, qa, staging]
+    safety: data_modifying
+    risk: high
+    depends_on: [login, get_profile]
+
+  - name: delete_user
+    endpoint: "<DELETE_USER_ENDPOINT>"
+    method: DELETE
+    purpose: Delete a test user (cleanup only)
+    authentication: bearer
+    request_schema: null
+    response_schema: null
+    test_status: partial
+    test_file: fixtures/api_fixtures.py (cleanup)
+    environment: [local, qa]
+    safety: destructive
+    risk: high
+    depends_on: [login]
+
+  - name: list_content
+    endpoint: "<CONTENT_ENDPOINT>"
+    method: GET
+    purpose: Public content / product listing
+    authentication: none
+    request_schema: null
+    response_schema: schemas/api/content_list_schema.json
+    test_status: automated
+    test_file: tests/api/content/test_content_api.py
+    environment: [local, qa, staging, prod]
+    safety: read_only
+    risk: low
+    depends_on: []

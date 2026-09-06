@@ -1,0 +1,9 @@
+name: POST login contract
+endpoint: login
+method: POST
+expected_status: 200
+required_headers: [Content-Type]
+content_type: application/json
+required_fields: [access_token, token_type]
+schema: api/auth_token_schema.json
+max_response_time_ms: 3000

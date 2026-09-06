@@ -1,0 +1,77 @@
+// Jenkins declarative pipeline for the Coca-Cola automation framework.
+// Requires: Python 3.11, Allure Jenkins plugin (allure commandline tool named "allure").
+pipeline {
+    agent any
+
+    parameters {
+        choice(name: 'ENV', choices: ['local', 'qa', 'staging', 'prod'], description: 'Target environment')
+        choice(name: 'SUITE', choices: ['tests', 'tests/api', 'tests/ui', 'tests/e2e', 'tests/framework'])
+        choice(name: 'BROWSER', choices: ['chromium', 'firefox', 'webkit', 'chrome', 'msedge'])
+        string(name: 'DEVICE', defaultValue: '', description: 'Optional mobile device, e.g. Pixel 7')
+        string(name: 'MARKERS', defaultValue: 'not accessibility and not links', description: 'pytest -m expression')
+        string(name: 'WORKERS', defaultValue: '2')
+        string(name: 'RERUNS', defaultValue: '1')
+    }
+
+    environment {
+        PYTHONUNBUFFERED = '1'
+        // Credentials come from Jenkins Credentials store - never from the repo.
+        API_USER_EMAIL    = credentials('cocacola-api-user-email')
+        API_USER_PASSWORD = credentials('cocacola-api-user-password')
+        UI_USER_EMAIL     = credentials('cocacola-ui-user-email')
+        UI_USER_PASSWORD  = credentials('cocacola-ui-user-password')
+    }
+
+    options { timestamps(); timeout(time: 60, unit: 'MINUTES') }
+
+    stages {
+        stage('Install dependencies') {
+            steps {
+                sh '''
+                  python3 -m venv .venv
+                  . .venv/bin/activate
+                  pip install --upgrade pip
+                  pip install -r requirements.txt
+                '''
+            }
+        }
+        stage('Install Playwright browsers') {
+            steps {
+                sh '. .venv/bin/activate && playwright install --with-deps'
+            }
+        }
+        stage('Start practice app (local only)') {
+            when { expression { params.ENV == 'local' } }
+            steps {
+                sh '. .venv/bin/activate && (nohup python sandbox_app/server.py 8765 > practice_app.log 2>&1 &) && sleep 2'
+            }
+        }
+        stage('Run tests') {
+            steps {
+                sh """
+                  . .venv/bin/activate
+                  cp .env.example .env
+                  DEVICE_ARG=""
+                  if [ -n "${params.DEVICE}" ]; then DEVICE_ARG="--device=${params.DEVICE}"; fi
+                  pytest ${params.SUITE} --env=${params.ENV} --browser=${params.BROWSER} \$DEVICE_ARG \
+                         -m "${params.MARKERS}" -n ${params.WORKERS} --reruns ${params.RERUNS} || true
+                  echo "EXEC_DIR=\$(ls -td reports/*/execution_* | head -1)" > exec_dir.properties
+                """
+            }
+        }
+    }
+
+    post {
+        always {
+            script {
+                def props = readProperties file: 'exec_dir.properties'
+                env.EXEC_DIR = props.EXEC_DIR
+            }
+            junit allowEmptyResults: true, testResults: "${env.EXEC_DIR}/junit/junit.xml"
+            allure includeProperties: false, jdk: '', results: [[path: "${env.EXEC_DIR}/allure-results"]]
+            archiveArtifacts artifacts: "${env.EXEC_DIR}/**", allowEmptyArchive: true, fingerprint: false
+            publishHTML target: [reportDir: "${env.EXEC_DIR}", reportFiles: 'execution_summary.html',
+                                 reportName: 'Execution Summary', keepAll: true, allowMissing: true]
+        }
+    }
+}

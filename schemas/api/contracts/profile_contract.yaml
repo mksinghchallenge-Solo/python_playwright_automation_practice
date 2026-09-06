@@ -1,0 +1,9 @@
+name: GET profile contract
+endpoint: profile
+method: GET
+expected_status: 200
+required_headers: [Content-Type]
+content_type: application/json
+required_fields: [id, email, first_name, last_name]
+schema: api/profile_schema.json
+max_response_time_ms: 2000

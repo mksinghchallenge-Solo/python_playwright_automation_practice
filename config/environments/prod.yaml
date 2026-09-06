@@ -1,0 +1,33 @@
+# ===========================================================================
+# PRODUCTION environment
+# ---------------------------------------------------------------------------
+# SAFETY: only READ_ONLY tests may run here by default. Data-creating,
+# data-modifying and destructive tests are blocked by the safety guard
+# (utils/security/safety_guard.py). Enabling them requires BOTH changing
+# this file AND setting ALLOW_PROD_WRITES=true in the environment.
+# ===========================================================================
+name: prod
+
+ui:
+  base_url: "https://www.coca-cola.com/us/en"
+
+api:
+  base_url: "<REAL_API_BASE_URL>"
+  example_base_url: "https://httpbin.org"
+  verify_ssl: true
+  timeout_seconds: 30
+  endpoints:
+    login: "<AUTH_ENDPOINT>"
+    refresh: "<REFRESH_ENDPOINT>"
+    logout: "<LOGOUT_ENDPOINT>"
+    signup: "<SIGNUP_ENDPOINT>"
+    profile: "<PROFILE_ENDPOINT>"
+    update_profile: "<UPDATE_PROFILE_ENDPOINT>"
+    delete_user: "<DELETE_USER_ENDPOINT>"
+    content: "<CONTENT_ENDPOINT>"
+
+safety:
+  allow_read_only: true
+  allow_data_creating: false
+  allow_data_modifying: false
+  allow_destructive: false

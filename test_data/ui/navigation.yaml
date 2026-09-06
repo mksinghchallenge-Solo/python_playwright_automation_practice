@@ -1,0 +1,21 @@
+# Expected navigation items per environment. Names are regexes (case-insensitive).
+local:
+  header_links:
+    - "Home"
+    - "Sign in"
+    - "Create account"
+    - "Profile"
+  title_contains: "Practice App"
+qa:
+  header_links:
+    - "Brands|Products"
+    - "Sustainability|Careers|About"
+  title_contains: "Coca-Cola"
+staging:
+  header_links:
+    - "Brands|Products"
+  title_contains: "Coca-Cola"
+prod:
+  header_links:
+    - "Brands|Products"
+  title_contains: "Coca-Cola"
