@@ -1,0 +1,6 @@
+2026-09-06 16:01:41 | INFO     | cocacola.Fixtures            | gw1 | test_login_rejected[empty_strings] | ==== TEST START | tests/api/negative/test_login_negative_api.py::TestLoginNegative::test_login_rejected[empty_strings] | layer=api ====
+2026-09-06 16:01:41 | INFO     | cocacola.AuthClient          | gw1 | test_login_rejected[empty_strings] | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-06 16:01:41 | INFO     | cocacola.AuthClient          | gw1 | test_login_rejected[empty_strings] | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 422 (2.21 ms) | Response time: 2 ms
+2026-09-06 16:01:41 | WARNING  | cocacola.AuthClient          | gw1 | test_login_rejected[empty_strings] | API ERROR BODY | {'error': 'missing fields', 'fields': ['email', 'password']}
+2026-09-06 16:01:41 | INFO     | cocacola.SchemaValidator     | gw1 | test_login_rejected[empty_strings] | SCHEMA OK | api/error_schema.json
+2026-09-06 16:01:41 | INFO     | cocacola.Fixtures            | gw1 | test_login_rejected[empty_strings] | ==== TEST END   | test_login_rejected[empty_strings] | PASSED ====

@@ -1,2 +1,0 @@
-2026-09-06 15:40:52 | INFO     | cocacola.Fixtures            | gw1 | test_logger_hierarchy | ==== TEST START | tests/framework/test_logging_and_masking.py::TestLogging::test_logger_hierarchy | layer=framework ====
-2026-09-06 15:40:52 | INFO     | cocacola.Fixtures            | gw1 | test_logger_hierarchy | ==== TEST END   | test_logger_hierarchy | PASSED ====

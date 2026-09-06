@@ -1,2 +1,0 @@
-2026-09-06 15:40:51 | INFO     | cocacola.Fixtures            | gw1 | test_missing_file_gives_clear_error | ==== TEST START | tests/framework/test_data_and_api_client.py::TestData::test_missing_file_gives_clear_error | layer=framework ====
-2026-09-06 15:40:51 | INFO     | cocacola.Fixtures            | gw1 | test_missing_file_gives_clear_error | ==== TEST END   | test_missing_file_gives_clear_error | PASSED ====

@@ -1,5 +1,0 @@
-2026-09-06 15:40:55 | INFO     | cocacola.Fixtures            | gw0 | test_list_content | ==== TEST START | tests/api/content/test_content_api.py::TestContentApi::test_list_content | layer=api ====
-2026-09-06 15:40:55 | INFO     | cocacola.ContentClient       | gw0 | test_list_content | API REQUEST  | GET http://127.0.0.1:8765/api/content/pages
-2026-09-06 15:40:55 | INFO     | cocacola.ContentClient       | gw0 | test_list_content | API RESPONSE | GET http://127.0.0.1:8765/api/content/pages -> 200 (1.66 ms) | Response time: 2 ms
-2026-09-06 15:40:55 | INFO     | cocacola.SchemaValidator     | gw0 | test_list_content | SCHEMA OK | api/content_list_schema.json
-2026-09-06 15:40:55 | INFO     | cocacola.Fixtures            | gw0 | test_list_content | ==== TEST END   | test_list_content | PASSED ====

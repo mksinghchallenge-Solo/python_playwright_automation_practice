@@ -1,5 +1,0 @@
-2026-09-06 15:40:57 | INFO     | cocacola.Fixtures            | gw1 | test_invalid_token | ==== TEST START | tests/api/negative/test_profile_auth_negative_api.py::TestProfileAuthNegative::test_invalid_token | layer=api ====
-2026-09-06 15:40:57 | INFO     | cocacola.ProfileClient       | gw1 | test_invalid_token | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
-2026-09-06 15:40:57 | INFO     | cocacola.ProfileClient       | gw1 | test_invalid_token | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 401 (1.53 ms) | Response time: 2 ms
-2026-09-06 15:40:57 | WARNING  | cocacola.ProfileClient       | gw1 | test_invalid_token | API ERROR BODY | {'error': 'invalid token'}
-2026-09-06 15:40:57 | INFO     | cocacola.Fixtures            | gw1 | test_invalid_token | ==== TEST END   | test_invalid_token | PASSED ====

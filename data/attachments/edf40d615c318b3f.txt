@@ -1,0 +1,2 @@
+2026-09-06 16:01:27 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_config.py::TestConfiguration::test_dotted_get_with_default | layer=framework ====
+2026-09-06 16:01:27 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_dotted_get_with_default | PASSED ====

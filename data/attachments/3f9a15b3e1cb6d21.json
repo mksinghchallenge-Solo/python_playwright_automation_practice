@@ -1,0 +1,36 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "http://127.0.0.1:8765/api/content/pages",
+  "elapsed_ms": 2.24,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.16",
+    "Date": "Sun, 06 Sep 2026 16:01:39 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "246",
+    "X-Request-Id": "861aa8a2b424485e86e82fa43551bba1",
+    "Cache-Control": "no-store, public, max-age=60",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "items": [
+      {
+        "id": "coke-original",
+        "title": "Coca-Cola Original Taste",
+        "type": "product"
+      },
+      {
+        "id": "coke-zero",
+        "title": "Coca-Cola Zero Sugar",
+        "type": "product"
+      },
+      {
+        "id": "sustainability",
+        "title": "Sustainability",
+        "type": "page"
+      }
+    ],
+    "total": 3
+  }
+}

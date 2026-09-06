@@ -1,2 +1,0 @@
-2026-09-06 15:40:52 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_sensitive_key_detection | layer=framework ====
-2026-09-06 15:40:52 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_sensitive_key_detection | PASSED ====

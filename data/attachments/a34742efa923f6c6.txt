@@ -1,0 +1,5 @@
+2026-09-06 16:01:38 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/auth/test_login_api.py::TestLoginApi::test_token_manager_caches_token | layer=api ====
+2026-09-06 16:01:38 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-06 16:01:38 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.26 ms) | Response time: 2 ms
+2026-09-06 16:01:38 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1788714098.9501922
+2026-09-06 16:01:38 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_token_manager_caches_token | PASSED ====

@@ -1,0 +1,16 @@
+{
+  "method": "DELETE",
+  "url": "http://127.0.0.1:8765/api/users/usr_3bfc90ee",
+  "headers": {
+    "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json",
+    "Connection": "keep-alive",
+    "Authorization": "*****"
+  },
+  "params": null,
+  "json": null,
+  "data": null,
+  "files": null,
+  "cookies": null
+}

@@ -1,0 +1,2 @@
+2026-09-06 16:01:29 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_logging_and_masking.py::TestLogging::test_logger_hierarchy | layer=framework ====
+2026-09-06 16:01:29 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_logger_hierarchy | PASSED ====

@@ -1,0 +1,6 @@
+2026-09-06 16:01:29 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_data_and_api_client.py::TestValidators::test_response_validator_chain | layer=framework ====
+2026-09-06 16:01:29 | INFO     | cocacola.MockApiServer   | Mock API server started at http://127.0.0.1:46141
+2026-09-06 16:01:29 | INFO     | cocacola.BaseAPIClient   | API REQUEST  | GET http://127.0.0.1:46141/profile
+2026-09-06 16:01:29 | INFO     | cocacola.BaseAPIClient   | API RESPONSE | GET http://127.0.0.1:46141/profile -> 200 (1.93 ms) | Response time: 2 ms
+2026-09-06 16:01:29 | INFO     | cocacola.MockApiServer   | Mock API server stopped
+2026-09-06 16:01:29 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_response_validator_chain | PASSED ====

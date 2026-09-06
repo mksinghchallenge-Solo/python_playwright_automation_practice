@@ -1,0 +1,2 @@
+2026-09-06 16:01:29 | INFO     | cocacola.Fixtures            | gw1 | test_metadata_roundtrip | ==== TEST START | tests/framework/test_execution_and_artifacts.py::TestExecutionManager::test_metadata_roundtrip | layer=framework ====
+2026-09-06 16:01:29 | INFO     | cocacola.Fixtures            | gw1 | test_metadata_roundtrip | ==== TEST END   | test_metadata_roundtrip | PASSED ====

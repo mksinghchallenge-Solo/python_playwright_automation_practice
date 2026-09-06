@@ -1,0 +1,8 @@
+2026-09-06 16:01:31 | INFO     | cocacola.Fixtures            | gw0 | test_login_negative[chromium-wrong_password] | ==== TEST START | tests/ui/auth/test_login_ui.py::TestLoginUi::test_login_negative[chromium-wrong_password] | layer=ui ====
+2026-09-06 16:01:31 | INFO     | cocacola.LoginPage           | gw0 | test_login_negative[chromium-wrong_password] | Navigating to http://127.0.0.1:8765/login
+2026-09-06 16:01:31 | INFO     | cocacola.CookieBanner        | gw0 | test_login_negative[chromium-wrong_password] | Cookie banner displayed - accepting
+2026-09-06 16:01:31 | INFO     | cocacola.LoginPage           | gw0 | test_login_negative[chromium-wrong_password] | Entering email: demo.user@example.com
+2026-09-06 16:01:31 | INFO     | cocacola.LoginPage           | gw0 | test_login_negative[chromium-wrong_password] | Entering password: *****
+2026-09-06 16:01:31 | INFO     | cocacola.LoginPage           | gw0 | test_login_negative[chromium-wrong_password] | Clicking Sign in button
+2026-09-06 16:01:31 | INFO     | cocacola.LoginPage           | gw0 | test_login_negative[chromium-wrong_password] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-06/execution_16-01-28/ui/screenshots/test_login_failure_wrong_password__chromium__desktop__gw0__16-01-31-405656.png
+2026-09-06 16:01:31 | INFO     | cocacola.Fixtures            | gw0 | test_login_negative[chromium-wrong_password] | ==== TEST END   | test_login_negative[chromium-wrong_password] | PASSED ====

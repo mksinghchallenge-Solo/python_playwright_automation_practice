@@ -1,5 +1,0 @@
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/profile/test_profile_api.py::TestUpdateProfile::test_unknown_field_rejected | layer=api ====
-[32mINFO    [0m cocacola.ProfileClient:base_client.py:226 API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
-[32mINFO    [0m cocacola.ProfileClient:base_client.py:240 API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 422 (1.35 ms) | Response time: 1 ms
-[33mWARNING [0m cocacola.ProfileClient:base_client.py:242 API ERROR BODY | {'error': 'unknown fields', 'fields': ['favourite_drink']}
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_unknown_field_rejected | PASSED ====

@@ -1,0 +1,7 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/ui/content/test_home_page.py::TestHomePage::test_home_page_loads[webkit] | layer=ui ====
+[32mINFO    [0m cocacola.HomePage:base_page.py:56 Navigating to http://127.0.0.1:8765/
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:46 Cookie banner displayed - accepting
+[32mINFO    [0m cocacola.PopupHandler:popup_handler.py:36 No overlay/popup displayed
+[32mINFO    [0m cocacola.HomePage:home_page.py:57 Verifying home page loaded: http://127.0.0.1:8765/
+[32mINFO    [0m cocacola.HomePage:base_page.py:147 Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-06/execution_16-01-31/ui/screenshots/home_page_loaded__webkit__desktop__gw1__16-01-46-127363.png
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_home_page_loads[webkit] | PASSED ====

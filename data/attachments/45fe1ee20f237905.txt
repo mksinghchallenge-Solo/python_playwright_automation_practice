@@ -1,5 +1,0 @@
-2026-09-06 15:40:57 | INFO     | cocacola.Fixtures            | gw1 | test_unknown_field_rejected | ==== TEST START | tests/api/profile/test_profile_api.py::TestUpdateProfile::test_unknown_field_rejected | layer=api ====
-2026-09-06 15:40:57 | INFO     | cocacola.ProfileClient       | gw1 | test_unknown_field_rejected | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
-2026-09-06 15:40:57 | INFO     | cocacola.ProfileClient       | gw1 | test_unknown_field_rejected | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 422 (1.35 ms) | Response time: 1 ms
-2026-09-06 15:40:57 | WARNING  | cocacola.ProfileClient       | gw1 | test_unknown_field_rejected | API ERROR BODY | {'error': 'unknown fields', 'fields': ['favourite_drink']}
-2026-09-06 15:40:57 | INFO     | cocacola.Fixtures            | gw1 | test_unknown_field_rejected | ==== TEST END   | test_unknown_field_rejected | PASSED ====

@@ -1,0 +1,6 @@
+2026-09-06 16:01:32 | INFO     | cocacola.Fixtures            | gw1 | test_no_severe_console_errors[chromium] | ==== TEST START | tests/ui/content/test_home_page.py::TestHomePage::test_no_severe_console_errors[chromium] | layer=ui ====
+2026-09-06 16:01:32 | INFO     | cocacola.HomePage            | gw1 | test_no_severe_console_errors[chromium] | Navigating to http://127.0.0.1:8765/
+2026-09-06 16:01:32 | INFO     | cocacola.CookieBanner        | gw1 | test_no_severe_console_errors[chromium] | Cookie banner displayed - accepting
+2026-09-06 16:01:33 | INFO     | cocacola.PopupHandler        | gw1 | test_no_severe_console_errors[chromium] | No overlay/popup displayed
+2026-09-06 16:01:33 | INFO     | cocacola.HomePage            | gw1 | test_no_severe_console_errors[chromium] | Verifying home page loaded: http://127.0.0.1:8765/
+2026-09-06 16:01:33 | INFO     | cocacola.Fixtures            | gw1 | test_no_severe_console_errors[chromium] | ==== TEST END   | test_no_severe_console_errors[chromium] | PASSED ====

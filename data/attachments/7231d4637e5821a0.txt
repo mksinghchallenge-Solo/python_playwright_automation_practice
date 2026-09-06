@@ -1,0 +1,3 @@
+2026-09-06 16:01:28 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_data_and_api_client.py::TestValidators::test_schema_validator_lists_all_problems | layer=framework ====
+2026-09-06 16:01:28 | ERROR    | cocacola.SchemaValidator | SCHEMA FAILED | profile | 4 problem(s)
+2026-09-06 16:01:28 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_schema_validator_lists_all_problems | PASSED ====

@@ -1,0 +1,4 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_json_body_verbs[patch] | layer=api ====
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | PATCH https://httpbin.org/patch
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | PATCH https://httpbin.org/patch -> 200 (53.18 ms) | Response time: 53 ms
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_json_body_verbs[patch] | PASSED ====
