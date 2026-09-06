@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------------------
+# UI test users.
+# NO REAL PASSWORDS HERE. Values are read from .env (UI_USER_EMAIL / _PASSWORD)
+# or refer to the seeded demo user of the local practice app.
+# ---------------------------------------------------------------------------
+local_demo_user:
+  email: demo.user@example.com
+  password_env: UI_USER_PASSWORD      # -> read from .env
+  first_name: Demo
+  last_name: User
+  zip_code: "30301"
+
+# Used for the real site when you have an authorized test account.
+qa_user:
+  email_env: UI_USER_EMAIL
+  password_env: UI_USER_PASSWORD

@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# Coca-Cola Automation Framework - runtime dependencies
+# Install with:  pip install -r requirements.txt && playwright install
+# ---------------------------------------------------------------------------
+
+# Browser automation
+playwright==1.62.0
+pytest-playwright==0.9.0
+
+# Test runner + plugins
+pytest==9.1.1
+pytest-xdist==3.8.0             # parallel execution:   pytest -n auto
+pytest-rerunfailures==16.6.1    # controlled retries:   pytest --reruns 1
+pytest-html==4.2.0              # optional HTML report: pytest --html=...
+
+# API testing
+requests==2.34.2
+httpx==0.28.1
+jsonschema==4.26.0
+
+# Reporting
+allure-pytest==2.16.0
+
+# Configuration / data
+PyYAML==6.0.3
+python-dotenv==1.2.3
+Faker==40.38.0
+
+# Accessibility (axe-core for Playwright)
+axe-playwright-python==0.1.8

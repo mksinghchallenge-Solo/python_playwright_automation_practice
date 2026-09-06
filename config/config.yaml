@@ -1,0 +1,64 @@
+# ===========================================================================
+# Coca-Cola Automation Framework - MAIN CONFIGURATION
+# ---------------------------------------------------------------------------
+# Precedence (highest wins):
+#   1. pytest command-line options   (--browser, --device, --env, --headed ...)
+#   2. Environment variables / .env  (ENV, HEADLESS, VIDEO_MODE ...)
+#   3. config/environments/<env>.yaml
+#   4. this file (defaults)
+# ===========================================================================
+
+# Default environment (override with ENV=qa|staging|prod or --env)
+environment: qa
+
+browser:
+  name: chromium          # chromium | chrome | msedge | firefox | webkit
+  headless: true
+  slow_mo: 0              # milliseconds between actions (debugging aid)
+  viewport:
+    width: 1920
+    height: 1080
+  locale: en-US
+  timezone: America/New_York
+  ignore_https_errors: false
+
+mobile:
+  enabled: false
+  device: "Pixel 7"       # any key from config/devices/devices.yaml
+
+timeouts:
+  page_load_ms: 45000
+  action_ms: 15000
+  expect_ms: 15000
+  api_seconds: 30
+
+execution:
+  retries: 0              # --reruns overrides this
+  workers: 1              # -n overrides this
+  fail_fast: false
+
+artifacts:
+  screenshots: retain-on-failure   # always | retain-on-failure | never
+  videos: retain-on-failure        # always | retain-on-failure | never
+  traces: retain-on-failure        # always | retain-on-failure | never
+  screenshot_full_page: true
+  video_size:
+    width: 1280
+    height: 720
+
+reporting:
+  allure: true
+  junit: true
+  html_summary: true
+
+security:
+  mask_secrets: true
+
+performance:
+  api_response_time_warn_ms: 1500     # log a warning above this
+  api_response_time_fail_ms: 10000    # fail perf-marked tests above this
+
+retention:
+  enabled: false          # scripts/cleanup_reports.py only deletes when enabled
+  days: 30
+  executions: 50

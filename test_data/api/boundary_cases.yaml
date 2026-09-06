@@ -1,0 +1,18 @@
+# Boundary values for profile update (PUT <UPDATE_PROFILE_ENDPOINT>)
+# `expected_status` lists acceptable statuses because real APIs differ.
+first_name:
+  - id: min_length_1
+    value: "A"
+    expected_status: [200]
+  - id: max_length_50
+    value: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    expected_status: [200]
+  - id: special_characters
+    value: "Zoë O'Brien-Śmith"
+    expected_status: [200]
+  - id: empty_value
+    value: ""
+    expected_status: [200, 400, 422]
+  - id: very_long_1000
+    value_length: 1000
+    expected_status: [200, 400, 413, 422]

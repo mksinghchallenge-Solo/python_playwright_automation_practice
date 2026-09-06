@@ -1,0 +1,9 @@
+# Relative paths used by navigation / broken-link tests, per environment.
+local:
+  pages: ["/", "/login", "/signup", "/products/coke-original"]
+qa:
+  pages: ["/", "/brands", "/offerings"]
+staging:
+  pages: ["/"]
+prod:
+  pages: ["/"]

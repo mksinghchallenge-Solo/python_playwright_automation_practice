@@ -1,0 +1,8 @@
+[
+  {"id": "wrong_password", "payload": {"email": "demo.user@example.com", "password": "WrongPassword!1"}, "expected_status": 401},
+  {"id": "unknown_user", "payload": {"email": "unknown_autotest@example.com", "password": "Whatever!123"}, "expected_status": 401},
+  {"id": "missing_password", "payload": {"email": "demo.user@example.com"}, "expected_status": 422},
+  {"id": "missing_email", "payload": {"password": "Whatever!123"}, "expected_status": 422},
+  {"id": "empty_payload", "payload": {}, "expected_status": 422},
+  {"id": "empty_strings", "payload": {"email": "", "password": ""}, "expected_status": 422}
+]

@@ -1,0 +1,28 @@
+# ===========================================================================
+# STAGING environment - replace placeholders with authorized values.
+# ===========================================================================
+name: staging
+
+ui:
+  base_url: "https://www.coca-cola.com/us/en"
+
+api:
+  base_url: "<REAL_API_BASE_URL>"
+  example_base_url: "https://httpbin.org"
+  verify_ssl: true
+  timeout_seconds: 30
+  endpoints:
+    login: "<AUTH_ENDPOINT>"
+    refresh: "<REFRESH_ENDPOINT>"
+    logout: "<LOGOUT_ENDPOINT>"
+    signup: "<SIGNUP_ENDPOINT>"
+    profile: "<PROFILE_ENDPOINT>"
+    update_profile: "<UPDATE_PROFILE_ENDPOINT>"
+    delete_user: "<DELETE_USER_ENDPOINT>"
+    content: "<CONTENT_ENDPOINT>"
+
+safety:
+  allow_read_only: true
+  allow_data_creating: true
+  allow_data_modifying: true
+  allow_destructive: false

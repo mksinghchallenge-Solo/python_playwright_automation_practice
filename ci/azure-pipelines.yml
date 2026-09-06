@@ -1,0 +1,106 @@
+# Azure DevOps pipeline for the Coca-Cola automation framework.
+trigger:
+  branches:
+    include: [main]
+
+schedules:
+  - cron: "0 3 * * 1-5"
+    displayName: Nightly regression
+    branches:
+      include: [main]
+    always: true
+
+parameters:
+  - name: env
+    type: string
+    default: local
+    values: [local, qa, staging, prod]
+  - name: suite
+    type: string
+    default: tests
+  - name: browser
+    type: string
+    default: chromium
+  - name: device
+    type: string
+    default: ""
+  - name: markers
+    type: string
+    default: "not accessibility and not links"
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  PYTHON_VERSION: "3.11"
+  # Secrets: define API_USER_EMAIL / API_USER_PASSWORD / UI_USER_* as secret pipeline variables
+  # or link a Variable Group backed by Azure Key Vault.
+
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: $(PYTHON_VERSION)
+
+  - script: |
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
+    displayName: Install dependencies
+
+  - script: playwright install --with-deps ${{ parameters.browser }}
+    displayName: Install Playwright browsers
+
+  - script: |
+      cp .env.example .env
+      echo "ENV=${{ parameters.env }}" >> .env
+    displayName: Prepare .env
+
+  - ${{ if eq(parameters.env, 'local') }}:
+      - script: |
+          nohup python sandbox_app/server.py 8765 > practice_app.log 2>&1 &
+          sleep 2 && curl -sf http://127.0.0.1:8765/api/health
+        displayName: Start practice app
+
+  - script: |
+      DEVICE_ARG=""
+      if [ -n "${{ parameters.device }}" ]; then DEVICE_ARG="--device=${{ parameters.device }}"; fi
+      pytest ${{ parameters.suite }} --browser=${{ parameters.browser }} $DEVICE_ARG \
+             -m "${{ parameters.markers }}" -n 2 --reruns 1
+    displayName: Run tests
+    continueOnError: true
+    env:
+      API_USER_EMAIL: $(API_USER_EMAIL)
+      API_USER_PASSWORD: $(API_USER_PASSWORD)
+      UI_USER_EMAIL: $(UI_USER_EMAIL)
+      UI_USER_PASSWORD: $(UI_USER_PASSWORD)
+
+  - script: |
+      EXEC_DIR=$(ls -td reports/*/execution_* | head -1)
+      echo "##vso[task.setvariable variable=EXEC_DIR]$EXEC_DIR"
+    displayName: Locate execution folder
+    condition: always()
+
+  - task: PublishTestResults@2
+    condition: always()
+    inputs:
+      testResultsFormat: JUnit
+      testResultsFiles: $(EXEC_DIR)/junit/junit.xml
+      testRunTitle: Coca-Cola Automation (${{ parameters.suite }} / ${{ parameters.browser }})
+
+  - task: PublishPipelineArtifact@1
+    condition: always()
+    inputs:
+      targetPath: $(EXEC_DIR)
+      artifact: execution-${{ parameters.suite }}-${{ parameters.browser }}
+
+  # Allure: install the "Allure Test Report" marketplace extension, or generate with the CLI:
+  - script: |
+      npm install -g allure-commandline --save-dev
+      allure generate $(EXEC_DIR)/allure-results -o $(EXEC_DIR)/allure-report --clean
+    displayName: Generate Allure report
+    condition: always()
+
+  - task: PublishPipelineArtifact@1
+    condition: always()
+    inputs:
+      targetPath: $(EXEC_DIR)/allure-report
+      artifact: allure-report-${{ parameters.suite }}-${{ parameters.browser }}

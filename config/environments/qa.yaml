@@ -1,0 +1,36 @@
+# ===========================================================================
+# QA environment
+# ---------------------------------------------------------------------------
+# NOTE: The public Coca-Cola site has no separate public QA host. If your
+# organisation has one, replace the URLs below. The API endpoints are
+# PLACEHOLDERS and must be replaced with real, authorized endpoints
+# (see docs/api_discovery.md).
+# ===========================================================================
+name: qa
+
+ui:
+  base_url: "https://www.coca-cola.com/us/en"
+
+api:
+  # <REAL_API_ENDPOINT> - replace with the authorized API base URL for QA.
+  base_url: "<REAL_API_BASE_URL>"
+  # A public, safe practice API used ONLY to prove the API layer works.
+  # It is NOT a Coca-Cola API. Remove it when your real endpoints are ready.
+  example_base_url: "https://httpbin.org"
+  verify_ssl: true
+  timeout_seconds: 30
+  endpoints:
+    login: "<AUTH_ENDPOINT>"                    # e.g. /api/v1/auth/login
+    refresh: "<REFRESH_ENDPOINT>"               # e.g. /api/v1/auth/refresh
+    logout: "<LOGOUT_ENDPOINT>"
+    signup: "<SIGNUP_ENDPOINT>"
+    profile: "<PROFILE_ENDPOINT>"               # e.g. /api/v1/users/me
+    update_profile: "<UPDATE_PROFILE_ENDPOINT>" # e.g. /api/v1/users/me
+    delete_user: "<DELETE_USER_ENDPOINT>"
+    content: "<CONTENT_ENDPOINT>"               # e.g. /api/v1/content/pages
+
+safety:
+  allow_read_only: true
+  allow_data_creating: true
+  allow_data_modifying: true
+  allow_destructive: true

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HttpbinEcho",
+  "description": "Shape of httpbin.org echo responses (framework validation only).",
+  "type": "object",
+  "required": ["url", "headers"],
+  "properties": {
+    "url": {"type": "string"},
+    "headers": {"type": "object"},
+    "args": {"type": "object"},
+    "json": {},
+    "origin": {"type": "string"}
+  }
+}

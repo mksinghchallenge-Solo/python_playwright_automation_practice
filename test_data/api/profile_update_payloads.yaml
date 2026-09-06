@@ -1,0 +1,8 @@
+valid_full:
+  first_name: "Updated"
+  last_name: "Person"
+  zip_code: "10001"
+valid_partial:
+  zip_code: "94105"
+invalid_unknown_field:
+  favourite_drink: "Coke Zero"
