@@ -1,0 +1,18 @@
+{
+  "method": "PATCH",
+  "url": "https://httpbin.org/patch",
+  "headers": {
+    "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json",
+    "Connection": "keep-alive"
+  },
+  "params": null,
+  "json": {
+    "brand": "Coca-Cola",
+    "zero": true
+  },
+  "data": null,
+  "files": null,
+  "cookies": null
+}

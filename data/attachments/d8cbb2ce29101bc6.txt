@@ -1,0 +1,10 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/ui/navigation/test_navigation.py::TestNavigation::test_header_links_present[firefox] | layer=ui ====
+[32mINFO    [0m cocacola.HomePage:base_page.py:56 Navigating to http://127.0.0.1:8765/
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:46 Cookie banner displayed - accepting
+[32mINFO    [0m cocacola.PopupHandler:popup_handler.py:36 No overlay/popup displayed
+[32mINFO    [0m cocacola.Navigation:navigation.py:51 Menu button not present (menu likely always expanded)
+[32mINFO    [0m cocacola.HomePage:base_page.py:110 Expecting link /Home/ to be visible
+[32mINFO    [0m cocacola.HomePage:base_page.py:110 Expecting link /Sign in/ to be visible
+[32mINFO    [0m cocacola.HomePage:base_page.py:110 Expecting link /Create account/ to be visible
+[32mINFO    [0m cocacola.HomePage:base_page.py:110 Expecting link /Profile/ to be visible
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_header_links_present[firefox] | PASSED ====

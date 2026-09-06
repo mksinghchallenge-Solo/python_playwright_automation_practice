@@ -1,0 +1,7 @@
+2026-09-06 15:40:52 | INFO     | cocacola.Fixtures            | gw1 | test_home_page_loads[chromium] | ==== TEST START | tests/ui/content/test_home_page.py::TestHomePage::test_home_page_loads[chromium] | layer=ui ====
+2026-09-06 15:40:52 | INFO     | cocacola.HomePage            | gw1 | test_home_page_loads[chromium] | Navigating to http://127.0.0.1:8765/
+2026-09-06 15:40:52 | INFO     | cocacola.CookieBanner        | gw1 | test_home_page_loads[chromium] | Cookie banner displayed - accepting
+2026-09-06 15:40:53 | INFO     | cocacola.PopupHandler        | gw1 | test_home_page_loads[chromium] | No overlay/popup displayed
+2026-09-06 15:40:53 | INFO     | cocacola.HomePage            | gw1 | test_home_page_loads[chromium] | Verifying home page loaded: http://127.0.0.1:8765/
+2026-09-06 15:40:53 | INFO     | cocacola.HomePage            | gw1 | test_home_page_loads[chromium] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-06/execution_15-40-45/ui/screenshots/home_page_loaded__chromium__desktop__gw1__15-40-53-568539.png
+2026-09-06 15:40:54 | INFO     | cocacola.Fixtures            | gw1 | test_home_page_loads[chromium] | ==== TEST END   | test_home_page_loads[chromium] | PASSED ====

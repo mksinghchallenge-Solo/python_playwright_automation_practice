@@ -1,0 +1,2 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_free_text_is_masked[cookie: ***** | layer=framework ====
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_free_text_is_masked[cookie: ***** | PASSED ====

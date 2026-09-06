@@ -1,0 +1,6 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/ui/navigation/test_navigation.py::TestNavigation::test_configured_pages_render[chromium] | layer=ui ====
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:46 Cookie banner displayed - accepting
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:44 Cookie banner not displayed - nothing to do
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:44 Cookie banner not displayed - nothing to do
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:44 Cookie banner not displayed - nothing to do
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_configured_pages_render[chromium] | PASSED ====

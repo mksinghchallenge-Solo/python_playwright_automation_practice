@@ -1,0 +1,17 @@
+{
+  "status_code": 401,
+  "reason": "UNAUTHORIZED",
+  "url": "https://httpbin.org/bearer",
+  "elapsed_ms": 29.56,
+  "headers": {
+    "Date": "Sun, 06 Sep 2026 15:40:55 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "WWW-Authenticate": "*****",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": ""
+}

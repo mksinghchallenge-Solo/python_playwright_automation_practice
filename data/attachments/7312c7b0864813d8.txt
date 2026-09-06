@@ -1,0 +1,2 @@
+2026-09-06 15:40:52 | INFO     | cocacola.Fixtures            | gw1 | test_artifact_names_are_unique_and_descriptive | ==== TEST START | tests/framework/test_execution_and_artifacts.py::TestArtifactManager::test_artifact_names_are_unique_and_descriptive | layer=framework ====
+2026-09-06 15:40:52 | INFO     | cocacola.Fixtures            | gw1 | test_artifact_names_are_unique_and_descriptive | ==== TEST END   | test_artifact_names_are_unique_and_descriptive | PASSED ====

@@ -1,0 +1,10 @@
+2026-09-06 15:41:14 | INFO     | cocacola.UiFixtures          | gw1 | - | Browser launch args: {'headless': True, 'slow_mo': 0}
+2026-09-06 15:41:15 | INFO     | cocacola.Fixtures            | gw1 | test_logout[webkit] | ==== TEST START | tests/ui/auth/test_login_ui.py::TestLogoutUi::test_logout[webkit] | layer=ui ====
+2026-09-06 15:41:18 | INFO     | cocacola.LoginPage           | gw1 | test_logout[webkit] | Navigating to http://127.0.0.1:8765/login
+2026-09-06 15:41:19 | INFO     | cocacola.CookieBanner        | gw1 | test_logout[webkit] | Cookie banner displayed - accepting
+2026-09-06 15:41:20 | INFO     | cocacola.LoginPage           | gw1 | test_logout[webkit] | Entering email: demo.user@example.com
+2026-09-06 15:41:20 | INFO     | cocacola.LoginPage           | gw1 | test_logout[webkit] | Entering password: *****
+2026-09-06 15:41:20 | INFO     | cocacola.LoginPage           | gw1 | test_logout[webkit] | Clicking Sign in button
+2026-09-06 15:41:20 | INFO     | cocacola.ProfilePage         | gw1 | test_logout[webkit] | Clicking Sign out link
+2026-09-06 15:41:20 | INFO     | cocacola.ProfilePage         | gw1 | test_logout[webkit] | Navigating to http://127.0.0.1:8765/profile
+2026-09-06 15:41:20 | INFO     | cocacola.Fixtures            | gw1 | test_logout[webkit] | ==== TEST END   | test_logout[webkit] | PASSED ====

@@ -1,0 +1,8 @@
+2026-09-06 15:40:47 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/auth/test_login_ui.py::TestLoginUi::test_login_negative[firefox-wrong_password] | layer=ui ====
+2026-09-06 15:40:47 | INFO     | cocacola.LoginPage       | Navigating to http://127.0.0.1:8765/login
+2026-09-06 15:40:48 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-09-06 15:40:48 | INFO     | cocacola.LoginPage       | Entering email: demo.user@example.com
+2026-09-06 15:40:48 | INFO     | cocacola.LoginPage       | Entering password: *****
+2026-09-06 15:40:48 | INFO     | cocacola.LoginPage       | Clicking Sign in button
+2026-09-06 15:40:48 | INFO     | cocacola.LoginPage       | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-06/execution_15-40-43/ui/screenshots/test_login_failure_wrong_password__firefox__desktop__gw0__15-40-48-357695.png
+2026-09-06 15:40:48 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_login_negative[firefox-wrong_password] | PASSED ====

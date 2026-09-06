@@ -1,0 +1,4 @@
+  - <root>: 'first_name' is a required property
+  - <root>: 'last_name' is a required property
+  - email: 'not-an-email' is not a 'email'
+  - id: 123 is not of type 'string'

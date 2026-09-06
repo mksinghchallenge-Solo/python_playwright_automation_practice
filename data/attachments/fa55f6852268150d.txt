@@ -1,0 +1,16 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_edit_profile[chromium] | layer=ui ====
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:90 Generated test user autotest_user_20260906_154104_8cd21a88@example.com
+[32mINFO    [0m cocacola.SignupPage:base_page.py:56 Navigating to http://127.0.0.1:8765/signup
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:46 Cookie banner displayed - accepting
+[32mINFO    [0m cocacola.SignupPage:base_page.py:81 Entering first name: Kathleen
+[32mINFO    [0m cocacola.SignupPage:base_page.py:81 Entering last name: Jones
+[32mINFO    [0m cocacola.SignupPage:base_page.py:81 Entering email: autotest_user_20260906_154104_8cd21a88@example.com
+[32mINFO    [0m cocacola.SignupPage:base_page.py:81 Entering password: *****
+[32mINFO    [0m cocacola.SignupPage:base_page.py:81 Entering zip code: 74971
+[32mINFO    [0m cocacola.SignupPage:base_page.py:75 Clicking Create account button
+[32mINFO    [0m cocacola.ProfilePage:base_page.py:75 Clicking Edit profile button
+[32mINFO    [0m cocacola.EditProfilePage:base_page.py:81 Entering first name: UpdDebbie
+[32mINFO    [0m cocacola.EditProfilePage:base_page.py:81 Entering zip code: 48837
+[32mINFO    [0m cocacola.EditProfilePage:base_page.py:75 Clicking Save changes button
+[32mINFO    [0m cocacola.ProfilePage:base_page.py:147 Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-06/execution_15-40-45/ui/screenshots/test_profile_update_success__chromium__desktop__gw0__15-41-04-540621.png
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_edit_profile[chromium] | PASSED ====

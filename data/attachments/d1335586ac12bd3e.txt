@@ -1,0 +1,2 @@
+2026-09-06 15:40:50 | INFO     | cocacola.Fixtures            | gw1 | test_artifact_policies_are_valid | ==== TEST START | tests/framework/test_config.py::TestConfiguration::test_artifact_policies_are_valid | layer=framework ====
+2026-09-06 15:40:50 | INFO     | cocacola.Fixtures            | gw1 | test_artifact_policies_are_valid | ==== TEST END   | test_artifact_policies_are_valid | PASSED ====

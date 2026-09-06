@@ -1,0 +1,9 @@
+2026-09-06 15:40:43 | INFO     | cocacola.UiFixtures          | gw0 | - | Browser launch args: {'headless': True, 'slow_mo': 0}
+2026-09-06 15:40:44 | INFO     | cocacola.Fixtures            | gw0 | test_login_success[firefox] | ==== TEST START | tests/ui/auth/test_login_ui.py::TestLoginUi::test_login_success[firefox] | layer=ui ====
+2026-09-06 15:40:45 | INFO     | cocacola.LoginPage           | gw0 | test_login_success[firefox] | Navigating to http://127.0.0.1:8765/login
+2026-09-06 15:40:46 | INFO     | cocacola.CookieBanner        | gw0 | test_login_success[firefox] | Cookie banner displayed - accepting
+2026-09-06 15:40:46 | INFO     | cocacola.LoginPage           | gw0 | test_login_success[firefox] | Entering email: demo.user@example.com
+2026-09-06 15:40:46 | INFO     | cocacola.LoginPage           | gw0 | test_login_success[firefox] | Entering password: *****
+2026-09-06 15:40:46 | INFO     | cocacola.LoginPage           | gw0 | test_login_success[firefox] | Clicking Sign in button
+2026-09-06 15:40:47 | INFO     | cocacola.ProfilePage         | gw0 | test_login_success[firefox] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-06/execution_15-40-43/ui/screenshots/test_login_success__firefox__desktop__gw0__15-40-47-138140.png
+2026-09-06 15:40:47 | INFO     | cocacola.Fixtures            | gw0 | test_login_success[firefox] | ==== TEST END   | test_login_success[firefox] | PASSED ====

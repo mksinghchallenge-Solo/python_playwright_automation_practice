@@ -1,0 +1,18 @@
+{
+  "method": "GET",
+  "url": "https://httpbin.org/get",
+  "headers": {
+    "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json",
+    "Connection": "keep-alive"
+  },
+  "params": {
+    "page": 1,
+    "q": "coke"
+  },
+  "json": null,
+  "data": null,
+  "files": null,
+  "cookies": null
+}

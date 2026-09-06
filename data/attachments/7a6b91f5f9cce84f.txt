@@ -1,0 +1,6 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/ui/content/test_mocked_ui.py::TestMockedUi::test_mocked_failure[webkit] | layer=ui ====
+[32mINFO    [0m cocacola.HomePage:base_page.py:56 Navigating to http://127.0.0.1:8765/
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:46 Cookie banner displayed - accepting
+[32mINFO    [0m cocacola.PopupHandler:popup_handler.py:36 No overlay/popup displayed
+[32mINFO    [0m cocacola.UiRouteMocks:ui_route_mocks.py:34 UI MOCK | GET http://127.0.0.1:8765/api/content/pages -> 503
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_mocked_failure[webkit] | PASSED ====

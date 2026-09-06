@@ -1,0 +1,2 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/framework/test_config.py::TestEnvironment::test_active_environment_matches_env_variable | layer=framework ====
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_active_environment_matches_env_variable | PASSED ====
