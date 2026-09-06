@@ -11,7 +11,7 @@ from collections.abc import Generator
 
 import pytest
 
-from utils.artifacts.artifact_manager import ArtifactManager, get_artifact_manager
+from utils.artifacts.artifact_manager import ArtifactManager, get_artifact_manager, safe_name
 from utils.common.runtime_context import RuntimeContext
 from utils.config.config_reader import ConfigReader, get_config
 from utils.config.environment_manager import Environment, get_environment
@@ -154,7 +154,12 @@ def _test_context(
         attach_text("test.log", text, mask=False)
         try:
             log_dir = "logs" if layer == "framework" else f"{layer}/logs"
-            execution.path(log_dir, f"{item.name}__{execution.worker_id}.log").write_text(text, encoding="utf-8")
+            # item.name is the raw pytest id; parameterized ids can contain characters
+            # that are illegal on NTFS (":  <  >  |  *  ?) and rejected by actions/upload-artifact,
+            # so always persist artifacts under a filesystem-safe name.
+            execution.path(log_dir, f"{safe_name(item.name)}__{execution.worker_id}.log").write_text(
+                text, encoding="utf-8"
+            )
         except OSError as exc:
             log.error("Could not write per-test log: %s", exc)
         clear_log_context()

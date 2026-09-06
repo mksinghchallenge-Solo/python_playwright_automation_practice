@@ -117,6 +117,8 @@ jobs:
     needs: tests
     if: always()
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # needed by peaceiris/actions-gh-pages to push the gh-pages branch
     steps:
       - uses: actions/download-artifact@v4
         with:
@@ -125,16 +127,26 @@ jobs:
       - name: Merge allure-results from all jobs
         run: |
           mkdir -p merged-results
-          find executions -type d -name allure-results -exec sh -c 'cp -r "$1"/. merged-results/' _ {} \;
+          find executions -type d -name allure-results -exec sh -c 'cp -a "$1"/. merged-results/' _ {} \;
           ls merged-results | head
 
+      # The old step used simple-elf/allure-report-action (a Docker action). Its image
+      # is built on runners from a base that no longer exists on Docker Hub, so
+      # "docker build" fails with exit code 1 before any step runs. Install the
+      # Allure CLI directly instead (ubuntu-latest ships a JDK): no container, no build.
+      - name: Install Allure CLI
+        run: |
+          ALLURE_VERSION=2.46.1
+          curl -sSLo allure.tgz \
+            "https://github.com/allure-framework/allure2/releases/download/${ALLURE_VERSION}/allure-${ALLURE_VERSION}.tgz"
+          sudo tar -xzf allure.tgz -C /opt
+          echo "/opt/allure-${ALLURE_VERSION}/bin" >> "$GITHUB_PATH"
+
       - name: Generate Allure report
-        uses: simple-elf/allure-report-action@v1.9
-        with:
-          allure_results: merged-results
-          allure_report: allure-report
-          allure_history: allure-history
-          keep_reports: 30
+        run: |
+          allure generate merged-results -o allure-report --clean
+          # GitHub Pages (branch source) otherwise runs Jekyll and drops files starting with "_"
+          touch allure-report/.nojekyll
 
       - name: Upload Allure report
         uses: actions/upload-artifact@v4
@@ -142,10 +154,14 @@ jobs:
           name: allure-report
           path: allure-report
 
-      # Optional: publish to GitHub Pages (enable Pages on the gh-pages branch)
+      # Publish to GitHub Pages on main. Requires the site to be enabled once with
+      # Settings -> Pages -> Source: "Deploy from a branch" -> branch: gh-pages / (root),
+      # and the job's contents:write permission above for pushing the branch.
       - name: Publish to GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: allure-history
+          publish_dir: ./allure-report
+          publish_branch: gh-pages
+          create_branch: true
