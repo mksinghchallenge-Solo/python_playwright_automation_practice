@@ -1,4 +1,0 @@
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[204] | layer=api ====
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | GET https://httpbin.org/status/204
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | GET https://httpbin.org/status/204 -> 204 (52.29 ms) | Response time: 52 ms
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_status_codes[204] | PASSED ====

@@ -1,6 +1,0 @@
-2026-09-06 16:01:39 | INFO     | cocacola.ExampleClient       | gw0 | - | API REQUEST  | GET https://httpbin.org/status/200
-2026-09-06 16:01:39 | INFO     | cocacola.ExampleClient       | gw0 | - | API RESPONSE | GET https://httpbin.org/status/200 -> 200 (228.47 ms) | Response time: 228 ms
-2026-09-06 16:01:39 | INFO     | cocacola.Fixtures            | gw0 | test_basic_auth | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_basic_auth | layer=api ====
-2026-09-06 16:01:39 | INFO     | cocacola.ExampleClient       | gw0 | test_basic_auth | API REQUEST  | GET https://httpbin.org/basic-auth/user/passwd
-2026-09-06 16:01:39 | INFO     | cocacola.ExampleClient       | gw0 | test_basic_auth | API RESPONSE | GET https://httpbin.org/basic-auth/user/passwd -> 200 (52.79 ms) | Response time: 53 ms
-2026-09-06 16:01:39 | INFO     | cocacola.Fixtures            | gw0 | test_basic_auth | ==== TEST END   | test_basic_auth | PASSED ====

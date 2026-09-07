@@ -1,0 +1,16 @@
+{
+  "status_code": 401,
+  "reason": "UNAUTHORIZED",
+  "url": "https://httpbin.org/status/401",
+  "elapsed_ms": 51.74,
+  "headers": {
+    "Date": "Mon, 07 Sep 2026 03:08:52 GMT",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "WWW-Authenticate": "*****",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": ""
+}

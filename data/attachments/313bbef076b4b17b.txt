@@ -1,0 +1,20 @@
+2026-09-07 03:09:23 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/auth/test_signup_ui.py::TestSignupUi::test_signup_duplicate_email[firefox] | layer=ui ====
+2026-09-07 03:09:24 | INFO     | cocacola.Fixtures        | Generated test user autotest_user_20260907_030924_d18acaad@example.com
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Navigating to http://127.0.0.1:8765/signup
+2026-09-07 03:09:24 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Entering first name: Tony
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Entering last name: Swanson
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Entering email: autotest_user_20260907_030924_d18acaad@example.com
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Entering password: *****
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Entering zip code: 39053
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Clicking Create account button
+2026-09-07 03:09:24 | INFO     | cocacola.ProfilePage     | Clicking Sign out link
+2026-09-07 03:09:24 | INFO     | cocacola.SignupPage      | Navigating to http://127.0.0.1:8765/signup
+2026-09-07 03:09:27 | INFO     | cocacola.CookieBanner    | Cookie banner not displayed - nothing to do
+2026-09-07 03:09:27 | INFO     | cocacola.SignupPage      | Entering first name: Tony
+2026-09-07 03:09:27 | INFO     | cocacola.SignupPage      | Entering last name: Swanson
+2026-09-07 03:09:27 | INFO     | cocacola.SignupPage      | Entering email: autotest_user_20260907_030924_d18acaad@example.com
+2026-09-07 03:09:27 | INFO     | cocacola.SignupPage      | Entering password: *****
+2026-09-07 03:09:27 | INFO     | cocacola.SignupPage      | Entering zip code: 39053
+2026-09-07 03:09:27 | INFO     | cocacola.SignupPage      | Clicking Create account button
+2026-09-07 03:09:27 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_signup_duplicate_email[firefox] | PASSED ====

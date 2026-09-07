@@ -1,0 +1,7 @@
+2026-09-07 03:08:54 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/mocked/test_mocked_profile_api.py::TestMockedProfile::test_mocked_error_statuses[503] | layer=api ====
+2026-09-07 03:08:54 | INFO     | cocacola.MockApiServer   | Mock API server started at http://127.0.0.1:42539
+2026-09-07 03:08:54 | INFO     | cocacola.BaseAPIClient   | API REQUEST  | GET http://127.0.0.1:42539/api/users/me
+2026-09-07 03:08:54 | INFO     | cocacola.BaseAPIClient   | API RESPONSE | GET http://127.0.0.1:42539/api/users/me -> 503 (2.15 ms) | Response time: 2 ms
+2026-09-07 03:08:54 | WARNING  | cocacola.BaseAPIClient   | API ERROR BODY | {'error': 'unavailable'}
+2026-09-07 03:08:55 | INFO     | cocacola.MockApiServer   | Mock API server stopped
+2026-09-07 03:08:55 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_mocked_error_statuses[503] | PASSED ====

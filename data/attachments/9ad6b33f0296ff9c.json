@@ -1,0 +1,30 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/get?page=1&q=coke",
+  "elapsed_ms": 303.34,
+  "headers": {
+    "Date": "Mon, 07 Sep 2026 03:08:52 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "382",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": {
+    "args": {
+      "page": "1",
+      "q": "coke"
+    },
+    "headers": {
+      "Accept": "application/json",
+      "Accept-Encoding": "gzip, deflate",
+      "Host": "httpbin.org",
+      "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+      "X-Amzn-Trace-Id": "Root=1-6a9e2ac4-10daed6d094881f95c4ad8ef"
+    },
+    "origin": "20.171.22.33",
+    "url": "https://httpbin.org/get?page=1&q=coke"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status_code": 204,
+  "reason": "NO CONTENT",
+  "url": "https://httpbin.org/status/204",
+  "elapsed_ms": 51.81,
+  "headers": {
+    "Date": "Mon, 07 Sep 2026 03:08:52 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": ""
+}

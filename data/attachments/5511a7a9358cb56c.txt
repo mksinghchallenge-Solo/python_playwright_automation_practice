@@ -1,0 +1,2 @@
+2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_data_and_api_client.py::TestData::test_parametrize_cases_and_ids | layer=framework ====
+2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_parametrize_cases_and_ids | PASSED ====

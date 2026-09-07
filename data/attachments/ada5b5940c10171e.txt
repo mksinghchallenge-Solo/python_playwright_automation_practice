@@ -1,0 +1,4 @@
+2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw0 | test_status_codes[201] | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[201] | layer=api ====
+2026-09-07 03:08:52 | INFO     | cocacola.ExampleClient       | gw0 | test_status_codes[201] | API REQUEST  | GET https://httpbin.org/status/201
+2026-09-07 03:08:52 | INFO     | cocacola.ExampleClient       | gw0 | test_status_codes[201] | API RESPONSE | GET https://httpbin.org/status/201 -> 201 (52.53 ms) | Response time: 53 ms
+2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw0 | test_status_codes[201] | ==== TEST END   | test_status_codes[201] | PASSED ====

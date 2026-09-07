@@ -1,0 +1,9 @@
+2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw0 | test_device_options_resolve | ==== TEST START | tests/framework/test_browser_and_devices.py::TestDevices::test_device_options_resolve | layer=framework ====
+2026-09-07 03:08:52 | INFO     | cocacola.DeviceManager       | gw0 | test_device_options_resolve | Device 'Galaxy S23' resolved from custom descriptor
+2026-09-07 03:08:52 | INFO     | cocacola.DeviceManager       | gw0 | test_device_options_resolve | Device 'Pixel 5' resolved from Playwright registry as 'Pixel 5'
+2026-09-07 03:08:52 | INFO     | cocacola.DeviceManager       | gw0 | test_device_options_resolve | Device 'Pixel 7' resolved from Playwright registry as 'Pixel 7'
+2026-09-07 03:08:52 | INFO     | cocacola.DeviceManager       | gw0 | test_device_options_resolve | Device 'iPad Pro 11' resolved from Playwright registry as 'iPad Pro 11'
+2026-09-07 03:08:52 | INFO     | cocacola.DeviceManager       | gw0 | test_device_options_resolve | Device 'iPhone 13' resolved from Playwright registry as 'iPhone 13'
+2026-09-07 03:08:52 | INFO     | cocacola.DeviceManager       | gw0 | test_device_options_resolve | Device 'iPhone 14' resolved from Playwright registry as 'iPhone 14'
+2026-09-07 03:08:52 | INFO     | cocacola.DeviceManager       | gw0 | test_device_options_resolve | Device 'iPhone 15' resolved from Playwright registry as 'iPhone 15'
+2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw0 | test_device_options_resolve | ==== TEST END   | test_device_options_resolve | PASSED ====

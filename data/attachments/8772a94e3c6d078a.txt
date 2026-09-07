@@ -1,5 +1,0 @@
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[429] | layer=api ====
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | GET https://httpbin.org/status/429
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | GET https://httpbin.org/status/429 -> 429 (1159.71 ms) | Response time: 1160 ms
-[33mWARNING [0m cocacola.ExampleClient:base_client.py:242 API ERROR BODY |
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_status_codes[429] | PASSED ====

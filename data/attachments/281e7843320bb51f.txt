@@ -1,7 +1,0 @@
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/mocked/test_mocked_profile_api.py::TestMockedProfile::test_mocked_schema_violation | layer=api ====
-[32mINFO    [0m cocacola.MockApiServer:mock_server.py:124 Mock API server started at http://127.0.0.1:36641
-[32mINFO    [0m cocacola.BaseAPIClient:base_client.py:226 API REQUEST  | GET http://127.0.0.1:36641/api/users/me
-[32mINFO    [0m cocacola.BaseAPIClient:base_client.py:240 API RESPONSE | GET http://127.0.0.1:36641/api/users/me -> 200 (3.23 ms) | Response time: 3 ms
-[31m[1mERROR   [0m cocacola.SchemaValidator:schema_validator.py:52 SCHEMA FAILED | api/profile_schema.json | 4 problem(s)
-[32mINFO    [0m cocacola.MockApiServer:mock_server.py:130 Mock API server stopped
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_mocked_schema_violation | PASSED ====

@@ -1,0 +1,12 @@
+2026-09-07 03:08:59 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_view_profile[chromium] | layer=ui ====
+2026-09-07 03:08:59 | INFO     | cocacola.Fixtures        | Generated test user autotest_user_20260907_030859_da3f8102@example.com
+2026-09-07 03:08:59 | INFO     | cocacola.SignupPage      | Navigating to http://127.0.0.1:8765/signup
+2026-09-07 03:08:59 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-09-07 03:08:59 | INFO     | cocacola.SignupPage      | Entering first name: Zachary
+2026-09-07 03:08:59 | INFO     | cocacola.SignupPage      | Entering last name: Taylor
+2026-09-07 03:08:59 | INFO     | cocacola.SignupPage      | Entering email: autotest_user_20260907_030859_da3f8102@example.com
+2026-09-07 03:08:59 | INFO     | cocacola.SignupPage      | Entering password: *****
+2026-09-07 03:08:59 | INFO     | cocacola.SignupPage      | Entering zip code: 02658
+2026-09-07 03:08:59 | INFO     | cocacola.SignupPage      | Clicking Create account button
+2026-09-07 03:08:59 | INFO     | cocacola.ProfilePage     | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-07/execution_03-08-43/ui/screenshots/profile_view__chromium__desktop__gw1__03-08-59-935966.png
+2026-09-07 03:09:00 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_view_profile[chromium] | PASSED ====

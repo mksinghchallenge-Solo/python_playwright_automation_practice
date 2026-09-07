@@ -1,0 +1,8 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/ui/navigation/test_navigation.py::TestNavigation::test_navigate_to_sign_in[webkit] | layer=ui ====
+[32mINFO    [0m cocacola.HomePage:base_page.py:56 Navigating to http://127.0.0.1:8765/
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:46 Cookie banner displayed - accepting
+[32mINFO    [0m cocacola.PopupHandler:popup_handler.py:36 No overlay/popup displayed
+[32mINFO    [0m cocacola.Navigation:navigation.py:51 Menu button not present (menu likely always expanded)
+[32mINFO    [0m cocacola.HomePage:base_page.py:75 Clicking Sign in link
+[32mINFO    [0m cocacola.LoginPage:base_page.py:147 Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-07/execution_03-09-16/ui/screenshots/sign_in_page_reached__webkit__desktop__gw1__03-09-33-462466.png
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_navigate_to_sign_in[webkit] | PASSED ====

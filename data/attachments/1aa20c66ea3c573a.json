@@ -1,0 +1,16 @@
+{
+  "status_code": 201,
+  "reason": "CREATED",
+  "url": "https://httpbin.org/status/201",
+  "elapsed_ms": 52.53,
+  "headers": {
+    "Date": "Mon, 07 Sep 2026 03:08:52 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": ""
+}

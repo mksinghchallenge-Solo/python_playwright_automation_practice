@@ -1,0 +1,19 @@
+{
+  "status_code": 201,
+  "reason": "Created",
+  "url": "http://127.0.0.1:41273/users/42/notes?lang=en",
+  "elapsed_ms": 1.94,
+  "headers": {
+    "Server": "BaseHTTP/0.6 Python/3.11.16",
+    "Date": "Mon, 07 Sep 2026 03:08:53 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "44",
+    "X-Request-Id": "mock-request-id"
+  },
+  "body": {
+    "echo": {
+      "text": "hi"
+    },
+    "query": "lang=en"
+  }
+}

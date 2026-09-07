@@ -1,0 +1,2 @@
+2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw1 | test_each_environment_file_loads[qa] | ==== TEST START | tests/framework/test_config.py::TestEnvironment::test_each_environment_file_loads[qa] | layer=framework ====
+2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw1 | test_each_environment_file_loads[qa] | ==== TEST END   | test_each_environment_file_loads[qa] | PASSED ====

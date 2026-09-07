@@ -1,3 +1,0 @@
-2026-09-06 16:01:53 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_profile_requires_login[webkit] | layer=ui ====
-2026-09-06 16:01:53 | INFO     | cocacola.ProfilePage     | Navigating to http://127.0.0.1:8765/profile
-2026-09-06 16:01:54 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_profile_requires_login[webkit] | PASSED ====

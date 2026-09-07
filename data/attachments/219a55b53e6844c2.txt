@@ -1,0 +1,5 @@
+2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[404] | layer=api ====
+2026-09-07 03:08:53 | INFO     | cocacola.ExampleClient   | API REQUEST  | GET https://httpbin.org/status/404
+2026-09-07 03:08:53 | INFO     | cocacola.ExampleClient   | API RESPONSE | GET https://httpbin.org/status/404 -> 404 (364.27 ms) | Response time: 364 ms
+2026-09-07 03:08:53 | WARNING  | cocacola.ExampleClient   | API ERROR BODY | 
+2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_status_codes[404] | PASSED ====

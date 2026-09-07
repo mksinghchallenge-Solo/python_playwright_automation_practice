@@ -1,5 +1,0 @@
-2026-09-06 16:01:41 | INFO     | cocacola.Fixtures            | gw0 | test_update_without_token | ==== TEST START | tests/api/negative/test_profile_auth_negative_api.py::TestProfileAuthNegative::test_update_without_token | layer=api ====
-2026-09-06 16:01:41 | INFO     | cocacola.ProfileClient       | gw0 | test_update_without_token | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
-2026-09-06 16:01:41 | INFO     | cocacola.ProfileClient       | gw0 | test_update_without_token | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 401 (1.8 ms) | Response time: 2 ms
-2026-09-06 16:01:41 | WARNING  | cocacola.ProfileClient       | gw0 | test_update_without_token | API ERROR BODY | {'error': 'missing bearer token'}
-2026-09-06 16:01:41 | INFO     | cocacola.Fixtures            | gw0 | test_update_without_token | ==== TEST END   | test_update_without_token | PASSED ====

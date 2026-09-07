@@ -1,3 +1,0 @@
-2026-09-06 16:01:43 | INFO     | cocacola.Fixtures            | gw0 | test_profile_requires_login[chromium] | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_profile_requires_login[chromium] | layer=ui ====
-2026-09-06 16:01:43 | INFO     | cocacola.ProfilePage         | gw0 | test_profile_requires_login[chromium] | Navigating to http://127.0.0.1:8765/profile
-2026-09-06 16:01:43 | INFO     | cocacola.Fixtures            | gw0 | test_profile_requires_login[chromium] | ==== TEST END   | test_profile_requires_login[chromium] | PASSED ====

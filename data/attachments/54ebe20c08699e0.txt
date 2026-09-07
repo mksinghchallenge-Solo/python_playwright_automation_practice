@@ -1,6 +1,0 @@
-2026-09-06 16:01:28 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_data_and_api_client.py::TestApiClient::test_path_params_query_and_json | layer=framework ====
-2026-09-06 16:01:28 | INFO     | cocacola.MockApiServer   | Mock API server started at http://127.0.0.1:40783
-2026-09-06 16:01:28 | INFO     | cocacola.BaseAPIClient   | API REQUEST  | POST http://127.0.0.1:40783/users/42/notes
-2026-09-06 16:01:28 | INFO     | cocacola.BaseAPIClient   | API RESPONSE | POST http://127.0.0.1:40783/users/42/notes?lang=en -> 201 (2.19 ms) | Response time: 2 ms
-2026-09-06 16:01:29 | INFO     | cocacola.MockApiServer   | Mock API server stopped
-2026-09-06 16:01:29 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_path_params_query_and_json | PASSED ====

@@ -1,0 +1,2 @@
+2026-09-07 03:08:54 | INFO     | cocacola.Fixtures            | gw0 | test_sensitive_key_detection | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_sensitive_key_detection | layer=framework ====
+2026-09-07 03:08:54 | INFO     | cocacola.Fixtures            | gw0 | test_sensitive_key_detection | ==== TEST END   | test_sensitive_key_detection | PASSED ====

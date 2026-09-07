@@ -1,0 +1,30 @@
+2026-09-07 03:09:08 | INFO     | cocacola.UiFixtures          | gw1 | - | Browser launch args: {'headless': True, 'slow_mo': 0}
+2026-09-07 03:09:11 | INFO     | cocacola.Fixtures            | gw1 | test_full_flow[chromium] | ==== TEST START | tests/e2e/full_flows/test_full_profile_flow.py::TestFullProfileFlow::test_full_flow[chromium] | layer=e2e ====
+2026-09-07 03:09:11 | INFO     | cocacola.UserClient          | gw1 | test_full_flow[chromium] | API REQUEST  | POST http://127.0.0.1:8765/api/users
+2026-09-07 03:09:11 | INFO     | cocacola.UserClient          | gw1 | test_full_flow[chromium] | API RESPONSE | POST http://127.0.0.1:8765/api/users -> 201 (4.35 ms) | Response time: 4 ms
+2026-09-07 03:09:11 | INFO     | cocacola.ApiFixtures         | gw1 | test_full_flow[chromium] | Created API test user autotest_api_20260907_030911_dea4be63@example.com (id=usr_57ed572c)
+2026-09-07 03:09:11 | INFO     | cocacola.E2eFixtures         | gw1 | test_full_flow[chromium] | E2E actors ready for autotest_api_20260907_030911_dea4be63@example.com
+2026-09-07 03:09:11 | INFO     | cocacola.AuthClient          | gw1 | test_full_flow[chromium] | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-07 03:09:11 | INFO     | cocacola.AuthClient          | gw1 | test_full_flow[chromium] | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (3.51 ms) | Response time: 4 ms
+2026-09-07 03:09:11 | INFO     | cocacola.TokenManager        | gw1 | test_full_flow[chromium] | Obtained new access token (masked); expires_at=1788754151.9636414
+2026-09-07 03:09:11 | INFO     | cocacola.ProfileClient       | gw1 | test_full_flow[chromium] | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-07 03:09:11 | INFO     | cocacola.ProfileClient       | gw1 | test_full_flow[chromium] | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.96 ms) | Response time: 3 ms
+2026-09-07 03:09:11 | INFO     | cocacola.LoginPage           | gw1 | test_full_flow[chromium] | Navigating to http://127.0.0.1:8765/login
+2026-09-07 03:09:12 | INFO     | cocacola.CookieBanner        | gw1 | test_full_flow[chromium] | Cookie banner displayed - accepting
+2026-09-07 03:09:12 | INFO     | cocacola.LoginPage           | gw1 | test_full_flow[chromium] | Entering email: autotest_api_20260907_030911_dea4be63@example.com
+2026-09-07 03:09:12 | INFO     | cocacola.LoginPage           | gw1 | test_full_flow[chromium] | Entering password: *****
+2026-09-07 03:09:12 | INFO     | cocacola.LoginPage           | gw1 | test_full_flow[chromium] | Clicking Sign in button
+2026-09-07 03:09:12 | INFO     | cocacola.ProfilePage         | gw1 | test_full_flow[chromium] | Clicking Edit profile button
+2026-09-07 03:09:12 | INFO     | cocacola.EditProfilePage     | gw1 | test_full_flow[chromium] | Entering zip code: 99999
+2026-09-07 03:09:12 | INFO     | cocacola.EditProfilePage     | gw1 | test_full_flow[chromium] | Clicking Save changes button
+2026-09-07 03:09:12 | INFO     | cocacola.ProfileClient       | gw1 | test_full_flow[chromium] | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-07 03:09:12 | INFO     | cocacola.ProfileClient       | gw1 | test_full_flow[chromium] | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.1 ms) | Response time: 2 ms
+2026-09-07 03:09:12 | INFO     | cocacola.ProfilePage         | gw1 | test_full_flow[chromium] | Clicking Sign out link
+2026-09-07 03:09:12 | INFO     | cocacola.ProfilePage         | gw1 | test_full_flow[chromium] | Navigating to http://127.0.0.1:8765/profile
+2026-09-07 03:09:12 | INFO     | cocacola.AuthClient          | gw1 | test_full_flow[chromium] | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-07 03:09:12 | INFO     | cocacola.AuthClient          | gw1 | test_full_flow[chromium] | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (3.12 ms) | Response time: 3 ms
+2026-09-07 03:09:12 | INFO     | cocacola.TokenManager        | gw1 | test_full_flow[chromium] | Obtained new access token (masked); expires_at=1788754152.869085
+2026-09-07 03:09:12 | INFO     | cocacola.UserClient          | gw1 | test_full_flow[chromium] | API REQUEST  | DELETE http://127.0.0.1:8765/api/users/usr_57ed572c
+2026-09-07 03:09:12 | INFO     | cocacola.UserClient          | gw1 | test_full_flow[chromium] | API RESPONSE | DELETE http://127.0.0.1:8765/api/users/usr_57ed572c -> 204 (2.33 ms) | Response time: 2 ms
+2026-09-07 03:09:12 | INFO     | cocacola.ApiFixtures         | gw1 | test_full_flow[chromium] | Cleanup delete user autotest_api_20260907_030911_dea4be63@example.com -> 204
+2026-09-07 03:09:12 | INFO     | cocacola.Fixtures            | gw1 | test_full_flow[chromium] | ==== TEST END   | test_full_flow[chromium] | PASSED ====

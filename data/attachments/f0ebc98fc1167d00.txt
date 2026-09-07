@@ -1,0 +1,10 @@
+2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/contract/test_profile_contract_api.py::TestProfileContract::test_profile_contract | layer=api ====
+2026-09-07 03:08:53 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-07 03:08:53 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.33 ms) | Response time: 2 ms
+2026-09-07 03:08:53 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1788754133.5184224
+2026-09-07 03:08:53 | INFO     | cocacola.ProfileClient   | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-07 03:08:53 | INFO     | cocacola.ProfileClient   | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.95 ms) | Response time: 2 ms
+2026-09-07 03:08:53 | INFO     | cocacola.ContractValidator | CONTRACT | validating GET profile contract
+2026-09-07 03:08:53 | INFO     | cocacola.SchemaValidator | SCHEMA OK | api/profile_schema.json
+2026-09-07 03:08:53 | INFO     | cocacola.ContractValidator | CONTRACT OK | GET profile contract
+2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_profile_contract | PASSED ====
