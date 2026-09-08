@@ -1,0 +1,4 @@
+2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw0 | test_transport_error_is_explicit | ==== TEST START | tests/framework/test_data_and_api_client.py::TestApiClient::test_transport_error_is_explicit | layer=framework ====
+2026-09-08 03:08:48 | INFO     | cocacola.BaseAPIClient       | gw0 | test_transport_error_is_explicit | API REQUEST  | GET http://127.0.0.1:9/nothing
+2026-09-08 03:08:48 | ERROR    | cocacola.BaseAPIClient       | gw0 | test_transport_error_is_explicit | API TRANSPORT ERROR | GET http://127.0.0.1:9/nothing | 1 ms | ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9): Max retries exceeded with url: /nothing (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw0 | test_transport_error_is_explicit | ==== TEST END   | test_transport_error_is_explicit | PASSED ====

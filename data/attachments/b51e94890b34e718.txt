@@ -1,0 +1,10 @@
+2026-09-08 03:08:56 | INFO     | cocacola.Fixtures            | gw1 | test_header_links_present[chromium] | ==== TEST START | tests/ui/navigation/test_navigation.py::TestNavigation::test_header_links_present[chromium] | layer=ui ====
+2026-09-08 03:08:57 | INFO     | cocacola.HomePage            | gw1 | test_header_links_present[chromium] | Navigating to http://127.0.0.1:8765/
+2026-09-08 03:08:57 | INFO     | cocacola.CookieBanner        | gw1 | test_header_links_present[chromium] | Cookie banner displayed - accepting
+2026-09-08 03:08:58 | INFO     | cocacola.PopupHandler        | gw1 | test_header_links_present[chromium] | No overlay/popup displayed
+2026-09-08 03:09:01 | INFO     | cocacola.Navigation          | gw1 | test_header_links_present[chromium] | Menu button not present (menu likely always expanded)
+2026-09-08 03:09:01 | INFO     | cocacola.HomePage            | gw1 | test_header_links_present[chromium] | Expecting link /Home/ to be visible
+2026-09-08 03:09:01 | INFO     | cocacola.HomePage            | gw1 | test_header_links_present[chromium] | Expecting link /Sign in/ to be visible
+2026-09-08 03:09:01 | INFO     | cocacola.HomePage            | gw1 | test_header_links_present[chromium] | Expecting link /Create account/ to be visible
+2026-09-08 03:09:01 | INFO     | cocacola.HomePage            | gw1 | test_header_links_present[chromium] | Expecting link /Profile/ to be visible
+2026-09-08 03:09:01 | INFO     | cocacola.Fixtures            | gw1 | test_header_links_present[chromium] | ==== TEST END   | test_header_links_present[chromium] | PASSED ====

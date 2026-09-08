@@ -1,2 +1,0 @@
-2026-09-07 03:08:54 | INFO     | cocacola.Fixtures            | gw0 | test_free_text_is_masked[token: "abc.def.ghi"] | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_free_text_is_masked[token: "*****"] | layer=framework ====
-2026-09-07 03:08:54 | INFO     | cocacola.Fixtures            | gw0 | test_free_text_is_masked[token: "abc.def.ghi"] | ==== TEST END   | test_free_text_is_masked[token: "*****"] | PASSED ====

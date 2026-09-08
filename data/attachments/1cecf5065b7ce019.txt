@@ -1,0 +1,28 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/e2e/ui_to_api/test_ui_update_api_verify.py::TestUiUpdateApiVerify::test_ui_edit_persisted_via_api[chromium] | layer=e2e ====
+[32mINFO    [0m cocacola.UserClient:base_client.py:226 API REQUEST  | POST http://127.0.0.1:8765/api/users
+[32mINFO    [0m cocacola.UserClient:base_client.py:240 API RESPONSE | POST http://127.0.0.1:8765/api/users -> 201 (3.18 ms) | Response time: 3 ms
+[32mINFO    [0m cocacola.ApiFixtures:api_fixtures.py:132 Created API test user autotest_api_20260908_030846_1516812c@example.com (id=usr_520ded88)
+[32mINFO    [0m cocacola.E2eFixtures:e2e_fixtures.py:54 E2E actors ready for autotest_api_20260908_030846_1516812c@example.com
+[32mINFO    [0m cocacola.LoginPage:base_page.py:56 Navigating to http://127.0.0.1:8765/login
+[32mINFO    [0m cocacola.CookieBanner:cookie_banner.py:46 Cookie banner displayed - accepting
+[32mINFO    [0m cocacola.LoginPage:base_page.py:81 Entering email: autotest_api_20260908_030846_1516812c@example.com
+[32mINFO    [0m cocacola.LoginPage:base_page.py:81 Entering password: *****
+[32mINFO    [0m cocacola.LoginPage:base_page.py:75 Clicking Sign in button
+[32mINFO    [0m cocacola.ProfilePage:base_page.py:75 Clicking Edit profile button
+[32mINFO    [0m cocacola.EditProfilePage:base_page.py:81 Entering first name: UpdBrenda
+[32mINFO    [0m cocacola.EditProfilePage:base_page.py:81 Entering last name: UpdBriggs
+[32mINFO    [0m cocacola.EditProfilePage:base_page.py:81 Entering zip code: 76973
+[32mINFO    [0m cocacola.EditProfilePage:base_page.py:75 Clicking Save changes button
+[32mINFO    [0m cocacola.AuthClient:base_client.py:226 API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+[32mINFO    [0m cocacola.AuthClient:base_client.py:240 API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.4 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.TokenManager:auth_client.py:157 Obtained new access token (masked); expires_at=1788840527.4204717
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:226 API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:240 API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.72 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.SchemaValidator:schema_validator.py:54 SCHEMA OK | api/profile_schema.json
+[32mINFO    [0m cocacola.AuthClient:base_client.py:226 API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+[32mINFO    [0m cocacola.AuthClient:base_client.py:240 API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.57 ms) | Response time: 3 ms
+[32mINFO    [0m cocacola.TokenManager:auth_client.py:157 Obtained new access token (masked); expires_at=1788840527.5995383
+[32mINFO    [0m cocacola.UserClient:base_client.py:226 API REQUEST  | DELETE http://127.0.0.1:8765/api/users/usr_520ded88
+[32mINFO    [0m cocacola.UserClient:base_client.py:240 API RESPONSE | DELETE http://127.0.0.1:8765/api/users/usr_520ded88 -> 204 (1.97 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.ApiFixtures:api_fixtures.py:141 Cleanup delete user autotest_api_20260908_030846_1516812c@example.com -> 204
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_ui_edit_persisted_via_api[chromium] | PASSED ====

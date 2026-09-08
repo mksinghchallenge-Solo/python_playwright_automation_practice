@@ -1,0 +1,8 @@
+2026-09-08 03:09:07 | INFO     | cocacola.Fixtures            | gw1 | test_navigate_to_sign_in[firefox] | ==== TEST START | tests/ui/navigation/test_navigation.py::TestNavigation::test_navigate_to_sign_in[firefox] | layer=ui ====
+2026-09-08 03:09:07 | INFO     | cocacola.HomePage            | gw1 | test_navigate_to_sign_in[firefox] | Navigating to http://127.0.0.1:8765/
+2026-09-08 03:09:07 | INFO     | cocacola.CookieBanner        | gw1 | test_navigate_to_sign_in[firefox] | Cookie banner displayed - accepting
+2026-09-08 03:09:08 | INFO     | cocacola.PopupHandler        | gw1 | test_navigate_to_sign_in[firefox] | No overlay/popup displayed
+2026-09-08 03:09:11 | INFO     | cocacola.Navigation          | gw1 | test_navigate_to_sign_in[firefox] | Menu button not present (menu likely always expanded)
+2026-09-08 03:09:11 | INFO     | cocacola.HomePage            | gw1 | test_navigate_to_sign_in[firefox] | Clicking Sign in link
+2026-09-08 03:09:12 | INFO     | cocacola.LoginPage           | gw1 | test_navigate_to_sign_in[firefox] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-08/execution_03-08-52/ui/screenshots/sign_in_page_reached__firefox__desktop__gw1__03-09-12-011997.png
+2026-09-08 03:09:12 | INFO     | cocacola.Fixtures            | gw1 | test_navigate_to_sign_in[firefox] | ==== TEST END   | test_navigate_to_sign_in[firefox] | PASSED ====

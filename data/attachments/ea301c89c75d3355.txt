@@ -1,6 +1,0 @@
-2026-09-07 03:09:24 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/content/test_home_page.py::TestHomePage::test_no_severe_console_errors[firefox] | layer=ui ====
-2026-09-07 03:09:24 | INFO     | cocacola.HomePage        | Navigating to http://127.0.0.1:8765/
-2026-09-07 03:09:25 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
-2026-09-07 03:09:26 | INFO     | cocacola.PopupHandler    | No overlay/popup displayed
-2026-09-07 03:09:26 | INFO     | cocacola.HomePage        | Verifying home page loaded: http://127.0.0.1:8765/
-2026-09-07 03:09:26 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_no_severe_console_errors[firefox] | PASSED ====

@@ -1,0 +1,5 @@
+2026-09-08 03:08:50 | INFO     | cocacola.Fixtures            | gw1 | test_status_codes[429] | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[429] | layer=api ====
+2026-09-08 03:08:50 | INFO     | cocacola.ExampleClient       | gw1 | test_status_codes[429] | API REQUEST  | GET https://httpbin.org/status/429
+2026-09-08 03:08:51 | INFO     | cocacola.ExampleClient       | gw1 | test_status_codes[429] | API RESPONSE | GET https://httpbin.org/status/429 -> 429 (1135.76 ms) | Response time: 1136 ms
+2026-09-08 03:08:51 | WARNING  | cocacola.ExampleClient       | gw1 | test_status_codes[429] | API ERROR BODY | 
+2026-09-08 03:08:51 | INFO     | cocacola.Fixtures            | gw1 | test_status_codes[429] | ==== TEST END   | test_status_codes[429] | PASSED ====

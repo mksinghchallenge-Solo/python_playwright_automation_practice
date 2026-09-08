@@ -1,9 +1,0 @@
-2026-09-07 03:08:55 | INFO     | cocacola.Fixtures            | gw0 | test_get_profile | ==== TEST START | tests/api/profile/test_profile_api.py::TestGetProfile::test_get_profile | layer=api ====
-2026-09-07 03:08:55 | INFO     | cocacola.AuthClient          | gw0 | test_get_profile | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
-2026-09-07 03:08:55 | INFO     | cocacola.AuthClient          | gw0 | test_get_profile | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.34 ms) | Response time: 2 ms
-2026-09-07 03:08:55 | INFO     | cocacola.TokenManager        | gw0 | test_get_profile | Obtained new access token (masked); expires_at=1788754135.2799091
-2026-09-07 03:08:55 | INFO     | cocacola.ProfileClient       | gw0 | test_get_profile | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
-2026-09-07 03:08:55 | INFO     | cocacola.ProfileClient       | gw0 | test_get_profile | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.2 ms) | Response time: 2 ms
-2026-09-07 03:08:55 | WARNING  | cocacola.ResponseValidator   | gw0 | test_get_profile | GET http://127.0.0.1:8765/api/users/me -> 200 (2.2 ms) | Missing security headers: ['Strict-Transport-Security', 'Content-Security-Policy']
-2026-09-07 03:08:55 | INFO     | cocacola.SchemaValidator     | gw0 | test_get_profile | SCHEMA OK | api/profile_schema.json
-2026-09-07 03:08:55 | INFO     | cocacola.Fixtures            | gw0 | test_get_profile | ==== TEST END   | test_get_profile | PASSED ====

@@ -1,2 +1,0 @@
-2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw0 | test_devices_yaml_lists_required_devices | ==== TEST START | tests/framework/test_browser_and_devices.py::TestDevices::test_devices_yaml_lists_required_devices | layer=framework ====
-2026-09-07 03:08:52 | INFO     | cocacola.Fixtures            | gw0 | test_devices_yaml_lists_required_devices | ==== TEST END   | test_devices_yaml_lists_required_devices | PASSED ====

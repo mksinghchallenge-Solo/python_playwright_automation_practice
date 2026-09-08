@@ -1,0 +1,8 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/profile/test_profile_api.py::TestUpdateProfile::test_partial_update | layer=api ====
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:226 API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:240 API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.58 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:226 API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:240 API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (1.59 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:226 API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+[32mINFO    [0m cocacola.ProfileClient:base_client.py:240 API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (1.49 ms) | Response time: 1 ms
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_partial_update | PASSED ====

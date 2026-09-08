@@ -1,2 +1,0 @@
-2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_execution_and_artifacts.py::TestExecutionManager::test_workers_share_controller_dir | layer=framework ====
-2026-09-07 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_workers_share_controller_dir | PASSED ====

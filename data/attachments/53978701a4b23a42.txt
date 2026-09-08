@@ -1,2 +1,0 @@
-2026-09-07 03:08:54 | INFO     | cocacola.Fixtures            | gw0 | test_nested_dict_masking | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_nested_dict_masking | layer=framework ====
-2026-09-07 03:08:54 | INFO     | cocacola.Fixtures            | gw0 | test_nested_dict_masking | ==== TEST END   | test_nested_dict_masking | PASSED ====

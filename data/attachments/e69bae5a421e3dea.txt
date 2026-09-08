@@ -1,8 +1,0 @@
-2026-09-07 03:08:53 | INFO     | cocacola.Fixtures            | gw0 | test_response_validator_failure_includes_report | ==== TEST START | tests/framework/test_data_and_api_client.py::TestValidators::test_response_validator_failure_includes_report | layer=framework ====
-2026-09-07 03:08:53 | INFO     | cocacola.MockApiServer       | gw0 | test_response_validator_failure_includes_report | Mock API server started at http://127.0.0.1:36423
-2026-09-07 03:08:53 | INFO     | cocacola.BaseAPIClient       | gw0 | test_response_validator_failure_includes_report | API REQUEST  | GET http://127.0.0.1:36423/profile
-2026-09-07 03:08:53 | INFO     | cocacola.BaseAPIClient       | gw0 | test_response_validator_failure_includes_report | API RESPONSE | GET http://127.0.0.1:36423/profile -> 500 (2.32 ms) | Response time: 2 ms
-2026-09-07 03:08:53 | WARNING  | cocacola.BaseAPIClient       | gw0 | test_response_validator_failure_includes_report | API ERROR BODY | {'error': 'boom'}
-2026-09-07 03:08:53 | ERROR    | cocacola.ResponseValidator   | gw0 | test_response_validator_failure_includes_report | VALIDATION FAILED | GET http://127.0.0.1:36423/profile -> 500 (2.32 ms) | Expected status 200 but got 500
-2026-09-07 03:08:53 | INFO     | cocacola.MockApiServer       | gw0 | test_response_validator_failure_includes_report | Mock API server stopped
-2026-09-07 03:08:53 | INFO     | cocacola.Fixtures            | gw0 | test_response_validator_failure_includes_report | ==== TEST END   | test_response_validator_failure_includes_report | PASSED ====

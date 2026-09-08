@@ -1,0 +1,7 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/auth/test_login_api.py::TestLoginApi::test_login_contract | layer=api ====
+[32mINFO    [0m cocacola.AuthClient:base_client.py:226 API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+[32mINFO    [0m cocacola.AuthClient:base_client.py:240 API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (1.9 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.ContractValidator:contract_validator.py:49 CONTRACT | validating POST login contract
+[32mINFO    [0m cocacola.SchemaValidator:schema_validator.py:54 SCHEMA OK | api/auth_token_schema.json
+[32mINFO    [0m cocacola.ContractValidator:contract_validator.py:64 CONTRACT OK | POST login contract
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_login_contract | PASSED ====

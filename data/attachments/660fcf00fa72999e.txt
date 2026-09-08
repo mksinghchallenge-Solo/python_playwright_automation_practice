@@ -1,2 +1,0 @@
-2026-09-07 03:08:53 | INFO     | cocacola.Fixtures            | gw0 | test_execution_dir_layout | ==== TEST START | tests/framework/test_execution_and_artifacts.py::TestExecutionManager::test_execution_dir_layout | layer=framework ====
-2026-09-07 03:08:53 | INFO     | cocacola.Fixtures            | gw0 | test_execution_dir_layout | ==== TEST END   | test_execution_dir_layout | PASSED ====

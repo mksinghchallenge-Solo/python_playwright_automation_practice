@@ -1,0 +1,8 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/framework/test_data_and_api_client.py::TestValidators::test_response_validator_failure_includes_report | layer=framework ====
+[32mINFO    [0m cocacola.MockApiServer:mock_server.py:124 Mock API server started at http://127.0.0.1:36037
+[32mINFO    [0m cocacola.BaseAPIClient:base_client.py:226 API REQUEST  | GET http://127.0.0.1:36037/profile
+[32mINFO    [0m cocacola.BaseAPIClient:base_client.py:240 API RESPONSE | GET http://127.0.0.1:36037/profile -> 500 (2.78 ms) | Response time: 3 ms
+[33mWARNING [0m cocacola.BaseAPIClient:base_client.py:242 API ERROR BODY | {'error': 'boom'}
+[31m[1mERROR   [0m cocacola.ResponseValidator:response_validator.py:55 VALIDATION FAILED | GET http://127.0.0.1:36037/profile -> 500 (2.78 ms) | Expected status 200 but got 500
+[32mINFO    [0m cocacola.MockApiServer:mock_server.py:130 Mock API server stopped
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_response_validator_failure_includes_report | PASSED ====

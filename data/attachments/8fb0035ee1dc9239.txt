@@ -1,0 +1,5 @@
+2026-09-08 03:08:52 | INFO     | cocacola.Fixtures            | gw1 | test_profile_schema | ==== TEST START | tests/api/schema/test_schema_validation_api.py::TestSchemas::test_profile_schema | layer=api ====
+2026-09-08 03:08:52 | INFO     | cocacola.ProfileClient       | gw1 | test_profile_schema | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-08 03:08:52 | INFO     | cocacola.ProfileClient       | gw1 | test_profile_schema | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.56 ms) | Response time: 2 ms
+2026-09-08 03:08:52 | INFO     | cocacola.SchemaValidator     | gw1 | test_profile_schema | SCHEMA OK | api/profile_schema.json
+2026-09-08 03:08:52 | INFO     | cocacola.Fixtures            | gw1 | test_profile_schema | ==== TEST END   | test_profile_schema | PASSED ====

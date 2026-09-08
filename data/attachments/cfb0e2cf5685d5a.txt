@@ -1,6 +1,0 @@
-2026-09-07 03:09:26 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/content/test_mocked_ui.py::TestMockedUi::test_mocked_api_in_browser[webkit] | layer=ui ====
-2026-09-07 03:09:26 | INFO     | cocacola.HomePage        | Navigating to http://127.0.0.1:8765/
-2026-09-07 03:09:26 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
-2026-09-07 03:09:27 | INFO     | cocacola.PopupHandler    | No overlay/popup displayed
-2026-09-07 03:09:27 | INFO     | cocacola.UiRouteMocks    | UI MOCK | GET http://127.0.0.1:8765/api/content/pages -> 200
-2026-09-07 03:09:27 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_mocked_api_in_browser[webkit] | PASSED ====

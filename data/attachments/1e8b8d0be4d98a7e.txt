@@ -1,0 +1,8 @@
+2026-09-08 03:09:01 | INFO     | cocacola.Fixtures            | gw1 | test_navigate_to_sign_in[chromium] | ==== TEST START | tests/ui/navigation/test_navigation.py::TestNavigation::test_navigate_to_sign_in[chromium] | layer=ui ====
+2026-09-08 03:09:01 | INFO     | cocacola.HomePage            | gw1 | test_navigate_to_sign_in[chromium] | Navigating to http://127.0.0.1:8765/
+2026-09-08 03:09:01 | INFO     | cocacola.CookieBanner        | gw1 | test_navigate_to_sign_in[chromium] | Cookie banner displayed - accepting
+2026-09-08 03:09:02 | INFO     | cocacola.PopupHandler        | gw1 | test_navigate_to_sign_in[chromium] | No overlay/popup displayed
+2026-09-08 03:09:05 | INFO     | cocacola.Navigation          | gw1 | test_navigate_to_sign_in[chromium] | Menu button not present (menu likely always expanded)
+2026-09-08 03:09:05 | INFO     | cocacola.HomePage            | gw1 | test_navigate_to_sign_in[chromium] | Clicking Sign in link
+2026-09-08 03:09:06 | INFO     | cocacola.LoginPage           | gw1 | test_navigate_to_sign_in[chromium] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-08/execution_03-08-47/ui/screenshots/sign_in_page_reached__chromium__desktop__gw1__03-09-05-985707.png
+2026-09-08 03:09:06 | INFO     | cocacola.Fixtures            | gw1 | test_navigate_to_sign_in[chromium] | ==== TEST END   | test_navigate_to_sign_in[chromium] | PASSED ====

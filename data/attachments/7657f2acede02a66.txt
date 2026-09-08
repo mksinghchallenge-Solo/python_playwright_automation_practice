@@ -1,0 +1,2 @@
+2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_log_context_is_injected | ==== TEST START | tests/framework/test_logging_and_masking.py::TestLogging::test_log_context_is_injected | layer=framework ====
+2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_log_context_is_injected | ==== TEST END   | test_log_context_is_injected | PASSED ====

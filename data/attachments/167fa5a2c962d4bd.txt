@@ -1,7 +1,0 @@
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | GET https://httpbin.org/status/200
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | GET https://httpbin.org/status/200 -> 200 (253.22 ms) | Response time: 253 ms
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_get_with_query | layer=api ====
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | GET https://httpbin.org/get
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | GET https://httpbin.org/get?page=1&q=coke -> 200 (303.34 ms) | Response time: 303 ms
-[32mINFO    [0m cocacola.SchemaValidator:schema_validator.py:54 SCHEMA OK | api/httpbin_echo_schema.json
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_get_with_query | PASSED ====

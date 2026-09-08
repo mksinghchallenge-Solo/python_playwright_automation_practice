@@ -1,0 +1,8 @@
+2026-09-08 03:09:14 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/auth/test_login_ui.py::TestLoginUi::test_login_negative[firefox-unknown_user] | layer=ui ====
+2026-09-08 03:09:14 | INFO     | cocacola.LoginPage       | Navigating to http://127.0.0.1:8765/login
+2026-09-08 03:09:14 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-09-08 03:09:14 | INFO     | cocacola.LoginPage       | Entering email: nobody_autotest@example.com
+2026-09-08 03:09:14 | INFO     | cocacola.LoginPage       | Entering password: *****
+2026-09-08 03:09:14 | INFO     | cocacola.LoginPage       | Clicking Sign in button
+2026-09-08 03:09:14 | INFO     | cocacola.LoginPage       | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-08/execution_03-08-52/ui/screenshots/test_login_failure_unknown_user__firefox__desktop__gw1__03-09-14-795932.png
+2026-09-08 03:09:15 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_login_negative[firefox-unknown_user] | PASSED ====
