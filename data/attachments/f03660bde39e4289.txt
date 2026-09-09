@@ -1,9 +1,0 @@
-2026-09-08 03:08:50 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/auth/test_login_ui.py::TestLogoutUi::test_logout[webkit] | layer=ui ====
-2026-09-08 03:08:51 | INFO     | cocacola.LoginPage       | Navigating to http://127.0.0.1:8765/login
-2026-09-08 03:08:51 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
-2026-09-08 03:08:52 | INFO     | cocacola.LoginPage       | Entering email: demo.user@example.com
-2026-09-08 03:08:52 | INFO     | cocacola.LoginPage       | Entering password: *****
-2026-09-08 03:08:52 | INFO     | cocacola.LoginPage       | Clicking Sign in button
-2026-09-08 03:08:52 | INFO     | cocacola.ProfilePage     | Clicking Sign out link
-2026-09-08 03:08:52 | INFO     | cocacola.ProfilePage     | Navigating to http://127.0.0.1:8765/profile
-2026-09-08 03:08:53 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_logout[webkit] | PASSED ====

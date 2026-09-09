@@ -1,3 +1,0 @@
-2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_log_records_are_masked | ==== TEST START | tests/framework/test_logging_and_masking.py::TestLogging::test_log_records_are_masked | layer=framework ====
-2026-09-08 03:08:48 | INFO     | cocacola.MaskCheck           | gw1 | test_log_records_are_masked | login with password=*****
-2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_log_records_are_masked | ==== TEST END   | test_log_records_are_masked | PASSED ====

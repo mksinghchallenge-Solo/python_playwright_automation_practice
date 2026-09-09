@@ -1,0 +1,19 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/basic-auth/user/passwd",
+  "elapsed_ms": 50.44,
+  "headers": {
+    "Date": "Wed, 09 Sep 2026 03:08:34 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "47",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": {
+    "authenticated": "*****",
+    "user": "user"
+  }
+}

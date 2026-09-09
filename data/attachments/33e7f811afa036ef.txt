@@ -1,2 +1,0 @@
-2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_api_exchange_saved | ==== TEST START | tests/framework/test_execution_and_artifacts.py::TestArtifactManager::test_api_exchange_saved | layer=framework ====
-2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_api_exchange_saved | ==== TEST END   | test_api_exchange_saved | PASSED ====

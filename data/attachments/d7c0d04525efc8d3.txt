@@ -1,0 +1,4 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_json_body_verbs[post] | layer=api ====
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | POST https://httpbin.org/post
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | POST https://httpbin.org/post -> 200 (213.68 ms) | Response time: 214 ms
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_json_body_verbs[post] | PASSED ====

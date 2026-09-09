@@ -1,0 +1,8 @@
+2026-09-09 03:08:37 | INFO     | cocacola.Fixtures            | gw0 | test_partial_update | ==== TEST START | tests/api/profile/test_profile_api.py::TestUpdateProfile::test_partial_update | layer=api ====
+2026-09-09 03:08:37 | INFO     | cocacola.ProfileClient       | gw0 | test_partial_update | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-09 03:08:37 | INFO     | cocacola.ProfileClient       | gw0 | test_partial_update | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.14 ms) | Response time: 2 ms
+2026-09-09 03:08:37 | INFO     | cocacola.ProfileClient       | gw0 | test_partial_update | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-09 03:08:37 | INFO     | cocacola.ProfileClient       | gw0 | test_partial_update | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (2.05 ms) | Response time: 2 ms
+2026-09-09 03:08:37 | INFO     | cocacola.ProfileClient       | gw0 | test_partial_update | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-09 03:08:37 | INFO     | cocacola.ProfileClient       | gw0 | test_partial_update | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (2.6 ms) | Response time: 3 ms
+2026-09-09 03:08:37 | INFO     | cocacola.Fixtures            | gw0 | test_partial_update | ==== TEST END   | test_partial_update | PASSED ====

@@ -1,2 +1,0 @@
-2026-09-08 03:08:46 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_config.py::TestConfiguration::test_main_config_loads | layer=framework ====
-2026-09-08 03:08:46 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_main_config_loads | PASSED ====

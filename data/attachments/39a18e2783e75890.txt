@@ -1,2 +1,0 @@
-2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_masking_can_be_disabled | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_masking_can_be_disabled | layer=framework ====
-2026-09-08 03:08:48 | INFO     | cocacola.Fixtures            | gw1 | test_masking_can_be_disabled | ==== TEST END   | test_masking_can_be_disabled | PASSED ====

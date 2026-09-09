@@ -1,0 +1,16 @@
+{
+  "status_code": 403,
+  "reason": "FORBIDDEN",
+  "url": "https://httpbin.org/status/403",
+  "elapsed_ms": 50.13,
+  "headers": {
+    "Date": "Wed, 09 Sep 2026 03:08:34 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": ""
+}

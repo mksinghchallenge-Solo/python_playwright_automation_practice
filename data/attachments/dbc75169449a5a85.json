@@ -1,0 +1,35 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/post",
+  "elapsed_ms": 49.56,
+  "headers": {
+    "Date": "Wed, 09 Sep 2026 03:08:35 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "538",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": {
+    "args": {},
+    "data": "",
+    "files": {
+      "file": "hello"
+    },
+    "form": {},
+    "headers": {
+      "Accept": "application/json",
+      "Accept-Encoding": "gzip, deflate",
+      "Content-Length": "176",
+      "Content-Type": "multipart/form-data; boundary=d964be14ea4ab6f0510644e96ebbe145",
+      "Host": "httpbin.org",
+      "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+      "X-Amzn-Trace-Id": "Root=1-6aa0cdb3-0a423401726ca16527beb357"
+    },
+    "json": null,
+    "origin": "172.215.216.233",
+    "url": "https://httpbin.org/post"
+  }
+}

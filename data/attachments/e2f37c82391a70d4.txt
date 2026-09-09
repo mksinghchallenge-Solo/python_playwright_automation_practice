@@ -1,0 +1,2 @@
+2026-09-09 03:08:23 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_browser_and_devices.py::TestDevices::test_unknown_device_error | layer=framework ====
+2026-09-09 03:08:23 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_unknown_device_error | PASSED ====

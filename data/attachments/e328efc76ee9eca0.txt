@@ -1,0 +1,2 @@
+2026-09-09 03:08:24 | INFO     | cocacola.Fixtures            | gw1 | test_headers_masking | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_headers_masking | layer=framework ====
+2026-09-09 03:08:24 | INFO     | cocacola.Fixtures            | gw1 | test_headers_masking | ==== TEST END   | test_headers_masking | PASSED ====

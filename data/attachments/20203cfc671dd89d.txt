@@ -1,0 +1,2 @@
+2026-09-09 03:08:24 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_free_text_is_masked[token: "*****"] | layer=framework ====
+2026-09-09 03:08:24 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_free_text_is_masked[token: "*****"] | PASSED ====

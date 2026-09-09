@@ -1,0 +1,2 @@
+2026-09-09 03:08:23 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_browser_and_devices.py::TestSafetyGuard::test_staging_blocks_destructive_only | layer=framework ====
+2026-09-09 03:08:23 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_staging_blocks_destructive_only | PASSED ====
