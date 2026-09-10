@@ -1,2 +1,0 @@
-2026-09-09 03:08:23 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_config.py::TestEnvironment::test_url_env_override | layer=framework ====
-2026-09-09 03:08:23 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_url_env_override | PASSED ====

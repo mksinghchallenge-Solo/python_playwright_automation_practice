@@ -1,0 +1,7 @@
+2026-09-10 03:08:41 | INFO     | cocacola.Fixtures            | gw1 | test_external_link_opens_new_tab[chromium] | ==== TEST START | tests/ui/content/test_home_page.py::TestHomePage::test_external_link_opens_new_tab[chromium] | layer=ui ====
+2026-09-10 03:08:41 | INFO     | cocacola.HomePage            | gw1 | test_external_link_opens_new_tab[chromium] | Navigating to http://127.0.0.1:8765/
+2026-09-10 03:08:41 | INFO     | cocacola.CookieBanner        | gw1 | test_external_link_opens_new_tab[chromium] | Cookie banner displayed - accepting
+2026-09-10 03:08:42 | INFO     | cocacola.PopupHandler        | gw1 | test_external_link_opens_new_tab[chromium] | No overlay/popup displayed
+2026-09-10 03:08:42 | INFO     | cocacola.HomePage            | gw1 | test_external_link_opens_new_tab[chromium] | Clicking external link and waiting for new tab
+2026-09-10 03:08:43 | INFO     | cocacola.HomePage            | gw1 | test_external_link_opens_new_tab[chromium] | New tab opened: https://www.coca-cola.com/us/en
+2026-09-10 03:08:44 | INFO     | cocacola.Fixtures            | gw1 | test_external_link_opens_new_tab[chromium] | ==== TEST END   | test_external_link_opens_new_tab[chromium] | PASSED ====

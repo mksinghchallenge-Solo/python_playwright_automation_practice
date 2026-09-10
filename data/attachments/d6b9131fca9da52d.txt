@@ -1,0 +1,10 @@
+2026-09-10 03:08:39 | INFO     | cocacola.Fixtures            | gw0 | test_first_name_boundary[min_length_1] | ==== TEST START | tests/api/profile/test_profile_boundary_api.py::TestProfileBoundary::test_first_name_boundary[min_length_1] | layer=api ====
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.81 ms) | Response time: 2 ms
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (1.73 ms) | Response time: 2 ms
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.59 ms) | Response time: 2 ms
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-10 03:08:39 | INFO     | cocacola.ProfileClient       | gw0 | test_first_name_boundary[min_length_1] | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (1.65 ms) | Response time: 2 ms
+2026-09-10 03:08:39 | INFO     | cocacola.Fixtures            | gw0 | test_first_name_boundary[min_length_1] | ==== TEST END   | test_first_name_boundary[min_length_1] | PASSED ====

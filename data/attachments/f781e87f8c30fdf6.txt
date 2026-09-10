@@ -1,0 +1,2 @@
+2026-09-10 03:08:41 | INFO     | cocacola.Fixtures            | gw1 | test_get_environment_singleton | ==== TEST START | tests/framework/test_config.py::TestEnvironment::test_get_environment_singleton | layer=framework ====
+2026-09-10 03:08:41 | INFO     | cocacola.Fixtures            | gw1 | test_get_environment_singleton | ==== TEST END   | test_get_environment_singleton | PASSED ====

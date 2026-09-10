@@ -1,0 +1,16 @@
+{
+  "status_code": 500,
+  "reason": "Internal Server Error",
+  "url": "http://127.0.0.1:40135/profile",
+  "elapsed_ms": 2.68,
+  "headers": {
+    "Server": "BaseHTTP/0.6 Python/3.11.16",
+    "Date": "Thu, 10 Sep 2026 03:08:41 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "17",
+    "X-Request-Id": "mock-request-id"
+  },
+  "body": {
+    "error": "boom"
+  }
+}

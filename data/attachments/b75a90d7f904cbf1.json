@@ -1,0 +1,17 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "http://127.0.0.1:34305/api/users/me",
+  "elapsed_ms": 1.94,
+  "headers": {
+    "Server": "BaseHTTP/0.6 Python/3.11.16",
+    "Date": "Thu, 10 Sep 2026 03:08:40 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "36",
+    "X-Request-Id": "mock-request-id"
+  },
+  "body": {
+    "id": 123,
+    "email": "not-an-email"
+  }
+}

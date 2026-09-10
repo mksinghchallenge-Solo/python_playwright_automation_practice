@@ -1,0 +1,2 @@
+2026-09-10 03:08:43 | INFO     | cocacola.Fixtures            | gw0 | test_free_text_is_masked[{"password": "hunter2"}] | ==== TEST START | tests/framework/test_logging_and_masking.py::TestMasking::test_free_text_is_masked[{"password": "*****"}] | layer=framework ====
+2026-09-10 03:08:43 | INFO     | cocacola.Fixtures            | gw0 | test_free_text_is_masked[{"password": "hunter2"}] | ==== TEST END   | test_free_text_is_masked[{"password": "*****"}] | PASSED ====

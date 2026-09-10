@@ -1,6 +1,0 @@
-2026-09-09 03:08:36 | INFO     | cocacola.Fixtures            | gw0 | test_login_rejected[missing_email] | ==== TEST START | tests/api/negative/test_login_negative_api.py::TestLoginNegative::test_login_rejected[missing_email] | layer=api ====
-2026-09-09 03:08:36 | INFO     | cocacola.AuthClient          | gw0 | test_login_rejected[missing_email] | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
-2026-09-09 03:08:36 | INFO     | cocacola.AuthClient          | gw0 | test_login_rejected[missing_email] | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 422 (2.14 ms) | Response time: 2 ms
-2026-09-09 03:08:36 | WARNING  | cocacola.AuthClient          | gw0 | test_login_rejected[missing_email] | API ERROR BODY | {'error': 'missing fields', 'fields': ['email']}
-2026-09-09 03:08:36 | INFO     | cocacola.SchemaValidator     | gw0 | test_login_rejected[missing_email] | SCHEMA OK | api/error_schema.json
-2026-09-09 03:08:36 | INFO     | cocacola.Fixtures            | gw0 | test_login_rejected[missing_email] | ==== TEST END   | test_login_rejected[missing_email] | PASSED ====

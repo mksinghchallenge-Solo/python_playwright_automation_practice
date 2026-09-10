@@ -1,6 +1,0 @@
-2026-09-09 03:08:34 | INFO     | cocacola.Fixtures            | gw0 | test_login_with_valid_credentials | ==== TEST START | tests/api/auth/test_login_api.py::TestLoginApi::test_login_with_valid_credentials | layer=api ====
-2026-09-09 03:08:34 | INFO     | cocacola.AuthClient          | gw0 | test_login_with_valid_credentials | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
-2026-09-09 03:08:34 | INFO     | cocacola.AuthClient          | gw0 | test_login_with_valid_credentials | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (3.29 ms) | Response time: 3 ms
-2026-09-09 03:08:34 | INFO     | cocacola.SchemaValidator     | gw0 | test_login_with_valid_credentials | SCHEMA OK | api/auth_token_schema.json
-2026-09-09 03:08:34 | INFO     | cocacola.ApiHelpers          | gw0 | test_login_with_valid_credentials | PERF | POST http://127.0.0.1:8765/api/auth/login -> 200 (3.29 ms) | Response time: 3 ms (threshold 10000 ms)
-2026-09-09 03:08:34 | INFO     | cocacola.Fixtures            | gw0 | test_login_with_valid_credentials | ==== TEST END   | test_login_with_valid_credentials | PASSED ====

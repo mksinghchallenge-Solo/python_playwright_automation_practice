@@ -1,0 +1,2 @@
+2026-09-10 03:08:40 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_config.py::TestEnvironment::test_each_environment_file_loads[local] | layer=framework ====
+2026-09-10 03:08:40 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_each_environment_file_loads[local] | PASSED ====

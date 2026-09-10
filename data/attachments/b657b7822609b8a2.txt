@@ -1,4 +1,0 @@
-2026-09-09 03:08:34 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_basic_auth | layer=api ====
-2026-09-09 03:08:34 | INFO     | cocacola.ExampleClient   | API REQUEST  | GET https://httpbin.org/basic-auth/user/passwd
-2026-09-09 03:08:34 | INFO     | cocacola.ExampleClient   | API RESPONSE | GET https://httpbin.org/basic-auth/user/passwd -> 200 (50.44 ms) | Response time: 50 ms
-2026-09-09 03:08:34 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_basic_auth | PASSED ====

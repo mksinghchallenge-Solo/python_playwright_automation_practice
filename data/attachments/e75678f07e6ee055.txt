@@ -1,0 +1,2 @@
+2026-09-10 03:08:41 | INFO     | cocacola.Fixtures            | gw1 | test_schema_loading | ==== TEST START | tests/framework/test_data_and_api_client.py::TestData::test_schema_loading | layer=framework ====
+2026-09-10 03:08:41 | INFO     | cocacola.Fixtures            | gw1 | test_schema_loading | ==== TEST END   | test_schema_loading | PASSED ====

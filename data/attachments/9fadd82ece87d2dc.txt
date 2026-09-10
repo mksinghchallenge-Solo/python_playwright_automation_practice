@@ -1,0 +1,6 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/framework/test_data_and_api_client.py::TestValidators::test_response_validator_chain | layer=framework ====
+[32mINFO    [0m cocacola.MockApiServer:mock_server.py:124 Mock API server started at http://127.0.0.1:34585
+[32mINFO    [0m cocacola.BaseAPIClient:base_client.py:226 API REQUEST  | GET http://127.0.0.1:34585/profile
+[32mINFO    [0m cocacola.BaseAPIClient:base_client.py:240 API RESPONSE | GET http://127.0.0.1:34585/profile -> 200 (1.92 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.MockApiServer:mock_server.py:130 Mock API server stopped
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_response_validator_chain | PASSED ====

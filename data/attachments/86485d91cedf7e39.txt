@@ -1,5 +1,0 @@
-2026-09-09 03:08:34 | INFO     | cocacola.Fixtures            | gw0 | test_status_codes[403] | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[403] | layer=api ====
-2026-09-09 03:08:34 | INFO     | cocacola.ExampleClient       | gw0 | test_status_codes[403] | API REQUEST  | GET https://httpbin.org/status/403
-2026-09-09 03:08:34 | INFO     | cocacola.ExampleClient       | gw0 | test_status_codes[403] | API RESPONSE | GET https://httpbin.org/status/403 -> 403 (50.13 ms) | Response time: 50 ms
-2026-09-09 03:08:34 | WARNING  | cocacola.ExampleClient       | gw0 | test_status_codes[403] | API ERROR BODY | 
-2026-09-09 03:08:34 | INFO     | cocacola.Fixtures            | gw0 | test_status_codes[403] | ==== TEST END   | test_status_codes[403] | PASSED ====

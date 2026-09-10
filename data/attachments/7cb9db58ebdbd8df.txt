@@ -1,6 +1,0 @@
-2026-09-09 03:08:36 | INFO     | cocacola.Fixtures            | gw0 | test_login_rejected[wrong_password] | ==== TEST START | tests/api/negative/test_login_negative_api.py::TestLoginNegative::test_login_rejected[wrong_password] | layer=api ====
-2026-09-09 03:08:36 | INFO     | cocacola.AuthClient          | gw0 | test_login_rejected[wrong_password] | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
-2026-09-09 03:08:36 | INFO     | cocacola.AuthClient          | gw0 | test_login_rejected[wrong_password] | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 401 (2.24 ms) | Response time: 2 ms
-2026-09-09 03:08:36 | WARNING  | cocacola.AuthClient          | gw0 | test_login_rejected[wrong_password] | API ERROR BODY | {'error': 'invalid credentials'}
-2026-09-09 03:08:36 | INFO     | cocacola.SchemaValidator     | gw0 | test_login_rejected[wrong_password] | SCHEMA OK | api/error_schema.json
-2026-09-09 03:08:36 | INFO     | cocacola.Fixtures            | gw0 | test_login_rejected[wrong_password] | ==== TEST END   | test_login_rejected[wrong_password] | PASSED ====
