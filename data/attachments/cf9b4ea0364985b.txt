@@ -1,2 +1,0 @@
-2026-09-10 03:08:42 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_data_and_api_client.py::TestApiClient::test_curl_conversion | layer=framework ====
-2026-09-10 03:08:42 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_curl_conversion | PASSED ====

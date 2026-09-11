@@ -1,0 +1,20 @@
+2026-09-11 03:08:35 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/auth/test_signup_ui.py::TestSignupUi::test_signup_duplicate_email[chromium] | layer=ui ====
+2026-09-11 03:08:36 | INFO     | cocacola.Fixtures        | Generated test user autotest_user_20260911_030836_3727ea6f@example.com
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Navigating to http://127.0.0.1:8765/signup
+2026-09-11 03:08:36 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Entering first name: Steven
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Entering last name: Berry
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Entering email: autotest_user_20260911_030836_3727ea6f@example.com
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Entering password: *****
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Entering zip code: 79346
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Clicking Create account button
+2026-09-11 03:08:36 | INFO     | cocacola.ProfilePage     | Clicking Sign out link
+2026-09-11 03:08:36 | INFO     | cocacola.SignupPage      | Navigating to http://127.0.0.1:8765/signup
+2026-09-11 03:08:39 | INFO     | cocacola.CookieBanner    | Cookie banner not displayed - nothing to do
+2026-09-11 03:08:39 | INFO     | cocacola.SignupPage      | Entering first name: Steven
+2026-09-11 03:08:39 | INFO     | cocacola.SignupPage      | Entering last name: Berry
+2026-09-11 03:08:39 | INFO     | cocacola.SignupPage      | Entering email: autotest_user_20260911_030836_3727ea6f@example.com
+2026-09-11 03:08:39 | INFO     | cocacola.SignupPage      | Entering password: *****
+2026-09-11 03:08:39 | INFO     | cocacola.SignupPage      | Entering zip code: 79346
+2026-09-11 03:08:39 | INFO     | cocacola.SignupPage      | Clicking Create account button
+2026-09-11 03:08:39 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_signup_duplicate_email[chromium] | PASSED ====

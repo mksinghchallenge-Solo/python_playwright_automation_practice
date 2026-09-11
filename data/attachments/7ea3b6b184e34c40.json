@@ -1,0 +1,22 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "http://127.0.0.1:8765/api/auth/login",
+  "elapsed_ms": 4.57,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.16",
+    "Date": "Fri, 11 Sep 2026 03:08:33 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "171",
+    "X-Request-Id": "c2016f5f5a9e47189008fb0a852453d8",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "access_token": "*****",
+    "refresh_token": "*****",
+    "token_type": "Bearer",
+    "expires_in": 3600
+  }
+}

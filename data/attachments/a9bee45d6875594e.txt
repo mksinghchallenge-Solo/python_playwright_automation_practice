@@ -1,5 +1,0 @@
-2026-09-10 03:08:37 | INFO     | cocacola.Fixtures            | gw0 | test_content_response_time | ==== TEST START | tests/api/content/test_content_api.py::TestContentApi::test_content_response_time | layer=api ====
-2026-09-10 03:08:37 | INFO     | cocacola.ContentClient       | gw0 | test_content_response_time | API REQUEST  | GET http://127.0.0.1:8765/api/content/pages
-2026-09-10 03:08:37 | INFO     | cocacola.ContentClient       | gw0 | test_content_response_time | API RESPONSE | GET http://127.0.0.1:8765/api/content/pages -> 200 (1.93 ms) | Response time: 2 ms
-2026-09-10 03:08:37 | INFO     | cocacola.ApiHelpers          | gw0 | test_content_response_time | PERF | GET http://127.0.0.1:8765/api/content/pages -> 200 (1.93 ms) | Response time: 2 ms (threshold 2000 ms)
-2026-09-10 03:08:37 | INFO     | cocacola.Fixtures            | gw0 | test_content_response_time | ==== TEST END   | test_content_response_time | PASSED ====

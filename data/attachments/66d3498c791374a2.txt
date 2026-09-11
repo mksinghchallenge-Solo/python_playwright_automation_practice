@@ -1,5 +1,0 @@
-2026-09-10 03:08:38 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[400] | layer=api ====
-2026-09-10 03:08:38 | INFO     | cocacola.ExampleClient   | API REQUEST  | GET https://httpbin.org/status/400
-2026-09-10 03:08:38 | INFO     | cocacola.ExampleClient   | API RESPONSE | GET https://httpbin.org/status/400 -> 400 (4.17 ms) | Response time: 4 ms
-2026-09-10 03:08:38 | WARNING  | cocacola.ExampleClient   | API ERROR BODY | 
-2026-09-10 03:08:38 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_status_codes[400] | PASSED ====

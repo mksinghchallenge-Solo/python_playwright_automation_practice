@@ -1,0 +1,2 @@
+2026-09-11 03:08:40 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_data_and_api_client.py::TestData::test_yaml_json_csv_loading | layer=framework ====
+2026-09-11 03:08:40 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_yaml_json_csv_loading | PASSED ====

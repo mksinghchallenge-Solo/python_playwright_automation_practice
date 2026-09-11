@@ -1,7 +1,0 @@
-2026-09-10 03:08:40 | INFO     | cocacola.Fixtures            | gw1 | test_mocked_error_statuses[503] | ==== TEST START | tests/api/mocked/test_mocked_profile_api.py::TestMockedProfile::test_mocked_error_statuses[503] | layer=api ====
-2026-09-10 03:08:40 | INFO     | cocacola.MockApiServer       | gw1 | test_mocked_error_statuses[503] | Mock API server started at http://127.0.0.1:40759
-2026-09-10 03:08:40 | INFO     | cocacola.BaseAPIClient       | gw1 | test_mocked_error_statuses[503] | API REQUEST  | GET http://127.0.0.1:40759/api/users/me
-2026-09-10 03:08:40 | INFO     | cocacola.BaseAPIClient       | gw1 | test_mocked_error_statuses[503] | API RESPONSE | GET http://127.0.0.1:40759/api/users/me -> 503 (1.98 ms) | Response time: 2 ms
-2026-09-10 03:08:40 | WARNING  | cocacola.BaseAPIClient       | gw1 | test_mocked_error_statuses[503] | API ERROR BODY | {'error': 'unavailable'}
-2026-09-10 03:08:40 | INFO     | cocacola.MockApiServer       | gw1 | test_mocked_error_statuses[503] | Mock API server stopped
-2026-09-10 03:08:40 | INFO     | cocacola.Fixtures            | gw1 | test_mocked_error_statuses[503] | ==== TEST END   | test_mocked_error_statuses[503] | PASSED ====

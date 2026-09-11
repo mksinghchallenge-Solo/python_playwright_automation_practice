@@ -1,0 +1,5 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_content_api.py::TestContentApi::test_list_content | layer=api ====
+[32mINFO    [0m cocacola.ContentClient:base_client.py:226 API REQUEST  | GET http://127.0.0.1:8765/api/content/pages
+[32mINFO    [0m cocacola.ContentClient:base_client.py:240 API RESPONSE | GET http://127.0.0.1:8765/api/content/pages -> 200 (1.9 ms) | Response time: 2 ms
+[32mINFO    [0m cocacola.SchemaValidator:schema_validator.py:54 SCHEMA OK | api/content_list_schema.json
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_list_content | PASSED ====

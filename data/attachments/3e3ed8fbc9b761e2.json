@@ -1,0 +1,16 @@
+{
+  "status_code": 409,
+  "reason": "CONFLICT",
+  "url": "https://httpbin.org/status/409",
+  "elapsed_ms": 5.09,
+  "headers": {
+    "Date": "Fri, 11 Sep 2026 03:08:34 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": ""
+}

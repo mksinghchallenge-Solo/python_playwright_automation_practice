@@ -1,2 +1,0 @@
-2026-09-10 03:08:41 | INFO     | cocacola.Fixtures            | gw0 | test_local_allows_everything | ==== TEST START | tests/framework/test_browser_and_devices.py::TestSafetyGuard::test_local_allows_everything | layer=framework ====
-2026-09-10 03:08:41 | INFO     | cocacola.Fixtures            | gw0 | test_local_allows_everything | ==== TEST END   | test_local_allows_everything | PASSED ====

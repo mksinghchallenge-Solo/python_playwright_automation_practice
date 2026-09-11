@@ -1,5 +1,0 @@
-2026-09-10 03:08:38 | INFO     | cocacola.Fixtures            | gw0 | test_unsupported_method | ==== TEST START | tests/api/negative/test_login_negative_api.py::TestLoginNegative::test_unsupported_method | layer=api ====
-2026-09-10 03:08:38 | INFO     | cocacola.AuthClient          | gw0 | test_unsupported_method | API REQUEST  | GET http://127.0.0.1:8765/api/auth/login
-2026-09-10 03:08:38 | INFO     | cocacola.AuthClient          | gw0 | test_unsupported_method | API RESPONSE | GET http://127.0.0.1:8765/api/auth/login -> 404 (1.76 ms) | Response time: 2 ms
-2026-09-10 03:08:38 | WARNING  | cocacola.AuthClient          | gw0 | test_unsupported_method | API ERROR BODY | {'error': 'not found', 'path': '/api/auth/login'}
-2026-09-10 03:08:38 | INFO     | cocacola.Fixtures            | gw0 | test_unsupported_method | ==== TEST END   | test_unsupported_method | PASSED ====

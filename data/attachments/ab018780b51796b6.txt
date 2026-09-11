@@ -1,0 +1,7 @@
+2026-09-11 03:08:33 | INFO     | cocacola.Fixtures            | gw0 | test_login_contract | ==== TEST START | tests/api/auth/test_login_api.py::TestLoginApi::test_login_contract | layer=api ====
+2026-09-11 03:08:33 | INFO     | cocacola.AuthClient          | gw0 | test_login_contract | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-11 03:08:33 | INFO     | cocacola.AuthClient          | gw0 | test_login_contract | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.0 ms) | Response time: 2 ms
+2026-09-11 03:08:33 | INFO     | cocacola.ContractValidator   | gw0 | test_login_contract | CONTRACT | validating POST login contract
+2026-09-11 03:08:33 | INFO     | cocacola.SchemaValidator     | gw0 | test_login_contract | SCHEMA OK | api/auth_token_schema.json
+2026-09-11 03:08:33 | INFO     | cocacola.ContractValidator   | gw0 | test_login_contract | CONTRACT OK | POST login contract
+2026-09-11 03:08:33 | INFO     | cocacola.Fixtures            | gw0 | test_login_contract | ==== TEST END   | test_login_contract | PASSED ====

@@ -1,0 +1,16 @@
+{
+  "method": "GET",
+  "url": "http://127.0.0.1:43533/api/users/me",
+  "headers": {
+    "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json",
+    "Connection": "keep-alive",
+    "Authorization": "*****"
+  },
+  "params": null,
+  "json": null,
+  "data": null,
+  "files": null,
+  "cookies": null
+}

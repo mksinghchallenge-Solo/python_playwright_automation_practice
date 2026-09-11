@@ -1,0 +1,5 @@
+2026-09-11 03:08:35 | INFO     | cocacola.Fixtures            | gw1 | test_large_payload | ==== TEST START | tests/api/negative/test_login_negative_api.py::TestLoginNegative::test_large_payload | layer=api ====
+2026-09-11 03:08:35 | INFO     | cocacola.AuthClient          | gw1 | test_large_payload | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-11 03:08:35 | INFO     | cocacola.AuthClient          | gw1 | test_large_payload | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 401 (1.73 ms) | Response time: 2 ms
+2026-09-11 03:08:35 | WARNING  | cocacola.AuthClient          | gw1 | test_large_payload | API ERROR BODY | {'error': 'invalid credentials'}
+2026-09-11 03:08:35 | INFO     | cocacola.Fixtures            | gw1 | test_large_payload | ==== TEST END   | test_large_payload | PASSED ====

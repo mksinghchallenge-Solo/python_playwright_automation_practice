@@ -1,0 +1,5 @@
+2026-09-11 03:08:34 | INFO     | cocacola.Fixtures            | gw1 | test_status_codes[422] | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[422] | layer=api ====
+2026-09-11 03:08:34 | INFO     | cocacola.ExampleClient       | gw1 | test_status_codes[422] | API REQUEST  | GET https://httpbin.org/status/422
+2026-09-11 03:08:34 | INFO     | cocacola.ExampleClient       | gw1 | test_status_codes[422] | API RESPONSE | GET https://httpbin.org/status/422 -> 422 (8.1 ms) | Response time: 8 ms
+2026-09-11 03:08:34 | WARNING  | cocacola.ExampleClient       | gw1 | test_status_codes[422] | API ERROR BODY | 
+2026-09-11 03:08:34 | INFO     | cocacola.Fixtures            | gw1 | test_status_codes[422] | ==== TEST END   | test_status_codes[422] | PASSED ====

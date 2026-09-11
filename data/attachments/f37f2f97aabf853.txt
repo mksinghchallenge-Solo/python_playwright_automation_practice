@@ -1,0 +1,5 @@
+2026-09-11 03:08:34 | INFO     | cocacola.Fixtures            | gw1 | test_status_codes[409] | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[409] | layer=api ====
+2026-09-11 03:08:34 | INFO     | cocacola.ExampleClient       | gw1 | test_status_codes[409] | API REQUEST  | GET https://httpbin.org/status/409
+2026-09-11 03:08:34 | INFO     | cocacola.ExampleClient       | gw1 | test_status_codes[409] | API RESPONSE | GET https://httpbin.org/status/409 -> 409 (5.09 ms) | Response time: 5 ms
+2026-09-11 03:08:34 | WARNING  | cocacola.ExampleClient       | gw1 | test_status_codes[409] | API ERROR BODY | 
+2026-09-11 03:08:34 | INFO     | cocacola.Fixtures            | gw1 | test_status_codes[409] | ==== TEST END   | test_status_codes[409] | PASSED ====

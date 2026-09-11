@@ -1,2 +1,0 @@
-2026-09-10 03:08:42 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_execution_and_artifacts.py::TestExecutionManager::test_new_executions_never_overwrite | layer=framework ====
-2026-09-10 03:08:42 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_new_executions_never_overwrite | PASSED ====

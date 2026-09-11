@@ -1,0 +1,5 @@
+2026-09-11 03:08:36 | INFO     | cocacola.Fixtures            | gw0 | test_malformed_json | ==== TEST START | tests/api/negative/test_login_negative_api.py::TestLoginNegative::test_malformed_json | layer=api ====
+2026-09-11 03:08:36 | INFO     | cocacola.AuthClient          | gw0 | test_malformed_json | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-11 03:08:36 | INFO     | cocacola.AuthClient          | gw0 | test_malformed_json | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 400 (2.59 ms) | Response time: 3 ms
+2026-09-11 03:08:36 | WARNING  | cocacola.AuthClient          | gw0 | test_malformed_json | API ERROR BODY | {'error': 'malformed JSON: Expecting value'}
+2026-09-11 03:08:36 | INFO     | cocacola.Fixtures            | gw0 | test_malformed_json | ==== TEST END   | test_malformed_json | PASSED ====

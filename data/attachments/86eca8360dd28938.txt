@@ -1,0 +1,7 @@
+2026-09-11 03:08:33 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/mocked/test_mocked_profile_api.py::TestMockedProfile::test_mocked_profile_happy_path | layer=api ====
+2026-09-11 03:08:33 | INFO     | cocacola.MockApiServer   | Mock API server started at http://127.0.0.1:43533
+2026-09-11 03:08:33 | INFO     | cocacola.BaseAPIClient   | API REQUEST  | GET http://127.0.0.1:43533/api/users/me
+2026-09-11 03:08:33 | INFO     | cocacola.BaseAPIClient   | API RESPONSE | GET http://127.0.0.1:43533/api/users/me -> 200 (1.75 ms) | Response time: 2 ms
+2026-09-11 03:08:33 | INFO     | cocacola.SchemaValidator | SCHEMA OK | api/profile_schema.json
+2026-09-11 03:08:34 | INFO     | cocacola.MockApiServer   | Mock API server stopped
+2026-09-11 03:08:34 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_mocked_profile_happy_path | PASSED ====

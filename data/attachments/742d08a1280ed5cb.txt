@@ -1,6 +1,0 @@
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | GET https://httpbin.org/status/200
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | GET https://httpbin.org/status/200 -> 200 (214.52 ms) | Response time: 215 ms
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_basic_auth | layer=api ====
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | GET https://httpbin.org/basic-auth/user/passwd
-[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | GET https://httpbin.org/basic-auth/user/passwd -> 200 (4.3 ms) | Response time: 4 ms
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_basic_auth | PASSED ====

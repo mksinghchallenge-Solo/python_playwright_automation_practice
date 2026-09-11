@@ -1,0 +1,19 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/bearer",
+  "elapsed_ms": 593.68,
+  "headers": {
+    "Date": "Fri, 11 Sep 2026 03:08:34 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "58",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": {
+    "authenticated": "*****",
+    "token": "*****"
+  }
+}

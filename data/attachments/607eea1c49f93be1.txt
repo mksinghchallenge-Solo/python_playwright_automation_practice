@@ -1,0 +1,10 @@
+2026-09-11 03:08:36 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/profile/test_profile_boundary_api.py::TestProfileBoundary::test_first_name_boundary[empty_value] | layer=api ====
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.3 ms) | Response time: 2 ms
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (2.33 ms) | Response time: 2 ms
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.47 ms) | Response time: 2 ms
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:36 | INFO     | cocacola.ProfileClient   | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (2.2 ms) | Response time: 2 ms
+2026-09-11 03:08:36 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_first_name_boundary[empty_value] | PASSED ====

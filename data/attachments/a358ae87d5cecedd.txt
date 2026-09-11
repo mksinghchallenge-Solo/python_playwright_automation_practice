@@ -1,4 +1,0 @@
-2026-09-10 03:08:38 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[204] | layer=api ====
-2026-09-10 03:08:38 | INFO     | cocacola.ExampleClient   | API REQUEST  | GET https://httpbin.org/status/204
-2026-09-10 03:08:38 | INFO     | cocacola.ExampleClient   | API RESPONSE | GET https://httpbin.org/status/204 -> 204 (4.25 ms) | Response time: 4 ms
-2026-09-10 03:08:38 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_status_codes[204] | PASSED ====

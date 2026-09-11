@@ -1,0 +1,10 @@
+2026-09-11 03:08:35 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/profile/test_profile_api.py::TestUpdateProfile::test_update_then_get | layer=api ====
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.69 ms) | Response time: 2 ms
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (1.54 ms) | Response time: 2 ms
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.48 ms) | Response time: 1 ms
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API REQUEST  | PUT http://127.0.0.1:8765/api/users/me
+2026-09-11 03:08:35 | INFO     | cocacola.ProfileClient   | API RESPONSE | PUT http://127.0.0.1:8765/api/users/me -> 200 (1.61 ms) | Response time: 2 ms
+2026-09-11 03:08:35 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_update_then_get | PASSED ====
