@@ -1,0 +1,19 @@
+{
+  "status_code": 401,
+  "reason": "Unauthorized",
+  "url": "http://127.0.0.1:8765/api/auth/login",
+  "elapsed_ms": 1.4,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.16",
+    "Date": "Wed, 16 Sep 2026 03:09:17 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "32",
+    "X-Request-Id": "f516803716844c13a3e8f3b0329908ba",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "error": "invalid credentials"
+  }
+}
