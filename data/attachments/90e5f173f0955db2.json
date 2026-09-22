@@ -1,0 +1,22 @@
+{
+  "status_code": 422,
+  "reason": "Unprocessable Entity",
+  "url": "http://127.0.0.1:8765/api/users/me",
+  "elapsed_ms": 1.58,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.16",
+    "Date": "Tue, 22 Sep 2026 03:08:33 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "58",
+    "X-Request-Id": "1e0172f7dfe74926a29a6596cd89a2f4",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "error": "unknown fields",
+    "fields": [
+      "favourite_drink"
+    ]
+  }
+}
