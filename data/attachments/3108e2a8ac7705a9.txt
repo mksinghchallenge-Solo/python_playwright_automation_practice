@@ -1,0 +1,6 @@
+2026-09-23 08:14:44 | INFO     | cocacola.Fixtures            | gw0 | test_path_params_query_and_json | ==== TEST START | tests/framework/test_data_and_api_client.py::TestApiClient::test_path_params_query_and_json | layer=framework ====
+2026-09-23 08:14:44 | INFO     | cocacola.MockApiServer       | gw0 | test_path_params_query_and_json | Mock API server started at http://127.0.0.1:40651
+2026-09-23 08:14:44 | INFO     | cocacola.BaseAPIClient       | gw0 | test_path_params_query_and_json | API REQUEST  | POST http://127.0.0.1:40651/users/42/notes
+2026-09-23 08:14:44 | INFO     | cocacola.BaseAPIClient       | gw0 | test_path_params_query_and_json | API RESPONSE | POST http://127.0.0.1:40651/users/42/notes?lang=en -> 201 (2.53 ms) | Response time: 3 ms
+2026-09-23 08:14:45 | INFO     | cocacola.MockApiServer       | gw0 | test_path_params_query_and_json | Mock API server stopped
+2026-09-23 08:14:45 | INFO     | cocacola.Fixtures            | gw0 | test_path_params_query_and_json | ==== TEST END   | test_path_params_query_and_json | PASSED ====

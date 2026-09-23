@@ -1,3 +1,0 @@
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/framework/test_data_and_api_client.py::TestValidators::test_schema_validator_lists_all_problems | layer=framework ====
-[31m[1mERROR   [0m cocacola.SchemaValidator:schema_validator.py:52 SCHEMA FAILED | profile | 4 problem(s)
-[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_schema_validator_lists_all_problems | PASSED ====
