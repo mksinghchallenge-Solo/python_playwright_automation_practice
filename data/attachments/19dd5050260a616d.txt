@@ -1,0 +1,2 @@
+2026-09-25 08:29:43 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/framework/test_config.py::TestEnvironment::test_unknown_environment_rejected | layer=framework ====
+2026-09-25 08:29:43 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_unknown_environment_rejected | PASSED ====

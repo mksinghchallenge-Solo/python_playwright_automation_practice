@@ -1,0 +1,24 @@
+{
+  "status_code": 201,
+  "reason": "Created",
+  "url": "http://127.0.0.1:8765/api/users",
+  "elapsed_ms": 5.21,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.16",
+    "Date": "Fri, 25 Sep 2026 08:29:40 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "153",
+    "X-Request-Id": "0d30ff2adfde46cfbb7525c66d85f06f",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Location": "/api/users/usr_5f36c9e4"
+  },
+  "body": {
+    "id": "usr_5f36c9e4",
+    "zip_code": "60089",
+    "email": "autotest_api_20260925_082940_d59476ff@example.com",
+    "first_name": "Angela",
+    "last_name": "Herrera"
+  }
+}
