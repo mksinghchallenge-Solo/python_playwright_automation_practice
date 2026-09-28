@@ -1,0 +1,6 @@
+2026-09-28 09:19:04 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_form_and_multipart | layer=api ====
+2026-09-28 09:19:04 | INFO     | cocacola.ExampleClient   | API REQUEST  | POST https://httpbin.org/post
+2026-09-28 09:19:04 | INFO     | cocacola.ExampleClient   | API RESPONSE | POST https://httpbin.org/post -> 200 (29.34 ms) | Response time: 29 ms
+2026-09-28 09:19:04 | INFO     | cocacola.ExampleClient   | API REQUEST  | POST https://httpbin.org/post
+2026-09-28 09:19:04 | INFO     | cocacola.ExampleClient   | API RESPONSE | POST https://httpbin.org/post -> 200 (27.72 ms) | Response time: 28 ms
+2026-09-28 09:19:04 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_form_and_multipart | PASSED ====

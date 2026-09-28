@@ -1,0 +1,28 @@
+2026-09-28 09:18:50 | INFO     | cocacola.Fixtures            | gw1 | test_ui_edit_persisted_via_api[chromium] | ==== TEST START | tests/e2e/ui_to_api/test_ui_update_api_verify.py::TestUiUpdateApiVerify::test_ui_edit_persisted_via_api[chromium] | layer=e2e ====
+2026-09-28 09:18:50 | INFO     | cocacola.UserClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API REQUEST  | POST http://127.0.0.1:8765/api/users
+2026-09-28 09:18:50 | INFO     | cocacola.UserClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API RESPONSE | POST http://127.0.0.1:8765/api/users -> 201 (2.88 ms) | Response time: 3 ms
+2026-09-28 09:18:50 | INFO     | cocacola.ApiFixtures         | gw1 | test_ui_edit_persisted_via_api[chromium] | Created API test user autotest_api_20260928_091850_0a3bd6f0@example.com (id=usr_f4da0a79)
+2026-09-28 09:18:50 | INFO     | cocacola.E2eFixtures         | gw1 | test_ui_edit_persisted_via_api[chromium] | E2E actors ready for autotest_api_20260928_091850_0a3bd6f0@example.com
+2026-09-28 09:18:50 | INFO     | cocacola.LoginPage           | gw1 | test_ui_edit_persisted_via_api[chromium] | Navigating to http://127.0.0.1:8765/login
+2026-09-28 09:18:50 | INFO     | cocacola.CookieBanner        | gw1 | test_ui_edit_persisted_via_api[chromium] | Cookie banner displayed - accepting
+2026-09-28 09:18:50 | INFO     | cocacola.LoginPage           | gw1 | test_ui_edit_persisted_via_api[chromium] | Entering email: autotest_api_20260928_091850_0a3bd6f0@example.com
+2026-09-28 09:18:50 | INFO     | cocacola.LoginPage           | gw1 | test_ui_edit_persisted_via_api[chromium] | Entering password: *****
+2026-09-28 09:18:50 | INFO     | cocacola.LoginPage           | gw1 | test_ui_edit_persisted_via_api[chromium] | Clicking Sign in button
+2026-09-28 09:18:51 | INFO     | cocacola.ProfilePage         | gw1 | test_ui_edit_persisted_via_api[chromium] | Clicking Edit profile button
+2026-09-28 09:18:51 | INFO     | cocacola.EditProfilePage     | gw1 | test_ui_edit_persisted_via_api[chromium] | Entering first name: UpdJennifer
+2026-09-28 09:18:51 | INFO     | cocacola.EditProfilePage     | gw1 | test_ui_edit_persisted_via_api[chromium] | Entering last name: UpdMorgan
+2026-09-28 09:18:51 | INFO     | cocacola.EditProfilePage     | gw1 | test_ui_edit_persisted_via_api[chromium] | Entering zip code: 64731
+2026-09-28 09:18:51 | INFO     | cocacola.EditProfilePage     | gw1 | test_ui_edit_persisted_via_api[chromium] | Clicking Save changes button
+2026-09-28 09:18:51 | INFO     | cocacola.AuthClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-28 09:18:51 | INFO     | cocacola.AuthClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.96 ms) | Response time: 3 ms
+2026-09-28 09:18:51 | INFO     | cocacola.TokenManager        | gw1 | test_ui_edit_persisted_via_api[chromium] | Obtained new access token (masked); expires_at=1790590731.4264886
+2026-09-28 09:18:51 | INFO     | cocacola.ProfileClient       | gw1 | test_ui_edit_persisted_via_api[chromium] | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-09-28 09:18:51 | INFO     | cocacola.ProfileClient       | gw1 | test_ui_edit_persisted_via_api[chromium] | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.17 ms) | Response time: 2 ms
+2026-09-28 09:18:51 | INFO     | cocacola.SchemaValidator     | gw1 | test_ui_edit_persisted_via_api[chromium] | SCHEMA OK | api/profile_schema.json
+2026-09-28 09:18:51 | INFO     | cocacola.AuthClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-09-28 09:18:51 | INFO     | cocacola.AuthClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.74 ms) | Response time: 3 ms
+2026-09-28 09:18:51 | INFO     | cocacola.TokenManager        | gw1 | test_ui_edit_persisted_via_api[chromium] | Obtained new access token (masked); expires_at=1790590731.5884466
+2026-09-28 09:18:51 | INFO     | cocacola.UserClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API REQUEST  | DELETE http://127.0.0.1:8765/api/users/usr_f4da0a79
+2026-09-28 09:18:51 | INFO     | cocacola.UserClient          | gw1 | test_ui_edit_persisted_via_api[chromium] | API RESPONSE | DELETE http://127.0.0.1:8765/api/users/usr_f4da0a79 -> 204 (1.94 ms) | Response time: 2 ms
+2026-09-28 09:18:51 | INFO     | cocacola.ApiFixtures         | gw1 | test_ui_edit_persisted_via_api[chromium] | Cleanup delete user autotest_api_20260928_091850_0a3bd6f0@example.com -> 204
+2026-09-28 09:18:51 | INFO     | cocacola.Fixtures            | gw1 | test_ui_edit_persisted_via_api[chromium] | ==== TEST END   | test_ui_edit_persisted_via_api[chromium] | PASSED ====

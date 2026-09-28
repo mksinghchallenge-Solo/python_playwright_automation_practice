@@ -1,0 +1,16 @@
+2026-09-28 09:19:45 | INFO     | cocacola.Fixtures            | gw1 | test_edit_profile[webkit] | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_edit_profile[webkit] | layer=ui ====
+2026-09-28 09:19:45 | INFO     | cocacola.Fixtures            | gw1 | test_edit_profile[webkit] | Generated test user autotest_user_20260928_091945_deffd0f0@example.com
+2026-09-28 09:19:45 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[webkit] | Navigating to http://127.0.0.1:8765/signup
+2026-09-28 09:19:45 | INFO     | cocacola.CookieBanner        | gw1 | test_edit_profile[webkit] | Cookie banner displayed - accepting
+2026-09-28 09:19:45 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[webkit] | Entering first name: Seth
+2026-09-28 09:19:45 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[webkit] | Entering last name: Richardson
+2026-09-28 09:19:46 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[webkit] | Entering email: autotest_user_20260928_091945_deffd0f0@example.com
+2026-09-28 09:19:46 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[webkit] | Entering password: *****
+2026-09-28 09:19:46 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[webkit] | Entering zip code: 21094
+2026-09-28 09:19:46 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[webkit] | Clicking Create account button
+2026-09-28 09:19:46 | INFO     | cocacola.ProfilePage         | gw1 | test_edit_profile[webkit] | Clicking Edit profile button
+2026-09-28 09:19:46 | INFO     | cocacola.EditProfilePage     | gw1 | test_edit_profile[webkit] | Entering first name: UpdChristian
+2026-09-28 09:19:46 | INFO     | cocacola.EditProfilePage     | gw1 | test_edit_profile[webkit] | Entering zip code: 38598
+2026-09-28 09:19:46 | INFO     | cocacola.EditProfilePage     | gw1 | test_edit_profile[webkit] | Clicking Save changes button
+2026-09-28 09:19:46 | INFO     | cocacola.ProfilePage         | gw1 | test_edit_profile[webkit] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-09-28/execution_09-19-20/ui/screenshots/test_profile_update_success__webkit__desktop__gw1__09-19-46-480217.png
+2026-09-28 09:19:46 | INFO     | cocacola.Fixtures            | gw1 | test_edit_profile[webkit] | ==== TEST END   | test_edit_profile[webkit] | PASSED ====
