@@ -1,0 +1,22 @@
+{
+  "status_code": 422,
+  "reason": "Unprocessable Entity",
+  "url": "http://127.0.0.1:8765/api/auth/login",
+  "elapsed_ms": 1.52,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.16",
+    "Date": "Wed, 30 Sep 2026 09:16:21 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "51",
+    "X-Request-Id": "098539ea5fde495db78dbb33c6ea4ece",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "error": "missing fields",
+    "fields": [
+      "password"
+    ]
+  }
+}
