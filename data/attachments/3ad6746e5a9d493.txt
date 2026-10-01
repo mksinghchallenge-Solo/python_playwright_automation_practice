@@ -1,7 +1,0 @@
-2026-09-30 09:16:20 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_bearer_auth_required | layer=api ====
-2026-09-30 09:16:20 | INFO     | cocacola.ExampleClient   | API REQUEST  | GET https://httpbin.org/bearer
-2026-09-30 09:16:20 | INFO     | cocacola.ExampleClient   | API RESPONSE | GET https://httpbin.org/bearer -> 401 (55.84 ms) | Response time: 56 ms
-2026-09-30 09:16:20 | WARNING  | cocacola.ExampleClient   | API ERROR BODY | 
-2026-09-30 09:16:20 | INFO     | cocacola.ExampleClient   | API REQUEST  | GET https://httpbin.org/bearer
-2026-09-30 09:16:20 | INFO     | cocacola.ExampleClient   | API RESPONSE | GET https://httpbin.org/bearer -> 200 (56.24 ms) | Response time: 56 ms
-2026-09-30 09:16:20 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_bearer_auth_required | PASSED ====
