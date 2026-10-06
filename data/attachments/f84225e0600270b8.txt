@@ -1,0 +1,12 @@
+2026-10-06 09:44:30 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_view_profile[firefox] | layer=ui ====
+2026-10-06 09:44:31 | INFO     | cocacola.Fixtures        | Generated test user autotest_user_20261006_094431_4823c3f0@example.com
+2026-10-06 09:44:31 | INFO     | cocacola.SignupPage      | Navigating to http://127.0.0.1:8765/signup
+2026-10-06 09:44:31 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-10-06 09:44:31 | INFO     | cocacola.SignupPage      | Entering first name: Julian
+2026-10-06 09:44:31 | INFO     | cocacola.SignupPage      | Entering last name: Harris
+2026-10-06 09:44:31 | INFO     | cocacola.SignupPage      | Entering email: autotest_user_20261006_094431_4823c3f0@example.com
+2026-10-06 09:44:31 | INFO     | cocacola.SignupPage      | Entering password: *****
+2026-10-06 09:44:31 | INFO     | cocacola.SignupPage      | Entering zip code: 10342
+2026-10-06 09:44:31 | INFO     | cocacola.SignupPage      | Clicking Create account button
+2026-10-06 09:44:31 | INFO     | cocacola.ProfilePage     | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-10-06/execution_09-44-10/ui/screenshots/profile_view__firefox__desktop__gw1__09-44-31-706371.png
+2026-10-06 09:44:31 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_view_profile[firefox] | PASSED ====

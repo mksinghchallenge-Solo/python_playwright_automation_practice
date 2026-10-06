@@ -1,8 +1,0 @@
-2026-10-05 09:57:48 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/auth/test_login_api.py::TestLoginApi::test_token_manager_force_refresh | layer=api ====
-2026-10-05 09:57:48 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
-2026-10-05 09:57:48 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (1.63 ms) | Response time: 2 ms
-2026-10-05 09:57:48 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1791197868.8202462
-2026-10-05 09:57:48 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
-2026-10-05 09:57:48 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (1.25 ms) | Response time: 1 ms
-2026-10-05 09:57:48 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1791197868.822828
-2026-10-05 09:57:48 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_token_manager_force_refresh | PASSED ====

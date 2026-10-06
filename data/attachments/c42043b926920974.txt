@@ -1,0 +1,12 @@
+2026-10-06 09:44:15 | INFO     | cocacola.Fixtures            | gw1 | test_signup_success[firefox] | ==== TEST START | tests/ui/auth/test_signup_ui.py::TestSignupUi::test_signup_success[firefox] | layer=ui ====
+2026-10-06 09:44:16 | INFO     | cocacola.Fixtures            | gw1 | test_signup_success[firefox] | Generated test user autotest_user_20261006_094416_a8d83cd7@example.com
+2026-10-06 09:44:16 | INFO     | cocacola.SignupPage          | gw1 | test_signup_success[firefox] | Navigating to http://127.0.0.1:8765/signup
+2026-10-06 09:44:16 | INFO     | cocacola.CookieBanner        | gw1 | test_signup_success[firefox] | Cookie banner displayed - accepting
+2026-10-06 09:44:16 | INFO     | cocacola.SignupPage          | gw1 | test_signup_success[firefox] | Entering first name: Michael
+2026-10-06 09:44:16 | INFO     | cocacola.SignupPage          | gw1 | test_signup_success[firefox] | Entering last name: Duran
+2026-10-06 09:44:16 | INFO     | cocacola.SignupPage          | gw1 | test_signup_success[firefox] | Entering email: autotest_user_20261006_094416_a8d83cd7@example.com
+2026-10-06 09:44:16 | INFO     | cocacola.SignupPage          | gw1 | test_signup_success[firefox] | Entering password: *****
+2026-10-06 09:44:16 | INFO     | cocacola.SignupPage          | gw1 | test_signup_success[firefox] | Entering zip code: 51105
+2026-10-06 09:44:16 | INFO     | cocacola.SignupPage          | gw1 | test_signup_success[firefox] | Clicking Create account button
+2026-10-06 09:44:17 | INFO     | cocacola.ProfilePage         | gw1 | test_signup_success[firefox] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-10-06/execution_09-44-10/ui/screenshots/test_signup_success__firefox__desktop__gw1__09-44-17-031939.png
+2026-10-06 09:44:17 | INFO     | cocacola.Fixtures            | gw1 | test_signup_success[firefox] | ==== TEST END   | test_signup_success[firefox] | PASSED ====

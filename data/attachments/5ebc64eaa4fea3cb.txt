@@ -1,0 +1,20 @@
+2026-10-06 09:44:17 | INFO     | cocacola.Fixtures            | gw1 | test_signup_duplicate_email[firefox] | ==== TEST START | tests/ui/auth/test_signup_ui.py::TestSignupUi::test_signup_duplicate_email[firefox] | layer=ui ====
+2026-10-06 09:44:17 | INFO     | cocacola.Fixtures            | gw1 | test_signup_duplicate_email[firefox] | Generated test user autotest_user_20261006_094417_ca366609@example.com
+2026-10-06 09:44:17 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Navigating to http://127.0.0.1:8765/signup
+2026-10-06 09:44:17 | INFO     | cocacola.CookieBanner        | gw1 | test_signup_duplicate_email[firefox] | Cookie banner displayed - accepting
+2026-10-06 09:44:18 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering first name: Tanya
+2026-10-06 09:44:18 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering last name: English
+2026-10-06 09:44:18 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering email: autotest_user_20261006_094417_ca366609@example.com
+2026-10-06 09:44:18 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering password: *****
+2026-10-06 09:44:18 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering zip code: 64129
+2026-10-06 09:44:18 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Clicking Create account button
+2026-10-06 09:44:18 | INFO     | cocacola.ProfilePage         | gw1 | test_signup_duplicate_email[firefox] | Clicking Sign out link
+2026-10-06 09:44:18 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Navigating to http://127.0.0.1:8765/signup
+2026-10-06 09:44:20 | INFO     | cocacola.CookieBanner        | gw1 | test_signup_duplicate_email[firefox] | Cookie banner not displayed - nothing to do
+2026-10-06 09:44:20 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering first name: Tanya
+2026-10-06 09:44:21 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering last name: English
+2026-10-06 09:44:21 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering email: autotest_user_20261006_094417_ca366609@example.com
+2026-10-06 09:44:21 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering password: *****
+2026-10-06 09:44:21 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Entering zip code: 64129
+2026-10-06 09:44:21 | INFO     | cocacola.SignupPage          | gw1 | test_signup_duplicate_email[firefox] | Clicking Create account button
+2026-10-06 09:44:22 | INFO     | cocacola.Fixtures            | gw1 | test_signup_duplicate_email[firefox] | ==== TEST END   | test_signup_duplicate_email[firefox] | PASSED ====
