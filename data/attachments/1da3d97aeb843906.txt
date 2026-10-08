@@ -1,6 +1,0 @@
-2026-10-07 09:43:08 | INFO     | cocacola.Fixtures            | gw1 | test_form_and_multipart | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_form_and_multipart | layer=api ====
-2026-10-07 09:43:08 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API REQUEST  | POST https://httpbin.org/post
-2026-10-07 09:43:08 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API RESPONSE | POST https://httpbin.org/post -> 200 (65.21 ms) | Response time: 65 ms
-2026-10-07 09:43:08 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API REQUEST  | POST https://httpbin.org/post
-2026-10-07 09:43:08 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API RESPONSE | POST https://httpbin.org/post -> 200 (727.48 ms) | Response time: 727 ms
-2026-10-07 09:43:08 | INFO     | cocacola.Fixtures            | gw1 | test_form_and_multipart | ==== TEST END   | test_form_and_multipart | PASSED ====
