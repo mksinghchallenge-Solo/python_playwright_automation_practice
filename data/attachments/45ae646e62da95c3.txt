@@ -1,4 +1,0 @@
-2026-10-08 09:53:30 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_json_body_verbs[patch] | layer=api ====
-2026-10-08 09:53:30 | INFO     | cocacola.ExampleClient   | API REQUEST  | PATCH https://httpbin.org/patch
-2026-10-08 09:53:30 | INFO     | cocacola.ExampleClient   | API RESPONSE | PATCH https://httpbin.org/patch -> 200 (52.54 ms) | Response time: 53 ms
-2026-10-08 09:53:30 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_json_body_verbs[patch] | PASSED ====

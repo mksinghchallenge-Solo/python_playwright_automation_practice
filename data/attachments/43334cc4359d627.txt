@@ -1,0 +1,28 @@
+2026-10-09 09:57:34 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/e2e/ui_to_api/test_ui_update_api_verify.py::TestUiUpdateApiVerify::test_ui_edit_persisted_via_api[chromium] | layer=e2e ====
+2026-10-09 09:57:34 | INFO     | cocacola.UserClient      | API REQUEST  | POST http://127.0.0.1:8765/api/users
+2026-10-09 09:57:34 | INFO     | cocacola.UserClient      | API RESPONSE | POST http://127.0.0.1:8765/api/users -> 201 (3.61 ms) | Response time: 4 ms
+2026-10-09 09:57:34 | INFO     | cocacola.ApiFixtures     | Created API test user autotest_api_20261009_095734_733df124@example.com (id=usr_333659db)
+2026-10-09 09:57:34 | INFO     | cocacola.E2eFixtures     | E2E actors ready for autotest_api_20261009_095734_733df124@example.com
+2026-10-09 09:57:34 | INFO     | cocacola.LoginPage       | Navigating to http://127.0.0.1:8765/login
+2026-10-09 09:57:35 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-10-09 09:57:35 | INFO     | cocacola.LoginPage       | Entering email: autotest_api_20261009_095734_733df124@example.com
+2026-10-09 09:57:35 | INFO     | cocacola.LoginPage       | Entering password: *****
+2026-10-09 09:57:35 | INFO     | cocacola.LoginPage       | Clicking Sign in button
+2026-10-09 09:57:35 | INFO     | cocacola.ProfilePage     | Clicking Edit profile button
+2026-10-09 09:57:35 | INFO     | cocacola.EditProfilePage | Entering first name: UpdCurtis
+2026-10-09 09:57:35 | INFO     | cocacola.EditProfilePage | Entering last name: UpdMclean
+2026-10-09 09:57:35 | INFO     | cocacola.EditProfilePage | Entering zip code: 16957
+2026-10-09 09:57:35 | INFO     | cocacola.EditProfilePage | Clicking Save changes button
+2026-10-09 09:57:35 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-10-09 09:57:35 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.28 ms) | Response time: 2 ms
+2026-10-09 09:57:35 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1791543455.49115
+2026-10-09 09:57:35 | INFO     | cocacola.ProfileClient   | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-10-09 09:57:35 | INFO     | cocacola.ProfileClient   | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (1.86 ms) | Response time: 2 ms
+2026-10-09 09:57:35 | INFO     | cocacola.SchemaValidator | SCHEMA OK | api/profile_schema.json
+2026-10-09 09:57:35 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-10-09 09:57:35 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (2.48 ms) | Response time: 2 ms
+2026-10-09 09:57:35 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1791543455.676644
+2026-10-09 09:57:35 | INFO     | cocacola.UserClient      | API REQUEST  | DELETE http://127.0.0.1:8765/api/users/usr_333659db
+2026-10-09 09:57:35 | INFO     | cocacola.UserClient      | API RESPONSE | DELETE http://127.0.0.1:8765/api/users/usr_333659db -> 204 (1.69 ms) | Response time: 2 ms
+2026-10-09 09:57:35 | INFO     | cocacola.ApiFixtures     | Cleanup delete user autotest_api_20261009_095734_733df124@example.com -> 204
+2026-10-09 09:57:35 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_ui_edit_persisted_via_api[chromium] | PASSED ====

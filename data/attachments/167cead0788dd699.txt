@@ -1,0 +1,23 @@
+2026-10-09 09:57:33 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/e2e/api_to_ui/test_api_setup_ui_verify.py::TestApiSetupUiVerify::test_api_created_user_visible_in_ui[chromium] | layer=e2e ====
+2026-10-09 09:57:33 | INFO     | cocacola.UserClient      | API REQUEST  | POST http://127.0.0.1:8765/api/users
+2026-10-09 09:57:33 | INFO     | cocacola.UserClient      | API RESPONSE | POST http://127.0.0.1:8765/api/users -> 201 (4.4 ms) | Response time: 4 ms
+2026-10-09 09:57:33 | INFO     | cocacola.ApiFixtures     | Created API test user autotest_api_20261009_095733_9ec548c3@example.com (id=usr_89ecbd65)
+2026-10-09 09:57:33 | INFO     | cocacola.E2eFixtures     | E2E actors ready for autotest_api_20261009_095733_9ec548c3@example.com
+2026-10-09 09:57:33 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-10-09 09:57:33 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (3.79 ms) | Response time: 4 ms
+2026-10-09 09:57:33 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1791543453.3327038
+2026-10-09 09:57:33 | INFO     | cocacola.ProfileClient   | API REQUEST  | GET http://127.0.0.1:8765/api/users/me
+2026-10-09 09:57:33 | INFO     | cocacola.ProfileClient   | API RESPONSE | GET http://127.0.0.1:8765/api/users/me -> 200 (2.91 ms) | Response time: 3 ms
+2026-10-09 09:57:33 | INFO     | cocacola.LoginPage       | Navigating to http://127.0.0.1:8765/login
+2026-10-09 09:57:33 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-10-09 09:57:33 | INFO     | cocacola.LoginPage       | Entering email: autotest_api_20261009_095733_9ec548c3@example.com
+2026-10-09 09:57:33 | INFO     | cocacola.LoginPage       | Entering password: *****
+2026-10-09 09:57:33 | INFO     | cocacola.LoginPage       | Clicking Sign in button
+2026-10-09 09:57:34 | INFO     | cocacola.ProfilePage     | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-10-09/execution_09-57-31/ui/screenshots/e2e_api_to_ui_profile__chromium__desktop__gw0__09-57-34-027052.png
+2026-10-09 09:57:34 | INFO     | cocacola.AuthClient      | API REQUEST  | POST http://127.0.0.1:8765/api/auth/login
+2026-10-09 09:57:34 | INFO     | cocacola.AuthClient      | API RESPONSE | POST http://127.0.0.1:8765/api/auth/login -> 200 (3.17 ms) | Response time: 3 ms
+2026-10-09 09:57:34 | INFO     | cocacola.TokenManager    | Obtained new access token (masked); expires_at=1791543454.5239315
+2026-10-09 09:57:34 | INFO     | cocacola.UserClient      | API REQUEST  | DELETE http://127.0.0.1:8765/api/users/usr_89ecbd65
+2026-10-09 09:57:34 | INFO     | cocacola.UserClient      | API RESPONSE | DELETE http://127.0.0.1:8765/api/users/usr_89ecbd65 -> 204 (1.88 ms) | Response time: 2 ms
+2026-10-09 09:57:34 | INFO     | cocacola.ApiFixtures     | Cleanup delete user autotest_api_20261009_095733_9ec548c3@example.com -> 204
+2026-10-09 09:57:34 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_api_created_user_visible_in_ui[chromium] | PASSED ====
