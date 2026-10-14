@@ -1,0 +1,19 @@
+{
+  "status_code": 401,
+  "reason": "Unauthorized",
+  "url": "http://127.0.0.1:8765/api/users/me",
+  "elapsed_ms": 1.81,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.17",
+    "Date": "Wed, 14 Oct 2026 08:21:20 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "26",
+    "X-Request-Id": "9b41cc638a0a4f9780a7cd4a48d87af0",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "error": "invalid token"
+  }
+}
