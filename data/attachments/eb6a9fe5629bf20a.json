@@ -1,0 +1,20 @@
+{
+  "status_code": 404,
+  "reason": "Not Found",
+  "url": "http://127.0.0.1:8765/api/auth/login",
+  "elapsed_ms": 1.49,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.17",
+    "Date": "Thu, 15 Oct 2026 07:58:12 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "49",
+    "X-Request-Id": "6d6b2ea690b3409a8fdec0c0c8f28678",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "error": "not found",
+    "path": "/api/auth/login"
+  }
+}
