@@ -1,0 +1,16 @@
+2026-10-16 07:52:08 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_edit_profile[firefox] | layer=ui ====
+2026-10-16 07:52:08 | INFO     | cocacola.Fixtures        | Generated test user autotest_user_20261016_075208_118e50e6@example.com
+2026-10-16 07:52:08 | INFO     | cocacola.SignupPage      | Navigating to http://127.0.0.1:8765/signup
+2026-10-16 07:52:08 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-10-16 07:52:08 | INFO     | cocacola.SignupPage      | Entering first name: Elizabeth
+2026-10-16 07:52:08 | INFO     | cocacola.SignupPage      | Entering last name: Johnston
+2026-10-16 07:52:08 | INFO     | cocacola.SignupPage      | Entering email: autotest_user_20261016_075208_118e50e6@example.com
+2026-10-16 07:52:08 | INFO     | cocacola.SignupPage      | Entering password: *****
+2026-10-16 07:52:08 | INFO     | cocacola.SignupPage      | Entering zip code: 83763
+2026-10-16 07:52:09 | INFO     | cocacola.SignupPage      | Clicking Create account button
+2026-10-16 07:52:09 | INFO     | cocacola.ProfilePage     | Clicking Edit profile button
+2026-10-16 07:52:09 | INFO     | cocacola.EditProfilePage | Entering first name: UpdRobert
+2026-10-16 07:52:09 | INFO     | cocacola.EditProfilePage | Entering zip code: 32619
+2026-10-16 07:52:09 | INFO     | cocacola.EditProfilePage | Clicking Save changes button
+2026-10-16 07:52:09 | INFO     | cocacola.ProfilePage     | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-10-16/execution_07-51-45/ui/screenshots/test_profile_update_success__firefox__desktop__gw0__07-52-09-572567.png
+2026-10-16 07:52:10 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_edit_profile[firefox] | PASSED ====

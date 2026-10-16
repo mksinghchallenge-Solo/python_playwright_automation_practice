@@ -1,0 +1,36 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/patch",
+  "elapsed_ms": 555.82,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 07:51:51 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "553",
+    "Connection": "keep-alive",
+    "Server": "gunicorn/19.9.0",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "*****"
+  },
+  "body": {
+    "args": {},
+    "data": "{\"brand\": \"Coca-Cola\", \"zero\": true}",
+    "files": {},
+    "form": {},
+    "headers": {
+      "Accept": "application/json",
+      "Accept-Encoding": "gzip, deflate",
+      "Content-Length": "36",
+      "Content-Type": "application/json",
+      "Host": "httpbin.org",
+      "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+      "X-Amzn-Trace-Id": "Root=1-6ad1d796-0c8334e351793c2727d36dc4"
+    },
+    "json": {
+      "brand": "Coca-Cola",
+      "zero": true
+    },
+    "origin": "20.169.93.34",
+    "url": "https://httpbin.org/patch"
+  }
+}

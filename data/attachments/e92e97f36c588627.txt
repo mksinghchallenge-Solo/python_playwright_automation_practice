@@ -1,0 +1,7 @@
+2026-10-16 07:51:46 | INFO     | cocacola.ExampleClient       | gw1 | - | API REQUEST  | GET https://httpbin.org/status/200
+2026-10-16 07:51:48 | WARNING  | cocacola.ExampleClient       | gw1 | - | API RESPONSE | GET https://httpbin.org/status/200 -> 200 (1670.53 ms) | Response time: 1671 ms
+2026-10-16 07:51:48 | INFO     | cocacola.Fixtures            | gw1 | test_get_with_query | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_get_with_query | layer=api ====
+2026-10-16 07:51:48 | INFO     | cocacola.ExampleClient       | gw1 | test_get_with_query | API REQUEST  | GET https://httpbin.org/get
+2026-10-16 07:51:48 | INFO     | cocacola.ExampleClient       | gw1 | test_get_with_query | API RESPONSE | GET https://httpbin.org/get?page=1&q=coke -> 200 (104.77 ms) | Response time: 105 ms
+2026-10-16 07:51:48 | INFO     | cocacola.SchemaValidator     | gw1 | test_get_with_query | SCHEMA OK | api/httpbin_echo_schema.json
+2026-10-16 07:51:48 | INFO     | cocacola.Fixtures            | gw1 | test_get_with_query | ==== TEST END   | test_get_with_query | PASSED ====
