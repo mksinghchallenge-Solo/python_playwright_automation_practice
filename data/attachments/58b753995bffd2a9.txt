@@ -1,4 +1,0 @@
-2026-10-16 07:51:48 | INFO     | cocacola.Fixtures            | gw1 | test_json_body_verbs[post] | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_json_body_verbs[post] | layer=api ====
-2026-10-16 07:51:48 | INFO     | cocacola.ExampleClient       | gw1 | test_json_body_verbs[post] | API REQUEST  | POST https://httpbin.org/post
-2026-10-16 07:51:50 | WARNING  | cocacola.ExampleClient       | gw1 | test_json_body_verbs[post] | API RESPONSE | POST https://httpbin.org/post -> 200 (2099.32 ms) | Response time: 2099 ms
-2026-10-16 07:51:50 | INFO     | cocacola.Fixtures            | gw1 | test_json_body_verbs[post] | ==== TEST END   | test_json_body_verbs[post] | PASSED ====

@@ -1,0 +1,16 @@
+2026-10-19 08:26:56 | INFO     | cocacola.Fixtures            | gw1 | test_edit_profile[firefox] | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_edit_profile[firefox] | layer=ui ====
+2026-10-19 08:26:57 | INFO     | cocacola.Fixtures            | gw1 | test_edit_profile[firefox] | Generated test user autotest_user_20261019_082657_06e4eb42@example.com
+2026-10-19 08:26:57 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[firefox] | Navigating to http://127.0.0.1:8765/signup
+2026-10-19 08:26:57 | INFO     | cocacola.CookieBanner        | gw1 | test_edit_profile[firefox] | Cookie banner displayed - accepting
+2026-10-19 08:26:57 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[firefox] | Entering first name: Edward
+2026-10-19 08:26:57 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[firefox] | Entering last name: Cummings
+2026-10-19 08:26:57 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[firefox] | Entering email: autotest_user_20261019_082657_06e4eb42@example.com
+2026-10-19 08:26:57 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[firefox] | Entering password: *****
+2026-10-19 08:26:57 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[firefox] | Entering zip code: 70775
+2026-10-19 08:26:57 | INFO     | cocacola.SignupPage          | gw1 | test_edit_profile[firefox] | Clicking Create account button
+2026-10-19 08:26:57 | INFO     | cocacola.ProfilePage         | gw1 | test_edit_profile[firefox] | Clicking Edit profile button
+2026-10-19 08:26:57 | INFO     | cocacola.EditProfilePage     | gw1 | test_edit_profile[firefox] | Entering first name: UpdMeagan
+2026-10-19 08:26:57 | INFO     | cocacola.EditProfilePage     | gw1 | test_edit_profile[firefox] | Entering zip code: 36779
+2026-10-19 08:26:57 | INFO     | cocacola.EditProfilePage     | gw1 | test_edit_profile[firefox] | Clicking Save changes button
+2026-10-19 08:26:57 | INFO     | cocacola.ProfilePage         | gw1 | test_edit_profile[firefox] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-10-19/execution_08-26-33/ui/screenshots/test_profile_update_success__firefox__desktop__gw1__08-26-57-853725.png
+2026-10-19 08:26:58 | INFO     | cocacola.Fixtures            | gw1 | test_edit_profile[firefox] | ==== TEST END   | test_edit_profile[firefox] | PASSED ====
