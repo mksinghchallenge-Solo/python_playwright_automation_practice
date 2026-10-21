@@ -1,0 +1,17 @@
+{
+  "status_code": 204,
+  "reason": "No Content",
+  "url": "http://127.0.0.1:8765/api/users/usr_e4029425",
+  "elapsed_ms": 3.09,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.17",
+    "Date": "Wed, 21 Oct 2026 08:14:34 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "0",
+    "X-Request-Id": "8c9a09307eae4839b90be1ee569b3bf3",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": ""
+}
