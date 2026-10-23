@@ -1,0 +1,19 @@
+{
+  "status_code": 400,
+  "reason": "Bad Request",
+  "url": "http://127.0.0.1:8765/api/auth/login",
+  "elapsed_ms": 1.93,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.17",
+    "Date": "Fri, 23 Oct 2026 08:13:02 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "44",
+    "X-Request-Id": "8681b6cb4cd0492ea4296a7d301da08d",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "error": "malformed JSON: Expecting value"
+  }
+}

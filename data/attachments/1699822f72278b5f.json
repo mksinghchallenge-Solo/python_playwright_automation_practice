@@ -1,0 +1,21 @@
+{
+  "method": "POST",
+  "url": "http://127.0.0.1:8765/api/users",
+  "headers": {
+    "User-Agent": "coca-cola-automation/1.0 (+pytest)",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json",
+    "Connection": "keep-alive"
+  },
+  "params": null,
+  "json": {
+    "email": "autotest_api_20261023_082050_175a45f7@example.com",
+    "password": "*****",
+    "first_name": "William",
+    "last_name": "Jones",
+    "zip_code": "70806"
+  },
+  "data": null,
+  "files": null,
+  "cookies": null
+}
