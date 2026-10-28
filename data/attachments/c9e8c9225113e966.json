@@ -1,0 +1,35 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/patch",
+  "elapsed_ms": 59.99,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "content-length": "493",
+    "content-type": "application/json",
+    "x-content-type-options": "nosniff",
+    "date": "Wed, 28 Oct 2026 09:15:35 GMT"
+  },
+  "body": {
+    "args": {},
+    "headers": {
+      "Accept": "application/json",
+      "Accept-Encoding": "gzip, deflate",
+      "Content-Length": "36",
+      "Content-Type": "application/json",
+      "Host": "httpbin.org",
+      "User-Agent": "coca-cola-automation/1.0 (+pytest)"
+    },
+    "method": "PATCH",
+    "origin": "4.246.86.198",
+    "url": "https://httpbin.org/patch",
+    "data": "{\"brand\": \"Coca-Cola\", \"zero\": true}",
+    "files": {},
+    "form": {},
+    "json": {
+      "brand": "Coca-Cola",
+      "zero": true
+    }
+  }
+}

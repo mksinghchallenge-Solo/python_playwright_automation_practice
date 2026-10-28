@@ -1,0 +1,19 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/basic-auth/user/passwd",
+  "elapsed_ms": 60.77,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "content-length": "68",
+    "content-type": "application/json",
+    "x-content-type-options": "nosniff",
+    "date": "Wed, 28 Oct 2026 09:15:35 GMT"
+  },
+  "body": {
+    "authenticated": "*****",
+    "user": "user",
+    "authorized": "*****"
+  }
+}

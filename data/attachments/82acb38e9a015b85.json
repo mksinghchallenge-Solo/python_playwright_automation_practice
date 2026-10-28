@@ -1,0 +1,16 @@
+{
+  "status_code": 401,
+  "reason": "Unauthorized",
+  "url": "https://httpbin.org/bearer",
+  "elapsed_ms": 59.53,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "content-length": "0",
+    "content-type": "text/html; charset=utf-8",
+    "www-authenticate": "*****",
+    "x-content-type-options": "nosniff",
+    "date": "Wed, 28 Oct 2026 09:15:35 GMT"
+  },
+  "body": ""
+}
