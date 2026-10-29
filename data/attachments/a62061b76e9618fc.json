@@ -1,0 +1,23 @@
+{
+  "status_code": 429,
+  "reason": "Too Many Requests",
+  "url": "https://httpbin.org/post",
+  "elapsed_ms": 60.9,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy",
+    "content-length": "174",
+    "content-type": "application/json",
+    "ratelimit": "\"body-echo\";r=0;t=1",
+    "ratelimit-policy": "\"body-echo\";q=2;w=1",
+    "retry-after": "1",
+    "x-content-type-options": "nosniff",
+    "date": "Thu, 29 Oct 2026 09:16:34 GMT"
+  },
+  "body": {
+    "status_code": 429,
+    "error": "Too Many Requests",
+    "detail": "rate limit exceeded: 2 requests per second per client IP for body-echo requests; retry after 1 second"
+  }
+}

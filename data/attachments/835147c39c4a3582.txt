@@ -1,0 +1,8 @@
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:140 ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_form_and_multipart | layer=api ====
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | POST https://httpbin.org/post
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | POST https://httpbin.org/post -> 200 (60.46 ms) | Response time: 60 ms
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:226 API REQUEST  | POST https://httpbin.org/post
+[32mINFO    [0m cocacola.ExampleClient:base_client.py:240 API RESPONSE | POST https://httpbin.org/post -> 429 (60.9 ms) | Response time: 61 ms
+[33mWARNING [0m cocacola.ExampleClient:base_client.py:242 API ERROR BODY | {'status_code': 429, 'error': 'Too Many Requests', 'detail': 'rate limit exceeded: 2 requests per second per client IP for body-echo requests; retry after 1 second'}
+[1m[31mERROR   [0m cocacola.ResponseValidator:response_validator.py:55 VALIDATION FAILED | POST https://httpbin.org/post -> 429 (60.9 ms) | Expected status 200 but got 429
+[32mINFO    [0m cocacola.Fixtures:shared_fixtures.py:151 ==== TEST END   | test_form_and_multipart | FAILED ====
