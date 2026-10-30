@@ -1,0 +1,16 @@
+{
+  "status_code": 422,
+  "reason": "Unprocessable Entity",
+  "url": "https://httpbin.org/status/422",
+  "elapsed_ms": 38.09,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy",
+    "content-length": "0",
+    "content-type": "text/html; charset=utf-8",
+    "x-content-type-options": "nosniff",
+    "date": "Fri, 30 Oct 2026 09:32:38 GMT"
+  },
+  "body": ""
+}
