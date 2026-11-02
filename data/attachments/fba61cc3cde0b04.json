@@ -1,0 +1,19 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "http://127.0.0.1:43405/api/users/me",
+  "elapsed_ms": 2.06,
+  "headers": {
+    "Server": "BaseHTTP/0.6 Python/3.11.17",
+    "Date": "Mon, 02 Nov 2026 10:29:02 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "85",
+    "X-Request-Id": "mock-request-id"
+  },
+  "body": {
+    "id": "u-1",
+    "email": "mock@example.com",
+    "first_name": "Mock",
+    "last_name": "User"
+  }
+}
