@@ -1,0 +1,35 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/post",
+  "elapsed_ms": 10.97,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy",
+    "content-length": "477",
+    "content-type": "application/json",
+    "x-content-type-options": "nosniff",
+    "date": "Tue, 03 Nov 2026 10:25:51 GMT"
+  },
+  "body": {
+    "args": {},
+    "headers": {
+      "Accept": "application/json",
+      "Accept-Encoding": "gzip, deflate",
+      "Content-Length": "176",
+      "Content-Type": "multipart/form-data; boundary=278fb6b6462e81d3a078972b803d5612",
+      "Host": "httpbin.org",
+      "User-Agent": "coca-cola-automation/1.0 (+pytest)"
+    },
+    "method": "POST",
+    "origin": "135.232.200.68",
+    "url": "https://httpbin.org/post",
+    "data": "",
+    "files": {
+      "file": "hello"
+    },
+    "form": {},
+    "json": null
+  }
+}

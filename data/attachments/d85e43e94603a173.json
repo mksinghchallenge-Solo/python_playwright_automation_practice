@@ -1,0 +1,16 @@
+{
+  "status_code": 404,
+  "reason": "Not Found",
+  "url": "https://httpbin.org/status/404",
+  "elapsed_ms": 10.92,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy",
+    "content-length": "0",
+    "content-type": "text/html; charset=utf-8",
+    "x-content-type-options": "nosniff",
+    "date": "Tue, 03 Nov 2026 10:25:51 GMT"
+  },
+  "body": ""
+}

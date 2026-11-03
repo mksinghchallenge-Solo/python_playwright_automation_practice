@@ -1,0 +1,16 @@
+{
+  "status_code": 503,
+  "reason": "Service Unavailable",
+  "url": "http://127.0.0.1:39991/api/users/me",
+  "elapsed_ms": 1.9,
+  "headers": {
+    "Server": "BaseHTTP/0.6 Python/3.11.17",
+    "Date": "Tue, 03 Nov 2026 10:25:50 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "24",
+    "X-Request-Id": "mock-request-id"
+  },
+  "body": {
+    "error": "unavailable"
+  }
+}
