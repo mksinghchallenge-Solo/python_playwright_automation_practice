@@ -1,0 +1,6 @@
+2026-11-04 10:22:34 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/ui/navigation/test_navigation.py::TestNavigation::test_configured_pages_render[chromium] | layer=ui ====
+2026-11-04 10:22:34 | INFO     | cocacola.CookieBanner    | Cookie banner displayed - accepting
+2026-11-04 10:22:36 | INFO     | cocacola.CookieBanner    | Cookie banner not displayed - nothing to do
+2026-11-04 10:22:37 | INFO     | cocacola.CookieBanner    | Cookie banner not displayed - nothing to do
+2026-11-04 10:22:39 | INFO     | cocacola.CookieBanner    | Cookie banner not displayed - nothing to do
+2026-11-04 10:22:39 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_configured_pages_render[chromium] | PASSED ====

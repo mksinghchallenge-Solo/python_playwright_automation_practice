@@ -1,0 +1,19 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/bearer",
+  "elapsed_ms": 23.74,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy",
+    "content-length": "57",
+    "content-type": "application/json",
+    "x-content-type-options": "nosniff",
+    "date": "Wed, 04 Nov 2026 10:22:21 GMT"
+  },
+  "body": {
+    "authenticated": "*****",
+    "token": "*****"
+  }
+}
