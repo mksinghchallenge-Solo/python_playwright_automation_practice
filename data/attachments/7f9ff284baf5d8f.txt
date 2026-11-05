@@ -1,9 +1,0 @@
-2026-11-04 10:22:18 | INFO     | cocacola.Fixtures            | gw1 | test_form_and_multipart | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_form_and_multipart | layer=api ====
-2026-11-04 10:22:18 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API REQUEST  | POST https://httpbin.org/post
-2026-11-04 10:22:18 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API RESPONSE | POST https://httpbin.org/post -> 200 (21.31 ms) | Response time: 21 ms
-2026-11-04 10:22:18 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API REQUEST  | POST https://httpbin.org/post
-2026-11-04 10:22:18 | INFO     | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API RESPONSE | POST https://httpbin.org/post -> 429 (20.63 ms) | Response time: 21 ms
-2026-11-04 10:22:18 | WARNING  | cocacola.ExampleClient       | gw1 | test_form_and_multipart | API ERROR BODY | {'status_code': 429, 'error': 'Too Many Requests', 'detail': 'rate limit exceeded: 2 requests per second per client IP for body-echo requests; retry after 1 second'}
-2026-11-04 10:22:18 | ERROR    | cocacola.ResponseValidator   | gw1 | test_form_and_multipart | VALIDATION FAILED | POST https://httpbin.org/post -> 429 (20.63 ms) | Expected status 200 but got 429
-2026-11-04 10:22:18 | ERROR    | cocacola.conftest            | gw1 | test_form_and_multipart | TEST FAILED | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_form_and_multipart | E   }
-2026-11-04 10:22:18 | INFO     | cocacola.Fixtures            | gw1 | test_form_and_multipart | ==== TEST END   | test_form_and_multipart | FAILED ====
