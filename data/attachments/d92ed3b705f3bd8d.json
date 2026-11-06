@@ -1,0 +1,21 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "http://127.0.0.1:36829/profile",
+  "elapsed_ms": 1.38,
+  "headers": {
+    "Server": "BaseHTTP/0.6 Python/3.11.18",
+    "Date": "Fri, 06 Nov 2026 10:19:24 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "57",
+    "X-Request-Id": "mock-request-id"
+  },
+  "body": {
+    "id": "u1",
+    "email": "a@b.co",
+    "age": 30,
+    "tags": [
+      "x"
+    ]
+  }
+}
