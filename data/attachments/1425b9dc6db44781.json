@@ -1,0 +1,16 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "http://127.0.0.1:41603/ping",
+  "elapsed_ms": 1.42,
+  "headers": {
+    "Server": "BaseHTTP/0.6 Python/3.11.18",
+    "Date": "Tue, 10 Nov 2026 10:44:03 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "15",
+    "X-Request-Id": "mock-request-id"
+  },
+  "body": {
+    "verb": "PUT"
+  }
+}

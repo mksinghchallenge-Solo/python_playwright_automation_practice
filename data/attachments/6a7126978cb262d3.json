@@ -1,0 +1,16 @@
+{
+  "status_code": 500,
+  "reason": "Internal Server Error",
+  "url": "https://httpbin.org/status/500",
+  "elapsed_ms": 25.71,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy, WWW-Authenticate",
+    "content-length": "0",
+    "content-type": "text/html; charset=utf-8",
+    "x-content-type-options": "nosniff",
+    "date": "Tue, 10 Nov 2026 10:43:55 GMT"
+  },
+  "body": ""
+}

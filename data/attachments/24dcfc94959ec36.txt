@@ -1,9 +1,0 @@
-2026-11-09 10:51:06 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_form_and_multipart | layer=api ====
-2026-11-09 10:51:06 | INFO     | cocacola.ExampleClient   | API REQUEST  | POST https://httpbin.org/post
-2026-11-09 10:51:06 | INFO     | cocacola.ExampleClient   | API RESPONSE | POST https://httpbin.org/post -> 200 (7.23 ms) | Response time: 7 ms
-2026-11-09 10:51:06 | INFO     | cocacola.ExampleClient   | API REQUEST  | POST https://httpbin.org/post
-2026-11-09 10:51:06 | INFO     | cocacola.ExampleClient   | API RESPONSE | POST https://httpbin.org/post -> 429 (4.25 ms) | Response time: 4 ms
-2026-11-09 10:51:06 | WARNING  | cocacola.ExampleClient   | API ERROR BODY | {'status_code': 429, 'error': 'Too Many Requests', 'detail': 'rate limit exceeded: 2 requests per second per client IP for body-echo requests; retry after 1 second'}
-2026-11-09 10:51:06 | ERROR    | cocacola.ResponseValidator | VALIDATION FAILED | POST https://httpbin.org/post -> 429 (4.25 ms) | Expected status 200 but got 429
-2026-11-09 10:51:06 | ERROR    | cocacola.conftest        | TEST FAILED | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_form_and_multipart | E   }
-2026-11-09 10:51:06 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_form_and_multipart | FAILED ====
