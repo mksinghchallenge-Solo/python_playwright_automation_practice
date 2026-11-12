@@ -1,0 +1,20 @@
+2026-11-12 10:36:05 | INFO     | cocacola.Fixtures            | gw0 | test_signup_duplicate_email[chromium] | ==== TEST START | tests/ui/auth/test_signup_ui.py::TestSignupUi::test_signup_duplicate_email[chromium] | layer=ui ====
+2026-11-12 10:36:05 | INFO     | cocacola.Fixtures            | gw0 | test_signup_duplicate_email[chromium] | Generated test user autotest_user_20261112_103605_c20ded03@example.com
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Navigating to http://127.0.0.1:8765/signup
+2026-11-12 10:36:05 | INFO     | cocacola.CookieBanner        | gw0 | test_signup_duplicate_email[chromium] | Cookie banner displayed - accepting
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering first name: Matthew
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering last name: Serrano
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering email: autotest_user_20261112_103605_c20ded03@example.com
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering password: *****
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering zip code: 16503
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Clicking Create account button
+2026-11-12 10:36:05 | INFO     | cocacola.ProfilePage         | gw0 | test_signup_duplicate_email[chromium] | Clicking Sign out link
+2026-11-12 10:36:05 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Navigating to http://127.0.0.1:8765/signup
+2026-11-12 10:36:08 | INFO     | cocacola.CookieBanner        | gw0 | test_signup_duplicate_email[chromium] | Cookie banner not displayed - nothing to do
+2026-11-12 10:36:08 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering first name: Matthew
+2026-11-12 10:36:08 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering last name: Serrano
+2026-11-12 10:36:08 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering email: autotest_user_20261112_103605_c20ded03@example.com
+2026-11-12 10:36:08 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering password: *****
+2026-11-12 10:36:08 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Entering zip code: 16503
+2026-11-12 10:36:08 | INFO     | cocacola.SignupPage          | gw0 | test_signup_duplicate_email[chromium] | Clicking Create account button
+2026-11-12 10:36:09 | INFO     | cocacola.Fixtures            | gw0 | test_signup_duplicate_email[chromium] | ==== TEST END   | test_signup_duplicate_email[chromium] | PASSED ====
