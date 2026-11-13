@@ -1,0 +1,5 @@
+2026-11-13 10:29:00 | INFO     | cocacola.Fixtures        | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_status_codes[429] | layer=api ====
+2026-11-13 10:29:00 | INFO     | cocacola.ExampleClient   | API REQUEST  | GET https://httpbin.org/status/429
+2026-11-13 10:29:01 | INFO     | cocacola.ExampleClient   | API RESPONSE | GET https://httpbin.org/status/429 -> 429 (1187.49 ms) | Response time: 1187 ms
+2026-11-13 10:29:01 | WARNING  | cocacola.ExampleClient   | API ERROR BODY | 
+2026-11-13 10:29:01 | INFO     | cocacola.Fixtures        | ==== TEST END   | test_status_codes[429] | PASSED ====

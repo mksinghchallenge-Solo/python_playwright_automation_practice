@@ -1,0 +1,7 @@
+2026-11-13 10:28:59 | INFO     | cocacola.Fixtures            | gw1 | test_bearer_auth_required | ==== TEST START | tests/api/content/test_example_public_api.py::TestExamplePublicApi::test_bearer_auth_required | layer=api ====
+2026-11-13 10:28:59 | INFO     | cocacola.ExampleClient       | gw1 | test_bearer_auth_required | API REQUEST  | GET https://httpbin.org/bearer
+2026-11-13 10:28:59 | INFO     | cocacola.ExampleClient       | gw1 | test_bearer_auth_required | API RESPONSE | GET https://httpbin.org/bearer -> 401 (62.86 ms) | Response time: 63 ms
+2026-11-13 10:28:59 | WARNING  | cocacola.ExampleClient       | gw1 | test_bearer_auth_required | API ERROR BODY | 
+2026-11-13 10:28:59 | INFO     | cocacola.ExampleClient       | gw1 | test_bearer_auth_required | API REQUEST  | GET https://httpbin.org/bearer
+2026-11-13 10:28:59 | INFO     | cocacola.ExampleClient       | gw1 | test_bearer_auth_required | API RESPONSE | GET https://httpbin.org/bearer -> 200 (62.61 ms) | Response time: 63 ms
+2026-11-13 10:29:00 | INFO     | cocacola.Fixtures            | gw1 | test_bearer_auth_required | ==== TEST END   | test_bearer_auth_required | PASSED ====

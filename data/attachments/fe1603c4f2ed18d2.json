@@ -1,0 +1,16 @@
+{
+  "status_code": 401,
+  "reason": "Unauthorized",
+  "url": "https://httpbin.org/status/401",
+  "elapsed_ms": 65.11,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy, WWW-Authenticate",
+    "content-length": "0",
+    "www-authenticate": "*****",
+    "x-content-type-options": "nosniff",
+    "date": "Fri, 13 Nov 2026 10:28:57 GMT"
+  },
+  "body": ""
+}

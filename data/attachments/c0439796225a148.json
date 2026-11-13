@@ -1,0 +1,16 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/status/200",
+  "elapsed_ms": 199.71,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy, WWW-Authenticate",
+    "content-length": "0",
+    "content-type": "text/html; charset=utf-8",
+    "x-content-type-options": "nosniff",
+    "date": "Fri, 13 Nov 2026 10:28:57 GMT"
+  },
+  "body": ""
+}
