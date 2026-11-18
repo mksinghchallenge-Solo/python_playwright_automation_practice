@@ -1,0 +1,16 @@
+{
+  "status_code": 403,
+  "reason": "Forbidden",
+  "url": "https://httpbin.org/status/403",
+  "elapsed_ms": 65.61,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy, WWW-Authenticate",
+    "content-length": "0",
+    "content-type": "text/html; charset=utf-8",
+    "x-content-type-options": "nosniff",
+    "date": "Wed, 18 Nov 2026 11:01:55 GMT"
+  },
+  "body": ""
+}

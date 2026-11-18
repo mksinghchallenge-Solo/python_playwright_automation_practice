@@ -1,0 +1,15 @@
+{
+  "status_code": 204,
+  "reason": "No Content",
+  "url": "https://httpbin.org/status/204",
+  "elapsed_ms": 65.79,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy, WWW-Authenticate",
+    "content-type": "text/html; charset=utf-8",
+    "x-content-type-options": "nosniff",
+    "date": "Wed, 18 Nov 2026 11:01:55 GMT"
+  },
+  "body": ""
+}
