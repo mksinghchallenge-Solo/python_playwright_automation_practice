@@ -1,0 +1,12 @@
+2026-11-19 11:04:26 | INFO     | cocacola.Fixtures            | gw0 | test_view_profile[webkit] | ==== TEST START | tests/ui/profile/test_profile_ui.py::TestProfileUi::test_view_profile[webkit] | layer=ui ====
+2026-11-19 11:04:26 | INFO     | cocacola.Fixtures            | gw0 | test_view_profile[webkit] | Generated test user autotest_user_20261119_110426_78c2ec3e@example.com
+2026-11-19 11:04:26 | INFO     | cocacola.SignupPage          | gw0 | test_view_profile[webkit] | Navigating to http://127.0.0.1:8765/signup
+2026-11-19 11:04:26 | INFO     | cocacola.CookieBanner        | gw0 | test_view_profile[webkit] | Cookie banner displayed - accepting
+2026-11-19 11:04:26 | INFO     | cocacola.SignupPage          | gw0 | test_view_profile[webkit] | Entering first name: Parker
+2026-11-19 11:04:26 | INFO     | cocacola.SignupPage          | gw0 | test_view_profile[webkit] | Entering last name: Day
+2026-11-19 11:04:26 | INFO     | cocacola.SignupPage          | gw0 | test_view_profile[webkit] | Entering email: autotest_user_20261119_110426_78c2ec3e@example.com
+2026-11-19 11:04:26 | INFO     | cocacola.SignupPage          | gw0 | test_view_profile[webkit] | Entering password: *****
+2026-11-19 11:04:26 | INFO     | cocacola.SignupPage          | gw0 | test_view_profile[webkit] | Entering zip code: 95972
+2026-11-19 11:04:26 | INFO     | cocacola.SignupPage          | gw0 | test_view_profile[webkit] | Clicking Create account button
+2026-11-19 11:04:26 | INFO     | cocacola.ProfilePage         | gw0 | test_view_profile[webkit] | Screenshot saved: /home/runner/work/python_playwright_automation_practice/python_playwright_automation_practice/reports/2026-11-19/execution_11-04-08/ui/screenshots/profile_view__webkit__desktop__gw0__11-04-26-761418.png
+2026-11-19 11:04:26 | INFO     | cocacola.Fixtures            | gw0 | test_view_profile[webkit] | ==== TEST END   | test_view_profile[webkit] | PASSED ====
