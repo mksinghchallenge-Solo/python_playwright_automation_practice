@@ -1,0 +1,20 @@
+{
+  "status_code": 200,
+  "reason": "OK",
+  "url": "https://httpbin.org/basic-auth/user/passwd",
+  "elapsed_ms": 7.47,
+  "headers": {
+    "access-control-allow-credentials": "*****",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Retry-After, RateLimit, RateLimit-Policy, WWW-Authenticate",
+    "content-length": "68",
+    "content-type": "application/json",
+    "x-content-type-options": "nosniff",
+    "date": "Tue, 24 Nov 2026 13:13:58 GMT"
+  },
+  "body": {
+    "authenticated": "*****",
+    "user": "user",
+    "authorized": "*****"
+  }
+}
