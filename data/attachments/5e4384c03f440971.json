@@ -1,0 +1,19 @@
+{
+  "status_code": 401,
+  "reason": "Unauthorized",
+  "url": "http://127.0.0.1:8765/api/users/me",
+  "elapsed_ms": 1.56,
+  "headers": {
+    "Server": "PracticeApp/1.0 Python/3.11.18",
+    "Date": "Wed, 25 Nov 2026 12:02:34 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "33",
+    "X-Request-Id": "d00de4354e364b58a9a2e95d3a3b75d5",
+    "Cache-Control": "no-store",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  },
+  "body": {
+    "error": "missing bearer token"
+  }
+}
